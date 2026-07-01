@@ -23,8 +23,8 @@ export default function Home() {
   const totalSets = practiseTests.length + mockTests.length;
 
   return (
-    <main className="min-h-[100dvh] bg-[#faf8f4] text-[#1f1f1f]">
-      <div className="mx-auto flex min-h-[100dvh] w-full max-w-5xl flex-col justify-center px-5 py-12 sm:px-8 lg:px-10">
+    <main className="min-h-dvh bg-[#faf8f4] text-[#1f1f1f]">
+      <div className="mx-auto flex min-h-dvh w-full max-w-5xl flex-col justify-center px-5 py-12 sm:px-8 lg:px-10">
         <div className="grid gap-4 lg:grid-cols-2">
           <section
             id="practise-tests"
@@ -38,7 +38,7 @@ export default function Home() {
                   own pace.
                 </p>
               </div>
-              <span className="rounded-full bg-[#edf3ec] px-3 py-1 text-xs font-medium uppercase tracking-[0.05em] text-[#346538]">
+              <span className="rounded-full bg-[#edf3ec] px-3 py-1 text-xs font-medium uppercase tracking-wider text-[#346538]">
                 {practiseTests.length} sets
               </span>
             </div>
@@ -85,7 +85,7 @@ export default function Home() {
                   focused session.
                 </p>
               </div>
-              <span className="rounded-full bg-[#fbf3db] px-3 py-1 text-xs font-medium uppercase tracking-[0.05em] text-[#956400]">
+              <span className="rounded-full bg-[#fbf3db] px-3 py-1 text-xs font-medium uppercase tracking-wider text-[#956400]">
                 {mockTests.length} sets
               </span>
             </div>
