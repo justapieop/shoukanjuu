@@ -1,0 +1,3079 @@
+{
+  "practise_tests": [
+    {
+      "title": "Mock 1 Session 1",
+      "questions": [
+        {
+          "problem": "Which of the following is a recommended procedure for compliance with the Standard relating to responsibilities of supervisors? Members should encourage their firms to:",
+          "answers": [
+            {
+              "prompt": "adopt a code of ethics that addresses general fiduciary concepts.",
+              "correct": true
+            },
+            {
+              "prompt": "provide the firm's clients with a copy of detailed compliance procedures.",
+              "correct": false
+            },
+            {
+              "prompt": "commingle the firm's code of ethics with its detailed compliance procedures.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "According to the guidance provided by the Standards, which of the following is not among the recommended procedures for compliance with the Standard relating to independence and objectivity?",
+          "answers": [
+            {
+              "prompt": "Create a restricted list",
+              "correct": false
+            },
+            {
+              "prompt": "Prohibit the acceptance of gifts",
+              "correct": true
+            },
+            {
+              "prompt": "Appoint a senior compliance officer with oversight responsibilities",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "In the CFA Institute Standards of Professional Conduct, Standard III-Duties to Clients most likely includes which of the following subsections?",
+          "answers": [
+            {
+              "prompt": "Knowledge of the Law",
+              "correct": false
+            },
+            {
+              "prompt": "Performance Presentation",
+              "correct": true
+            },
+            {
+              "prompt": "Independence and Objectivity",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Akash Gupta has just finished taking the Level II CFA exam for the second time. To protect the integrity of the exam, Gupta is careful not to discuss the exam questions with other candidates. Gupta calls his friend, a member, and contrasts his two attempts by highlighting that there were many calculation questions on derivatives in the first instance and none in the second. Later, in a public blog on investment education, Gupta shares his strong disagreement regarding CFA Institute shifting to computer-based testing. Has Gupta violated the Standards?",
+          "answers": [
+            {
+              "prompt": "No",
+              "correct": false
+            },
+            {
+              "prompt": "Yes, by highlighting that there were no calculation questions on derivatives in the recent exam",
+              "correct": true
+            },
+            {
+              "prompt": "Yes, by expressing his disagreement in a public blog regarding CFA Institute shifting to computer-based testing",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "A portfolio manager is hired by an executive manager of a trust. The duty of loyalty is owed to the:",
+          "answers": [
+            {
+              "prompt": "trustee.",
+              "correct": false
+            },
+            {
+              "prompt": "executive manager.",
+              "correct": false
+            },
+            {
+              "prompt": "beneficiaries of the trust.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "Melissa Kon, CFA, is an equity analyst. She recently left her job at Hamm Capital (HC) to join Eagle Investments (El). Kon obtains the express consent of HC to take one of her historical research reports with her. At El, she diligently updates the report and publishes it. Afterwards, she re-creates supporting records from sources obtained at HC. Has Kon violated the Standards?",
+          "answers": [
+            {
+              "prompt": "No",
+              "correct": false
+            },
+            {
+              "prompt": "Yes, by publishing the updated research report",
+              "correct": false
+            },
+            {
+              "prompt": "Yes, by re-creating the supporting records from sources obtained at Hamm Capital",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "Anisha Joshi, CFA, develops a product that selects mutual funds based on historical data. Joshi tests her methodology and produces simulated performance results. The promotional material for the product does not indicate that the results are simulated. Joshi has most likely violated the Standards relating:",
+          "answers": [
+            {
+              "prompt": "only to fair dealing.",
+              "correct": false
+            },
+            {
+              "prompt": "only to performance presentation.",
+              "correct": true
+            },
+            {
+              "prompt": "both to fair dealing and to performance presentation.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "A member receives referral fees for recommending third-party services to clients. Before entering into an agreement with a new client, which of the following must the member disclose to the new client?",
+          "answers": [
+            {
+              "prompt": "Flat fees only",
+              "correct": false
+            },
+            {
+              "prompt": "In kind benefits only",
+              "correct": false
+            },
+            {
+              "prompt": "Both flat fees and in-kind benefits",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "Maria Perez, CFA, is a portfolio manager for an advisory firm that utilizes external mutual funds. The firm has a committee that selects external funds, using an analytical model to determine their choices. Although Perez has no reason to question the committee's research process, she does not like the committee's choice for a bond fund because it is not appropriate for all her clients. She researches and selects a different bond fund that better meets her clients' needs, but her manager tells her that she is not permitted to make independent fund purchase decisions. She then invests in the fund chosen by the committee for all of her clients. Has Perez most likely violated the Standards?",
+          "answers": [
+            {
+              "prompt": "No",
+              "correct": false
+            },
+            {
+              "prompt": "Yes, the Standard relating to suitability",
+              "correct": true
+            },
+            {
+              "prompt": "Yes, the Standard relating to diligence and reasonable basis",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Suzanna Bermi, CFA, manages portfolios for retail clients. A friend asks her if Bermi can provide investment advice in Bermi's spare time. The friend offers a donation to Bermi's favorite charity in exchange for Bermi's advice. Bermi accepts the offer and starts providing investment advice to her friend immediately after sending an email to her firm's compliance department about the arrangement, including the fact that she receives no cash payments from her friend. Has Bermi most likely violated the Standards?",
+          "answers": [
+            {
+              "prompt": "No",
+              "correct": false
+            },
+            {
+              "prompt": "Yes, the Standard relating to additional compensation arrangements",
+              "correct": true
+            },
+            {
+              "prompt": "Yes, the Standard relating to communication with clients and prospective clients",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Which of the following is a violation according to the Standard relating to preservation of confidentiality?",
+          "answers": [
+            {
+              "prompt": "Members share details relating to former clients with third party service providers.",
+              "correct": true
+            },
+            {
+              "prompt": "Members convey to clients that not all firm-sponsored resources may be appropriate for communicating confidential information.",
+              "correct": false
+            },
+            {
+              "prompt": "When allowed under the law, members share confidential client information to defend themselves in an investigation by the CFA Institute Professional Conduct Program.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Adira Badawi, CFA, who owns a research and consulting company, is an independent board member of a leading cement manufacturer in a small local market. Because of Badawi's expertise in the cement industry, a foreign cement manufacturer looking to enter the local market has hired him to undertake a feasibility study. Under what circumstances can Badawi most likely undertake the assignment without violating the Standards?",
+          "answers": [
+            {
+              "prompt": "By making full disclosure to both companies",
+              "correct": true
+            },
+            {
+              "prompt": "By receiving written permission from the local company",
+              "correct": false
+            },
+            {
+              "prompt": "By signing confidentiality agreements with both companies",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "David Kertz, CFA, a portfolio manager, is considering investing in a small cap firm he stopped following three years ago due to poor trading liquidity. Based on published stock exchange data, the company's trading liquidity has improved considerably. Kertz arranges to obtain some third-party research reports on the firm. He assesses the assumptions used, determines the rigor of the analysis, and the reports' published dates. Which of the following additional actions should Kertz most likely undertake next to meet the Standards?",
+          "answers": [
+            {
+              "prompt": "Consider the validity of the published trading liquidity data",
+              "correct": false
+            },
+            {
+              "prompt": "Evaluate the independence of the third-party recommendations",
+              "correct": true
+            },
+            {
+              "prompt": "Determine if each third party analyst's opinion reflects their firm's recommendation",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "While waiting in the business class lounge before boarding an airplane, Becca Msafari, CFA, an equity analyst, overhears a conversation by a group of senior managers, including members of the Board, from a large publicly listed bank. The managers discuss staff changes necessary to accommodate their regional expansion plans. Msafari hears several staff names mentioned. Under what circumstances could Msafari most likely use this information when making an investment recommendation to her clients?",
+          "answers": [
+            {
+              "prompt": "Under no circumstances",
+              "correct": false
+            },
+            {
+              "prompt": "If she does not breach the confidentiality of names of staff",
+              "correct": false
+            },
+            {
+              "prompt": "If the discussed changes are unlikely to affect investor perception of the bank",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "A member is developing allocation procedures for block trades and new issues. According to the recommended procedures for compliance with the Standard relating to fair dealing, the member's allocation procedures should involve:",
+          "answers": [
+            {
+              "prompt": "prohibiting consideration of advanced interest when allocating trades for new issues.",
+              "correct": false
+            },
+            {
+              "prompt": "bundling orders on a first-in, first-out basis for efficiency as appropriate for the asset class.",
+              "correct": true
+            },
+            {
+              "prompt": "giving client accounts participating in a block trade execution prices corresponding to order arrival time.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Which of the following is most accurate according to the Standard relating to knowledge of the law? Members are required to:",
+          "answers": [
+            {
+              "prompt": "dissociate from client activities they believe are unethical.",
+              "correct": true
+            },
+            {
+              "prompt": "have detailed knowledge of all the laws that could potentially govern their activities.",
+              "correct": false
+            },
+            {
+              "prompt": "report potential violations of the Code and Standards committed by fellow members to the CFA Institute Professional Conduct Program.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Ekta Prakash, CFA, works as an investment advisor for TXM Investments (TXM). Prakash advises a client to transfer $150,000 from a tax-deferred investment account to TXM's multi-cap fund. Prakash discloses to her client that withdrawals from the tax-deferred account will attract a penalty of $15,000 but assures the client that the cost can be recovered through better investment returns from TXM's fund. Prakash has violated the Standard(s) relating to:",
+          "answers": [
+            {
+              "prompt": "only misrepresentation.",
+              "correct": false
+            },
+            {
+              "prompt": "only loyalty, prudence, and care.",
+              "correct": false
+            },
+            {
+              "prompt": "both misrepresentation and loyalty, prudence, and care.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "Pia Nilsson is a sole proprietor investment advisor. An economic recession has reduced the number of clients she advises and caused revenues to decline. As a result, Nilsson has not paid her CFA Institute membership dues for the past two years. When a national financial publication recently interviewed Nilsson, she indicated that up until two years ago she had been a CFA charterholder and a CFA Institute member in good standing. In addition, she stated the completion of the CFA Program enhanced her portfolio management skills and enabled her to achieve superior returns on behalf of her clients. Which of Nilsson's following actions most likely violated the CFA Institute Standards of Professional Conduct?",
+          "answers": [
+            {
+              "prompt": "Nonpayment of CFA Institute membership dues",
+              "correct": false
+            },
+            {
+              "prompt": "Attributing her superior returns to participation in the CFA Program",
+              "correct": true
+            },
+            {
+              "prompt": "Indicating that being a CFA charterholder has enhanced her portfolio management skills",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "According to the Standard related to communication with clients and prospective clients, members must:",
+          "answers": [
+            {
+              "prompt": "only distinguish between fact and opinion in the presentation of investment analyses.",
+              "correct": true
+            },
+            {
+              "prompt": "only promptly disclose material and nonmaterial changes in the investment processes they use to select securities.",
+              "correct": false
+            },
+            {
+              "prompt": "both distinguish between fact and opinion in the presentation of investment analyses and promptly disclose material and nonmaterial changes in the investment processes they use to select securities.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "According to the Standards, transaction-based manipulation includes:",
+          "answers": [
+            {
+              "prompt": "acquiring a dominant position in a derivative to exploit the price of a related underlying.",
+              "correct": true
+            },
+            {
+              "prompt": "taking an aggressive investment position in a security with an intent to exploit market inefficiencies.",
+              "correct": false
+            },
+            {
+              "prompt": "issuing an overly optimistic projection of a security's value to induce trading by other market participants.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Which of the following statements is accurate according to the GIPS standards? Statement 1: A firm must perform verification to claim compliance with the GIPS standards. Statement 2: Verification ensures accuracy of specific composite presentations. Statement 3: Verification is performed with respect to an entire firm.",
+          "answers": [
+            {
+              "prompt": "Statement 1",
+              "correct": false
+            },
+            {
+              "prompt": "Statement 2",
+              "correct": false
+            },
+            {
+              "prompt": "Statement 3",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "According to the GIPS standards, a firm's definition of discretion establishes criteria to judge which of the following?",
+          "answers": [
+            {
+              "prompt": "Investment strategy the firm must implement",
+              "correct": false
+            },
+            {
+              "prompt": "Portfolios the firm must include in a composite",
+              "correct": true
+            },
+            {
+              "prompt": "Accounts the firm may exclude based on performance criteria",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Yip Wai Yin, a CFA candidate, is an independent mutual fund sales agent. For every front-end load product she promotes, Yip receives a portion of the front-end fee as commission at the time of sale. For every back-end load fund she sells, Yip receives a smaller commission paid at the end of the year. Yip always informs her clients that she is paid a commission as an agent, but does not provide details of the compensation structure. When pitching her favored front-end load product line she tells clients 20% of her commission is always invested in the same fund as proof of her confidence in the fund she recommends. Which Standard does Yip least likely violate?",
+          "answers": [
+            {
+              "prompt": "Referral Fees.",
+              "correct": false
+            },
+            {
+              "prompt": "Disclosure of Conflicts.",
+              "correct": false
+            },
+            {
+              "prompt": "Priority of Transactions.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "For a retail client's account to be included in a GIPS-compliant firm's composite, it will most likely be in a composite:",
+          "answers": [
+            {
+              "prompt": "restricted to retail accounts.",
+              "correct": false
+            },
+            {
+              "prompt": "composed of discretionary accounts.",
+              "correct": true
+            },
+            {
+              "prompt": "with both fee-paying and non-fee-paying accounts.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "The Standard relating to misconduct addresses:",
+          "answers": [
+            {
+              "prompt": "only all conduct that reflects poorly on members' professional integrity.",
+              "correct": true
+            },
+            {
+              "prompt": "only all actions violating trust in members' professional and private lives.",
+              "correct": false
+            },
+            {
+              "prompt": "both all conduct that reflects poorly on members' professional integrity and all actions violating trust in members' professional and private lives.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Thomas Turkman recently hired Georgia Viggen, CFA, as a portfolio manager for North South Bank. Although Viggen worked many years for a competitor, West Star Bank, the move was straightforward since she did not have a non-compete agreement with her previous employer. Once Viggen starts working for Turkman, the first thing she does is to bring a trading software package she developed and used at West Star to her new employer. Using public information, Viggen contacts all of her former clients to convince them to move with her to North South. Viggen also convinces one of the analysts she worked with at West Star to join her at her new employer. Viggen most likely violated the CFA Institute Code of Ethics and Standards of Professional Conduct concerning her actions involving:",
+          "answers": [
+            {
+              "prompt": "clients.",
+              "correct": false
+            },
+            {
+              "prompt": "the analyst.",
+              "correct": false
+            },
+            {
+              "prompt": "trading software.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "Which of the following claims can an asset management firm most likely make regarding the GIPS standards?",
+          "answers": [
+            {
+              "prompt": "Claim GIPS compliance using the GIPS Compliance Statement",
+              "correct": true
+            },
+            {
+              "prompt": "State that the firm will achieve GIPS compliance by a future date",
+              "correct": false
+            },
+            {
+              "prompt": "Claim partial GIPS compliance with details on areas of non-compliance",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Countries who are global leaders and use their economic influence to control resources are best described as:",
+          "answers": [
+            {
+              "prompt": "autarkic.",
+              "correct": false
+            },
+            {
+              "prompt": "hegemonic.",
+              "correct": true
+            },
+            {
+              "prompt": "multilateral.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "An analyst gathers the following information for a company's fiscal year beginning 1 January:\nNet income: $1,800,000\nDividends declared and paid on convertible preferred: $600,000\nWeighted average common shares outstanding during the year: 200,000\nConvertible preferred shares outstanding during the year: 50,000\nQ. If one preferred share can be converted into four common shares and there are no other potentially dilutive securities outstanding, reported diluted EPS for the year is:",
+          "answers": [
+            {
+              "prompt": "$3.00.",
+              "correct": false
+            },
+            {
+              "prompt": "$4.50.",
+              "correct": true
+            },
+            {
+              "prompt": "$6.00.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Normalized earnings are best defined as the:",
+          "answers": [
+            {
+              "prompt": "average level of achieved earnings over a long-term historical period.",
+              "correct": false
+            },
+            {
+              "prompt": "estimated going-concern value of the company after the explicit forecast period.",
+              "correct": false
+            },
+            {
+              "prompt": "expected level of mid-cycle earnings in the absence of any unusual or temporary factors.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "All else being equal, an increase in the central bank's policy rate most likely puts downward pressure on domestic inflation by:",
+          "answers": [
+            {
+              "prompt": "increasing consumption growth.",
+              "correct": false
+            },
+            {
+              "prompt": "improving investors' confidence.",
+              "correct": false
+            },
+            {
+              "prompt": "strengthening the country's currency.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "A technology company, reporting under US GAAP, has three classes of intangible assets. The table below shows information on each of the three classes (in USD thousands):\n31 December of Year 1: Goodwill 65,321, Licenses 8,243, Computer Software 5,257\nExchange movements in Year 2: Goodwill 7,324, Licenses 821, Computer Software 334\nAmortization charge for Year 2: Goodwill (blank), Licenses 1,244, Computer Software 2,102\nNet additions (disposals) in Year 2: Goodwill (blank), Licenses (25), Computer Software (blank)\n31 December of Year 2: Goodwill 73,194, Licenses 10,856, Computer Software 8,214\nQ. Based on the data provided, the intangible asset that has the largest absolute impairment charge for the period ended 31 December of Year 2 is:",
+          "answers": [
+            {
+              "prompt": "goodwill.",
+              "correct": false
+            },
+            {
+              "prompt": "licenses.",
+              "correct": true
+            },
+            {
+              "prompt": "computer software.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "All else being equal, a decrease in which of the following financial metrics would most likely result in a lower return on equity (ROE)?",
+          "answers": [
+            {
+              "prompt": "Leverage",
+              "correct": true
+            },
+            {
+              "prompt": "The tax rate",
+              "correct": false
+            },
+            {
+              "prompt": "Days of sales outstanding",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "An analyst regresses net profit margin (NPM) on research and development expenditure scaled by revenues (RDR) and gathers the following information:\nIntercept Estimate: 17.38%\nSlope coefficient Estimate: -0.6000\nQ. The predicted value of NPM for a forecasted RDR of 7% is closest to:",
+          "answers": [
+            {
+              "prompt": "4.20%.",
+              "correct": false
+            },
+            {
+              "prompt": "13.18%.",
+              "correct": true
+            },
+            {
+              "prompt": "21.58%.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "For a company with taxable income, if interest expense becomes tax deductible, the effective marginal cost of debt:",
+          "answers": [
+            {
+              "prompt": "decreases.",
+              "correct": true
+            },
+            {
+              "prompt": "remains the same.",
+              "correct": false
+            },
+            {
+              "prompt": "increases",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "The supply curve for a specific goods shows the highest:",
+          "answers": [
+            {
+              "prompt": "quantity sellers are willing to offer at each price.",
+              "correct": true
+            },
+            {
+              "prompt": "price buyers are willing to pay for each quantity.",
+              "correct": false
+            },
+            {
+              "prompt": "price sellers are willing to accept for each quantity.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Which of the following expense recognition choices is least consistent with conservative accounting of reported net income?",
+          "answers": [
+            {
+              "prompt": "Recognizing expenses later rather than earlier",
+              "correct": true
+            },
+            {
+              "prompt": "Reflecting lower warranty expenses due to improved product quality",
+              "correct": false
+            },
+            {
+              "prompt": "Estimating lower uncollectible accounts due to stricter credit policies",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Which of the following ratios will most likely increase as a result of an inventory write-down?",
+          "answers": [
+            {
+              "prompt": "Current ratio",
+              "correct": false
+            },
+            {
+              "prompt": "Total asset turnover ratio",
+              "correct": true
+            },
+            {
+              "prompt": "Receivables turnover ratio",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Which of the following statements about evaluating a project with a real option is most accurate?",
+          "answers": [
+            {
+              "prompt": "The cost of the real option should be ignored as it represents a sunk cost",
+              "correct": false
+            },
+            {
+              "prompt": "The value of the real option less the incremental cost should be included in the project NPV",
+              "correct": true
+            },
+            {
+              "prompt": "If the project NPV is negative before considering the real option, management should not undertake the project",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "In a simple linear regression model, the residual for an observation of Y is computed as:",
+          "answers": [
+            {
+              "prompt": "the observed value of Y divided by the expected value of Y.",
+              "correct": false
+            },
+            {
+              "prompt": "the unexplained variation in Y divided by the explained variation in Y.",
+              "correct": false
+            },
+            {
+              "prompt": "the difference between the observed value of Y and the estimated value of Y.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "An analyst gathers the following information about two projects with the same discount rate:\nYear 0: Project 1 Cash Flows -$1,000, Project 2 Cash Flows -$1,300\nYear 1: Project 1 Cash Flows $400, Project 2 Cash Flows $500\nYear 2: Project 1 Cash Flows $400, Project 2 Cash Flows $500\nYear 3: Project 1 Cash Flows $400, Project 2 Cash Flows $500\nQ. If the NPV of Project 1 is $0, the NPV of Project 2 is:",
+          "answers": [
+            {
+              "prompt": "negative.",
+              "correct": true
+            },
+            {
+              "prompt": "zero.",
+              "correct": false
+            },
+            {
+              "prompt": "positive.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "In machine learning, overfitting can most likely be mitigated by using:",
+          "answers": [
+            {
+              "prompt": "higher computing power.",
+              "correct": false
+            },
+            {
+              "prompt": "a simpler machine-learning model.",
+              "correct": true
+            },
+            {
+              "prompt": "an unsupervised machine-learning model.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Under the revaluation model, an initial revaluation that increases the carrying value of an asset most likely results in a:",
+          "answers": [
+            {
+              "prompt": "higher net profit margin.",
+              "correct": false
+            },
+            {
+              "prompt": "lower financial leverage ratio.",
+              "correct": true
+            },
+            {
+              "prompt": "higher total asset turnover ratio.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "With respect to fiscal policy, which of the following is an automatic stabilizer?",
+          "answers": [
+            {
+              "prompt": "Tax rate changes",
+              "correct": false
+            },
+            {
+              "prompt": "Infrastructure spending",
+              "correct": false
+            },
+            {
+              "prompt": "Payment of unemployment benefits",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "The regulation of economic activity over time is associated with:",
+          "answers": [
+            {
+              "prompt": "fiscal policy only.",
+              "correct": false
+            },
+            {
+              "prompt": "monetary policy only.",
+              "correct": false
+            },
+            {
+              "prompt": "both fiscal policy and monetary policy.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "Ignoring income taxes, an impairment loss on equipment will most likely decrease:",
+          "answers": [
+            {
+              "prompt": "net profit margin.",
+              "correct": true
+            },
+            {
+              "prompt": "total asset turnover.",
+              "correct": false
+            },
+            {
+              "prompt": "working capital turnover.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "If an auditor is experiencing some scope limitation, but can still issue an opinion, the auditor most likely issues a(n):",
+          "answers": [
+            {
+              "prompt": "adverse opinion.",
+              "correct": false
+            },
+            {
+              "prompt": "qualified opinion.",
+              "correct": true
+            },
+            {
+              "prompt": "disclaimer of opinion.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "An analyst gathers the following annual information on three companies:\nSales: Company A $40,000, Company B $200,000, Company C $450,000\nCost of sales: Company A $21,000, Company B $110,000, Company C $240,000\nSelling, general and administrative: Company A $6,000, Company B $24,000, Company C $48,000\nAll other operating expenses: Company A $1,000, Company B $2,000, Company C $5,000\nOperating income: Company A $12,000, Company B $64,000, Company C $157,000\nInterest and other expense: Company A $2,000, Company B $0, Company C $14,000\nTaxes: Company A $4,000, Company B $26,000, Company C $58,000\nNet income: Company A $6,000, Company B $38,000, Company C $85,000\nQ. The company with the highest gross profit margin is:",
+          "answers": [
+            {
+              "prompt": "Company A.",
+              "correct": true
+            },
+            {
+              "prompt": "Company B.",
+              "correct": false
+            },
+            {
+              "prompt": "Company C.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "The primary responsibility of a corporation's directors is to act in the best interest of the:",
+          "answers": [
+            {
+              "prompt": "creditors.",
+              "correct": false
+            },
+            {
+              "prompt": "managers.",
+              "correct": false
+            },
+            {
+              "prompt": "shareholders.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "Debt as a proportion of total capital is most likely greatest in which of the following life-cycle stages of a company?",
+          "answers": [
+            {
+              "prompt": "Start-up",
+              "correct": false
+            },
+            {
+              "prompt": "Growth",
+              "correct": false
+            },
+            {
+              "prompt": "Mature",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "Real exchange rates:",
+          "answers": [
+            {
+              "prompt": "reflect changes in relative purchasing power.",
+              "correct": true
+            },
+            {
+              "prompt": "are quoted in global foreign exchange markets.",
+              "correct": false
+            },
+            {
+              "prompt": "have a strong track record as a predictor of future nominal exchange rates",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Under a franchise model, the franchisee:",
+          "answers": [
+            {
+              "prompt": "earns a royalty on sales.",
+              "correct": false
+            },
+            {
+              "prompt": "is responsible for product development and advertising.",
+              "correct": false
+            },
+            {
+              "prompt": "operates under a specific brand with proprietary products and processes",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "Accounting goodwill is created when an acquisition's purchase price:",
+          "answers": [
+            {
+              "prompt": "results in a \"bargain purchase.\"",
+              "correct": false
+            },
+            {
+              "prompt": "exceeds the value of acquired net identifiable assets.",
+              "correct": true
+            },
+            {
+              "prompt": "is attributed solely to separately identifiable assets and liabilities.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "An analyst gathers the following closing prices of a stock:\nDate: 1 January, Closing Price: $30\nDate: 15 January, Closing Price: $38\nQ. The continuously compounded return for the period 1 January to 15 January is closest to:",
+          "answers": [
+            {
+              "prompt": "7.0%.",
+              "correct": false
+            },
+            {
+              "prompt": "23.6%.",
+              "correct": true
+            },
+            {
+              "prompt": "26.7%.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "A positive movement in a lagging indicator would least likely be used to:",
+          "answers": [
+            {
+              "prompt": "identify a past condition of the economy.",
+              "correct": false
+            },
+            {
+              "prompt": "identify an expected future economic upturn.",
+              "correct": true
+            },
+            {
+              "prompt": "confirm that an expansion is currently underway.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "A fund initially has $50 million under management and earns 17% in Year 1. The fund receives additional investments of $125 million at the beginning of Year 2 and earns 12% in Year 2. The annualized money-weighted rate of return over the 2-year period is closest to:",
+          "answers": [
+            {
+              "prompt": "13.2%.",
+              "correct": true
+            },
+            {
+              "prompt": "14.5%.",
+              "correct": false
+            },
+            {
+              "prompt": "15.5%.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "A central bank is least likely to:",
+          "answers": [
+            {
+              "prompt": "implement fiscal policy.",
+              "correct": true
+            },
+            {
+              "prompt": "oversee the payments system.",
+              "correct": false
+            },
+            {
+              "prompt": "manage foreign currency reserves.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "An analyst gathers the following data on the Sharpe ratios of seven portfolios:\nPortfolio 1: 0.2\nPortfolio 2: 0.6\nPortfolio 3: 0.7\nPortfolio 4: 0.9\nPortfolio 5: 1.0\nPortfolio 6: 1.4\nPortfolio 7: 1.6\nQ. The interquartile range of the Sharpe ratios is closest to:",
+          "answers": [
+            {
+              "prompt": "0.6.",
+              "correct": false
+            },
+            {
+              "prompt": "0.8.",
+              "correct": true
+            },
+            {
+              "prompt": "1.4.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "An analyst gathers the following information about a company:\nBefore-tax cost of debt: 5%\nMarginal tax rate: 30%\nCost of equity: 8%\nTarget debt-to-equity ratio: 50%\nQ. The company's WACC is equal to:",
+          "answers": [
+            {
+              "prompt": "5.75%.",
+              "correct": false
+            },
+            {
+              "prompt": "6.50%.",
+              "correct": true
+            },
+            {
+              "prompt": "7.00%.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Based on good corporate governance practices, it is most appropriate for a company's compensation committee to:",
+          "answers": [
+            {
+              "prompt": "include some company executives.",
+              "correct": false
+            },
+            {
+              "prompt": "develop director remuneration policies.",
+              "correct": true
+            },
+            {
+              "prompt": "recommend remuneration for the external auditors.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "If differences between accounting profit and taxable income are recoverable, deferred tax assets are created when:",
+          "answers": [
+            {
+              "prompt": "accounting profit is less than taxable income.",
+              "correct": true
+            },
+            {
+              "prompt": "accounting profit is greater than taxable income.",
+              "correct": false
+            },
+            {
+              "prompt": "income taxes payable is less than income tax expense.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "An analyst gathers the following exchange rate information:\nSpot rate: 4.6895\n1-year forward points: -12.7\nQ. The 1-year forward rate is closest to:",
+          "answers": [
+            {
+              "prompt": "4.67680.",
+              "correct": false
+            },
+            {
+              "prompt": "4.68823.",
+              "correct": true
+            },
+            {
+              "prompt": "4.69077.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "An investor plans to contribute $10,000 each year into an account that earns an annual interest rate of 5%. If the first contribution is made one year from today, the value of the account immediately after the 10th contribution is closest to:",
+          "answers": [
+            {
+              "prompt": "$125,779.",
+              "correct": true
+            },
+            {
+              "prompt": "$132,068.",
+              "correct": false
+            },
+            {
+              "prompt": "$142,068.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "According to Modigliani and Miller's Proposition II without taxes, a higher proportion of debt in the capital structure of a company results in:",
+          "answers": [
+            {
+              "prompt": "the same WACC.",
+              "correct": true
+            },
+            {
+              "prompt": "a lower cost of equity.",
+              "correct": false
+            },
+            {
+              "prompt": "a greater company value.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "In a small country, an export subsidy for a good most likely results in a decrease in the good's domestic:",
+          "answers": [
+            {
+              "prompt": "price.",
+              "correct": false
+            },
+            {
+              "prompt": "production.",
+              "correct": false
+            },
+            {
+              "prompt": "consumption.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "In the statement of cash flows, interest paid by a company is most likely included in:",
+          "answers": [
+            {
+              "prompt": "either the operating or financing section under IFRS.",
+              "correct": true
+            },
+            {
+              "prompt": "either the operating or financing section under US GAAP.",
+              "correct": false
+            },
+            {
+              "prompt": "only the financing section under both IFRS and US GAAP.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "An analyst is comparing the solvency of a company over the past two years using the information below:\nYear 2 (* Millions): Total debt 2,300, Total shareholders' equity 17,000, Total assets 20,000, Net income 375, Interest payments/interest expense 200, Taxes paid 125\nRatios in Year 1: Debt to capital 12.7%, Interest coverage 2.9\nQ. The best conclusion the analyst can make about Year 2 is that compared with Year 1, the company's solvency has:",
+          "answers": [
+            {
+              "prompt": "remained the same.",
+              "correct": false
+            },
+            {
+              "prompt": "deteriorated because both ratios have weakened.",
+              "correct": false
+            },
+            {
+              "prompt": "improved because both ratios have strengthened.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "Which action is most likely considered a secondary source of liquidity?",
+          "answers": [
+            {
+              "prompt": "Increasing the availability of bank lines of credit",
+              "correct": false
+            },
+            {
+              "prompt": "Increasing the efficiency of cash flow management",
+              "correct": false
+            },
+            {
+              "prompt": "Renegotiating current debt contracts to lower interest payments",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "The returns of a fund are as follows:\nYear 1: -20.60%\nYear 2: 15.00%\nYear 3: 0.50%\nYear 4: 9.80%\nYear 5: 4.60%\nQ. The mean absolute deviation (MAD) of returns for the fund is closest to:",
+          "answers": [
+            {
+              "prompt": "9.53%.",
+              "correct": true
+            },
+            {
+              "prompt": "11.91%.",
+              "correct": false
+            },
+            {
+              "prompt": "13.69%.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "The time-weighted rate of return:",
+          "answers": [
+            {
+              "prompt": "is affected by the amount and timing of cash flows to and from a portfolio.",
+              "correct": false
+            },
+            {
+              "prompt": "calculates multi-period cash flows mirroring a portfolio's compound growth rate.",
+              "correct": true
+            },
+            {
+              "prompt": "results in a lower return when compared with the money-weighted rate of return.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "An analyst gathers the following information about a company:\nYear 2: Revenue € 725,000, EBIT € 93,500, Net income € 57,500, Weighted average common shares outstanding 650,000\nYear 1: Revenue € 720,000, EBIT € 91,500, Net income € 58,000, Weighted average common shares outstanding 635,000\nQ. Which of the following increased from Year 1 to Year 2?",
+          "answers": [
+            {
+              "prompt": "Basic EPS",
+              "correct": false
+            },
+            {
+              "prompt": "EBIT margin",
+              "correct": true
+            },
+            {
+              "prompt": "Net profit margin",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "All else being equal, in an environment of rising inventory unit costs and constant inventory quantities, the LIFO inventory valuation method most likely results in a higher:",
+          "answers": [
+            {
+              "prompt": "ending inventory than under the FIFO method.",
+              "correct": false
+            },
+            {
+              "prompt": "gross profit margin than under the FIFO method.",
+              "correct": false
+            },
+            {
+              "prompt": "inventory turnover ratio than under the FIFO method.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "For a company reporting under IFRS, which of the following events most likely represents low financial reporting quality? The company:",
+          "answers": [
+            {
+              "prompt": "reported an increase in EPS as a result of the sale of a subsidiary.",
+              "correct": false
+            },
+            {
+              "prompt": "included gains from foreign exchange rate changes in its cost of goods sold.",
+              "correct": true
+            },
+            {
+              "prompt": "entered a long-term lease for a customized piece of equipment and classified it as a finance lease.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "An analyst gathers the following information (in $ millions) about a company reporting under US GAAP:\nCash flow from operations: 500\nCapital expenditures: 40\nInterest expensed and paid: 20\nNet borrowing: 10\nQ. If the tax rate is 25%, free cash flow to the firm (in $ millions) is:",
+          "answers": [
+            {
+              "prompt": "460.",
+              "correct": false
+            },
+            {
+              "prompt": "470.",
+              "correct": false
+            },
+            {
+              "prompt": "475.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "For a hypothesis test concerning the correlation between two normally distributed variables with sample size n each, the number of degrees of freedom is:",
+          "answers": [
+            {
+              "prompt": "n-2.",
+              "correct": true
+            },
+            {
+              "prompt": "n-1.",
+              "correct": false
+            },
+            {
+              "prompt": "2n-2.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "A portfolio has two stocks with equal weighting. The variance of returns for each stock is 100 percent squared, and the covariance is 50 percent squared. The portfolio standard deviation of returns is closest to:",
+          "answers": [
+            {
+              "prompt": "7.9%.",
+              "correct": false
+            },
+            {
+              "prompt": "8.7%.",
+              "correct": true
+            },
+            {
+              "prompt": "75.0%.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "A researcher wants to measure the level of consumer confidence in a country by interviewing a simple random sample of ten consumers from three randomly selected cities. This method is an example of:",
+          "answers": [
+            {
+              "prompt": "cluster sampling.",
+              "correct": true
+            },
+            {
+              "prompt": "systematic sampling.",
+              "correct": false
+            },
+            {
+              "prompt": "stratified random sampling.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "The following data apply to a firm operating in perfect competition.\nQuantity 21: Total Revenue $210, Total Cost $138\nQuantity 22: Total Revenue $220, Total Cost $145\nQuantity 23: Total Revenue $230, Total Cost $154\nQuantity 24: Total Revenue $240, Total Cost $165\nQ. The firm's profit maximizing output (in units) is most likely:",
+          "answers": [
+            {
+              "prompt": "21.",
+              "correct": false
+            },
+            {
+              "prompt": "23.",
+              "correct": true
+            },
+            {
+              "prompt": "24.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "The money supply most likely increases when a central bank:",
+          "answers": [
+            {
+              "prompt": "purchases bonds.",
+              "correct": true
+            },
+            {
+              "prompt": "increases the policy rate.",
+              "correct": false
+            },
+            {
+              "prompt": "raises the reserve requirement.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Under IFRS, which component of the change in the net pension asset or liability each period is recognized in other comprehensive income?",
+          "answers": [
+            {
+              "prompt": "Employees' service costs",
+              "correct": false
+            },
+            {
+              "prompt": "Actuarial gains and losses and other remeasurements",
+              "correct": true
+            },
+            {
+              "prompt": "The net interest expense or income accrued on the beginning net pension plan asset or liability",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "The following information is available for a company:\nYear 2 (in € Millions): EBIT 1,015.0, Interest expense 73.4, Tax expense 201.4, Total assets 5,305.0, Average total assets 5,421.0, Total debt 1,048.0\nYear 1: Interest coverage 15.3x, Debt to total assets 18.2%, Operating return on assets (ROA) 17.3%\nQ. Compared with Year 1, which of the following ratios most likely indicates an improvement in the creditworthiness of the company? The change in the company's:",
+          "answers": [
+            {
+              "prompt": "operating ROA.",
+              "correct": true
+            },
+            {
+              "prompt": "interest coverage.",
+              "correct": false
+            },
+            {
+              "prompt": "debt-to-total assets.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "When considering ESG factors, energy efficiency is best described as a(n):",
+          "answers": [
+            {
+              "prompt": "environmental factor.",
+              "correct": true
+            },
+            {
+              "prompt": "social factor.",
+              "correct": false
+            },
+            {
+              "prompt": "governance factor.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "An analyst gathers the following information about a company:\nTarget D/E: 0.80\nCurrent D/E: 0.65\nYield to maturity: 4%\nCost of equity: 9%\nTax rate: 30%\nQ. The WACC to be used in financial analysis is closest to:",
+          "answers": [
+            {
+              "prompt": "6.24%.",
+              "correct": true
+            },
+            {
+              "prompt": "6.56%.",
+              "correct": false
+            },
+            {
+              "prompt": "6.78%.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "In the event that the value of inventory declines below the carrying amount on the balance sheet, the inventory carrying amount must be written down and the reduction in value recognized as a(n)",
+          "answers": [
+            {
+              "prompt": "expense on the income statement.",
+              "correct": true
+            },
+            {
+              "prompt": "decrease in the revaluation surplus account.",
+              "correct": false
+            },
+            {
+              "prompt": "decrease in the inventory valuation allowance account.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "The international organization most likely to provide funds to create basic economic infrastructure in developing countries is the:",
+          "answers": [
+            {
+              "prompt": "World Bank.",
+              "correct": true
+            },
+            {
+              "prompt": "World Trade Organization.",
+              "correct": false
+            },
+            {
+              "prompt": "International Monetary Fund.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "If a paired comparison test of mean differences supports rejecting the null hypothesis, then the:",
+          "answers": [
+            {
+              "prompt": "difference in means is not statistically significant.",
+              "correct": false
+            },
+            {
+              "prompt": "independence of the samples is statistically significant.",
+              "correct": false
+            },
+            {
+              "prompt": "standard error of the mean differences is low relative to the sample mean difference.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "The possibility of new entrants into an industry is considered in the calculation of:",
+          "answers": [
+            {
+              "prompt": "the concentration ratio.",
+              "correct": false
+            },
+            {
+              "prompt": "the Herfindahl-Hirschman index.",
+              "correct": false
+            },
+            {
+              "prompt": "neither the concentration ratio nor the Herfindahl-Hirschman index.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "Under the indirect method, which of the following should be subtracted from net income to arrive at cash flow from operating activities?",
+          "answers": [
+            {
+              "prompt": "Purchase of equipment",
+              "correct": false
+            },
+            {
+              "prompt": "Decrease in accounts payable",
+              "correct": true
+            },
+            {
+              "prompt": "Amortization expense of intangible assets",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "An analyst gathers the following probabilities concerning Event X and some new information:\nPrior probability of X: 0.70\nProbability of the new information given X: 0.50\nUnconditional probability of the new information: 0.60\nQ. Using Bayes' formula, the updated probability of X given the new information is closest to:",
+          "answers": [
+            {
+              "prompt": "0.43.",
+              "correct": false
+            },
+            {
+              "prompt": "0.58.",
+              "correct": true
+            },
+            {
+              "prompt": "0.84.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Conflicts of interest between shareholders and management most likely occur when:",
+          "answers": [
+            {
+              "prompt": "executive remuneration plans include deferred shares.",
+              "correct": false
+            },
+            {
+              "prompt": "shareholders do not influence the design of executive compensation packages.",
+              "correct": true
+            },
+            {
+              "prompt": "risky projects that match shareholders' risk tolerance are pursued by the company.",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Mock 1 Session 2",
+      "questions": [
+        {
+          "problem": "An analyst gathers the following information (in $ millions) about a hedge fund:\nInitial investment cost: 100\nProfit, Year 1: 25\nLoss, Year 2: 10\nQ. If the incentive fee is 20% and there is a clawback provision, the total incentive fee (in $ millions) for Years 1 and 2 is:",
+          "answers": [
+            {
+              "prompt": "0.",
+              "correct": false
+            },
+            {
+              "prompt": "3.",
+              "correct": true
+            },
+            {
+              "prompt": "5.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Q. To be eligible for the upcoming dividend, the latest date an investor needs to purchase the share is on the trading day before the:",
+          "answers": [
+            {
+              "prompt": "ex-date.",
+              "correct": true
+            },
+            {
+              "prompt": "record date.",
+              "correct": false
+            },
+            {
+              "prompt": "declaration date.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Q. A zero coupon bond is priced at 90 and has three years to maturity. Based on a compounding periodicity of 4, the bond's annual yield-to-maturity is closest to:",
+          "answers": [
+            {
+              "prompt": "1.8%.",
+              "correct": false
+            },
+            {
+              "prompt": "2.7%.",
+              "correct": false
+            },
+            {
+              "prompt": "3.5%.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "Q. Investors are least likely to use derivatives to:",
+          "answers": [
+            {
+              "prompt": "take short positions.",
+              "correct": false
+            },
+            {
+              "prompt": "replicate a cash market strategy.",
+              "correct": false
+            },
+            {
+              "prompt": "offset market-based exposures incidental to their financing activities.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "Q. A swap is most likely similar to a series of forward contracts when:",
+          "answers": [
+            {
+              "prompt": "the combined value of all forward contracts is zero.",
+              "correct": true
+            },
+            {
+              "prompt": "all the forward contracts have the same maturity date.",
+              "correct": false
+            },
+            {
+              "prompt": "the value of the long forward contracts are matched with the value of the short forward contracts at each swap payment date.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Q. Which of the following is the most conservative price for valuing a hedge fund's short position?",
+          "answers": [
+            {
+              "prompt": "The bid price",
+              "correct": false
+            },
+            {
+              "prompt": "The ask price",
+              "correct": true
+            },
+            {
+              "prompt": "The average of the bid and ask prices",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Q. A security is most likely undervalued if its estimated intrinsic value is higher than its:",
+          "answers": [
+            {
+              "prompt": "par value.",
+              "correct": false
+            },
+            {
+              "prompt": "book value.",
+              "correct": false
+            },
+            {
+              "prompt": "market price.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "Q. Which of the following measures is the slope of the capital allocation line?",
+          "answers": [
+            {
+              "prompt": "Sharpe ratio",
+              "correct": true
+            },
+            {
+              "prompt": "Treynor ratio",
+              "correct": false
+            },
+            {
+              "prompt": "Jensen's alpha",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "An analyst gathers the following information about a hedge fund established at the beginning of Year 1:\nAssets under management (AUM), beginning of Year 1: $100 million\nAUM, end of Year 1: $125 million\nAUM, end of Year 2: $110 million\nManagement fee (calculated on end-of-year AUM): 2%\nPerformance fee above high-water mark (calculated net of fees): 20%\nQ. The cumulative fee (in $ millions) earned by the hedge fund manager for the two years is closest to:",
+          "answers": [
+            {
+              "prompt": "5.2.",
+              "correct": false
+            },
+            {
+              "prompt": "7.2.",
+              "correct": false
+            },
+            {
+              "prompt": "9.2.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "Q. Over time, a forward contract most likely has variable:",
+          "answers": [
+            {
+              "prompt": "value and constant price.",
+              "correct": true
+            },
+            {
+              "prompt": "price and constant value.",
+              "correct": false
+            },
+            {
+              "prompt": "value and variable price.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "An analyst gathers the following information (in $ billions) about a company:\nMarket value of debt: 5\nMarket capitalization: 43\nEnterprise value: 33\nQ. The balance (in $ billions) of the company's cash and short-term investments is:",
+          "answers": [
+            {
+              "prompt": "5.",
+              "correct": false
+            },
+            {
+              "prompt": "10.",
+              "correct": false
+            },
+            {
+              "prompt": "15.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "Q. All else being equal, the value of a European put option is most likely inversely related to the time to expiration when interest rates are high, the time to expiration is long and the put is:",
+          "answers": [
+            {
+              "prompt": "at-the-money.",
+              "correct": false
+            },
+            {
+              "prompt": "deep in-the-money.",
+              "correct": true
+            },
+            {
+              "prompt": "deep out-of-the-money.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Q. Which of the following provides the best behavioral explanation of the value stock anomaly?",
+          "answers": [
+            {
+              "prompt": "The halo effect",
+              "correct": true
+            },
+            {
+              "prompt": "The disposition effect",
+              "correct": false
+            },
+            {
+              "prompt": "The effects of the framing bias",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Q. A market index consists of 100 assets. Investment 1 consists of one asset that is randomly chosen from the index. Every month the asset is replaced by a new randomly chosen asset. Investment 2 equally weights all assets in the index. Over a period of 100 months, the annualized standard deviation of Investment 1 is most likely:",
+          "answers": [
+            {
+              "prompt": "less than the annualized standard deviation of Investment 2.",
+              "correct": false
+            },
+            {
+              "prompt": "equal to the annualized standard deviation of Investment 2.",
+              "correct": false
+            },
+            {
+              "prompt": "greater than the annualized standard deviation of Investment 2.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "Q. The current yield for a coupon-paying bond trading at a premium is:",
+          "answers": [
+            {
+              "prompt": "less than the coupon rate.",
+              "correct": true
+            },
+            {
+              "prompt": "equal to the coupon rate.",
+              "correct": false
+            },
+            {
+              "prompt": "greater than the coupon rate.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Q. The market portfolio has an expected return of 10% and a standard deviation of 11%. If the risk-free rate is 2%, the slope of the capital market line is closest to:",
+          "answers": [
+            {
+              "prompt": "0.73.",
+              "correct": true
+            },
+            {
+              "prompt": "0.91.",
+              "correct": false
+            },
+            {
+              "prompt": "1.38.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Q. A key catalyst for the relative growth of passive investing compared to active investing is most likely the:",
+          "answers": [
+            {
+              "prompt": "lower costs of index funds.",
+              "correct": true
+            },
+            {
+              "prompt": "higher returns to investors from outperforming benchmarks.",
+              "correct": false
+            },
+            {
+              "prompt": "increased correlation of returns between traditional investments and alternative investments.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "An analyst gathers the following information about a bond:\nPrice: 103.52, Yield-to-Maturity (%): 3.7\nPrice: 103.84, Yield-to-Maturity (%): 3.3\nQ. If the bond currently trades at a price of 103.67 with a yield-to-maturity of 3.5%, the approximate convexity is closest to:",
+          "answers": [
+            {
+              "prompt": "0.048",
+              "correct": false
+            },
+            {
+              "prompt": "0.096",
+              "correct": false
+            },
+            {
+              "prompt": "48.230",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "Q. If 1,000 shares of stock purchased at $30 per share on 75% margin are later sold at $26 per share, the return on equity is closest to:",
+          "answers": [
+            {
+              "prompt": "-17.8%.",
+              "correct": true
+            },
+            {
+              "prompt": "-13.3%.",
+              "correct": false
+            },
+            {
+              "prompt": "-10.0%.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Q. An American waterfall distributes performance fees on a(n):",
+          "answers": [
+            {
+              "prompt": "deal-by-deal basis and is more advantageous to the general partner than a European waterfall.",
+              "correct": true
+            },
+            {
+              "prompt": "deal-by-deal basis and is more advantageous to the limited partners than a European waterfall.",
+              "correct": false
+            },
+            {
+              "prompt": "aggregated fund level and is more advantageous to the limited partners than a European waterfall.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Q. All else being equal, non-cumulative preference shares are more risky for investors than:",
+          "answers": [
+            {
+              "prompt": "cumulative preference shares.",
+              "correct": true
+            },
+            {
+              "prompt": "dividend-paying common shares.",
+              "correct": false
+            },
+            {
+              "prompt": "non-dividend-paying common shares.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Q. Which of the following statements is most likely correct regarding the spot and forward curves. The spot curve:",
+          "answers": [
+            {
+              "prompt": "can be calculated from the forward curve, and the forward curve can be calculated from the spot curve.",
+              "correct": true
+            },
+            {
+              "prompt": "can be calculated from the forward curve, but the forward curve cannot be calculated from the spot curve.",
+              "correct": false
+            },
+            {
+              "prompt": "cannot be calculated from the forward curve, but the forward curve can be calculated from the spot curve.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "An investor sells a European put option with the following characteristics:\nPut price: 30\nExercise price: 600\nQ. If the price of the underlying at expiration is 620, the profit for the seller is:",
+          "answers": [
+            {
+              "prompt": "10.",
+              "correct": false
+            },
+            {
+              "prompt": "20.",
+              "correct": false
+            },
+            {
+              "prompt": "30.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "Q. With respect to an investment policy statement, which of the following is best classified as a legal and regulatory constraint?",
+          "answers": [
+            {
+              "prompt": "An investor's tax status",
+              "correct": false
+            },
+            {
+              "prompt": "A pension fund's self-investment limit",
+              "correct": true
+            },
+            {
+              "prompt": "An investor's desire to avoid investments in the gambling industry",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Q. According to put-call-forward parity, the difference between the price of a put and the price of a call is most likely equal to the difference between:",
+          "answers": [
+            {
+              "prompt": "forward price and spot price discounted at the risk-free rate.",
+              "correct": false
+            },
+            {
+              "prompt": "spot price and exercise price discounted at the risk-free rate.",
+              "correct": false
+            },
+            {
+              "prompt": "exercise price and forward price discounted at the risk-free rate.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "Q. With respect to a client's IPS, which of the following measures is most likely used when stating a relative risk objective?",
+          "answers": [
+            {
+              "prompt": "Value at risk",
+              "correct": false
+            },
+            {
+              "prompt": "Tracking risk",
+              "correct": true
+            },
+            {
+              "prompt": "Standard deviation of returns",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Q. A call option is in the money if the exercise price minus the price of the underlying at expiration is:",
+          "answers": [
+            {
+              "prompt": "less than zero.",
+              "correct": true
+            },
+            {
+              "prompt": "equal to zero.",
+              "correct": false
+            },
+            {
+              "prompt": "greater than zero.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Q. A 5% semi-annual pay bond with a par value of $1,000 is priced for settlement on February 5. If interest payments are made on May 31 and November 30, accrued interest based on 30/360 day-count convention is closest to:",
+          "answers": [
+            {
+              "prompt": "$9.03.",
+              "correct": true
+            },
+            {
+              "prompt": "$9.18.",
+              "correct": false
+            },
+            {
+              "prompt": "$9.31.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "An analyst gathers the following information about returns for an equity index:\nYear 1: 5%\nYear 2: 3%\nYear 3: 12%\nQ. The index's total return over three years is closest to:",
+          "answers": [
+            {
+              "prompt": "18%.",
+              "correct": false
+            },
+            {
+              "prompt": "20%.",
+              "correct": false
+            },
+            {
+              "prompt": "21%.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "Q. An analyst discovers that several stocks exhibit a pattern of price declines in the spring and price increases in the fall. If the analyst can consistently earn abnormal returns using this information, the market is most likely:",
+          "answers": [
+            {
+              "prompt": "inefficient.",
+              "correct": true
+            },
+            {
+              "prompt": "weak-form efficient.",
+              "correct": false
+            },
+            {
+              "prompt": "semi-strong-form.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "An investor gathered the following data:\nPar value of preferred stock offered with a 6% dividend rate: $100\nCompany's sustainable growth rate: 5%\nYield on comparable preferred stock issues: 11.5%\nInvestor's marginal tax rate: 30%\nQ. The value of the company's preferred stock is closest to:",
+          "answers": [
+            {
+              "prompt": "$52.17",
+              "correct": true
+            },
+            {
+              "prompt": "$54.78",
+              "correct": false
+            },
+            {
+              "prompt": "$96.92",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Q. In an order-driven market, if the trade price is determined by the limit price of an order, the market most likely operates under the:",
+          "answers": [
+            {
+              "prompt": "uniform pricing rule.",
+              "correct": false
+            },
+            {
+              "prompt": "derivative pricing rule.",
+              "correct": false
+            },
+            {
+              "prompt": "discriminatory pricing rule.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "An analyst gathers the following information on three investors. Each investor holds a bond with a Macaulay duration of 5.5 years in his portfolio:\nInvestor A: 5 years\nInvestor B: 2 years\nInvestor C: 8 years\nQ. All else equal, which investor is currently most vulnerable to an increase in interest rates?",
+          "answers": [
+            {
+              "prompt": "Investor A",
+              "correct": false
+            },
+            {
+              "prompt": "Investor B",
+              "correct": true
+            },
+            {
+              "prompt": "Investor C",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "An analyst gathers the following data about three assets' returns:\nAsset 1: Correlation with the Market 0.8, Beta 1.000\nAsset 2: Correlation with the Market 0.7, Beta 1.225\nAsset 3: Correlation with the Market 0.5, Beta 1.125\nQ. If the market portfolio's standard deviation of returns is 20%, the asset with the highest standard deviation is:",
+          "answers": [
+            {
+              "prompt": "Asset 1.",
+              "correct": false
+            },
+            {
+              "prompt": "Asset 2.",
+              "correct": false
+            },
+            {
+              "prompt": "Asset 3.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "Jim Cotter is considering investing in a stock index fund and a property investment fund. His planned investment amounts, fund returns, and standard deviations are given in the table. The correlation between the two funds is -0.1.\nStock index: Investment Amount 10M, Expected Return 20%, Standard Deviation 35%\nProperty investment: Investment Amount 90M, Expected Return 33%, Standard Deviation 70%\nQ. The portfolio's standard deviation is closest to:",
+          "answers": [
+            {
+              "prompt": "62.75%.",
+              "correct": true
+            },
+            {
+              "prompt": "63.10%.",
+              "correct": false
+            },
+            {
+              "prompt": "63.45%.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Q. For an option-free bond, effective duration:",
+          "answers": [
+            {
+              "prompt": "will be equal to modified duration if the yield curve is absolutely flat.",
+              "correct": true
+            },
+            {
+              "prompt": "measures interest rate risk for both parallel and non-parallel benchmark yield curve shifts.",
+              "correct": false
+            },
+            {
+              "prompt": "is an estimate of the percentage change in bond price given a change in the bond's yield to maturity.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Q. An analyst observes that stock markets usually demonstrate return distributions concentrated to the right with a higher frequency of negative deviation from the mean. This feature is most likely known as:",
+          "answers": [
+            {
+              "prompt": "kurtosis.",
+              "correct": false
+            },
+            {
+              "prompt": "positive skewness.",
+              "correct": false
+            },
+            {
+              "prompt": "negative skewness.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "Q. Which of the following statements is most accurate? In derivatives pricing:",
+          "answers": [
+            {
+              "prompt": "investors are assumed to be risk averse.",
+              "correct": false
+            },
+            {
+              "prompt": "expected payoffs of the derivative can be discounted at the risk-free rate.",
+              "correct": true
+            },
+            {
+              "prompt": "a portfolio consisting of the underlying and the derivative must earn the risk-free rate plus a risk premium.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Q. Which of the following statements about digital assets is most accurate?",
+          "answers": [
+            {
+              "prompt": "Most have an inherent value based on the expected cash flow",
+              "correct": false
+            },
+            {
+              "prompt": "They can be purchased through indirect investment vehicles such as hedge funds",
+              "correct": true
+            },
+            {
+              "prompt": "They are generally recorded in private ledgers maintained by central intermediaries",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Q. The portion of a bond's value that an investor loses in an event of default best defines:",
+          "answers": [
+            {
+              "prompt": "default risk.",
+              "correct": false
+            },
+            {
+              "prompt": "loss severity.",
+              "correct": true
+            },
+            {
+              "prompt": "expected loss.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Q. Which investment will most likely expose investors to the greatest level of extension risk?",
+          "answers": [
+            {
+              "prompt": "Commercial mortgage-backed securities with a balloon payment",
+              "correct": true
+            },
+            {
+              "prompt": "Shorter-term tranches in a collateralized mortgage obligation structure",
+              "correct": false
+            },
+            {
+              "prompt": "Planned amortization class tranches in a collateralized mortgage obligation structure",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Q. A fiduciary call is equal to which of the following positions?",
+          "answers": [
+            {
+              "prompt": "Long a call and long a risk-free bond",
+              "correct": true
+            },
+            {
+              "prompt": "Long a call, long a risk-free bond, and short a put",
+              "correct": false
+            },
+            {
+              "prompt": "Long a call, short the underlying, and long a risk-free bond",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "An analyst gathers the following information about a company:\nNext year's EPS forecast: $0.60\nDividend payout ratio: 45%\nGrowth rate: 7%\nQ. Using the Gordon growth model, if the analyst's required return is 10%, the justified forward P/E for the company is closest to:",
+          "answers": [
+            {
+              "prompt": "15.",
+              "correct": true
+            },
+            {
+              "prompt": "18.",
+              "correct": false
+            },
+            {
+              "prompt": "20.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "An analyst gathers the following information about a company and its common stock:\nExpected dividend per share (D1): $2\nEstimated dividend growth rate: 4%\nReturn on equity: 9%\nQ. Based on the Gordon growth model, if the required rate of return increases from 8% to 14%, the value of the stock decreases by:",
+          "answers": [
+            {
+              "prompt": "50%.",
+              "correct": false
+            },
+            {
+              "prompt": "60%.",
+              "correct": true
+            },
+            {
+              "prompt": "75%.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Q. Which of the following derivative contracts has a hard commodity underlying?",
+          "answers": [
+            {
+              "prompt": "Cattle futures",
+              "correct": false
+            },
+            {
+              "prompt": "Soybean futures",
+              "correct": false
+            },
+            {
+              "prompt": "Aluminum futures",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "Q. The historical results forecasting approach is most appropriate for a company:",
+          "answers": [
+            {
+              "prompt": "making a large acquisition.",
+              "correct": false
+            },
+            {
+              "prompt": "operating in a cyclical industry.",
+              "correct": false
+            },
+            {
+              "prompt": "with a low sensitivity to the business cycle.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "Q. At the initiation of a securitization, the primary role of the special purpose entity is to:",
+          "answers": [
+            {
+              "prompt": "sell the collateral.",
+              "correct": false
+            },
+            {
+              "prompt": "service the collateral.",
+              "correct": false
+            },
+            {
+              "prompt": "purchase the collateral.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "Q. Investing in correctional facilities to be constructed and sold to the government is best described as a(n):",
+          "answers": [
+            {
+              "prompt": "greenfield investment.",
+              "correct": true
+            },
+            {
+              "prompt": "brownfield investment.",
+              "correct": false
+            },
+            {
+              "prompt": "an economic infrastructure investment.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Q. On 1 January, an investor purchases an option-free bond that pays an annual coupon rate of 10% on Dec 31 and matures in ten years at its par value of $100. The investor plans to sell the bond immediately after receiving the seventh coupon. If the coupons are reinvested at an annual interest rate of 8% over the investor's holding period, the future value of the reinvested coupon payments at the end of the investor's holding period is closest to:",
+          "answers": [
+            {
+              "prompt": "$70.00.",
+              "correct": false
+            },
+            {
+              "prompt": "$75.90.",
+              "correct": false
+            },
+            {
+              "prompt": "$89.23.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "An analyst gathers the following information (in £ millions) about a company's fiscal year:\nNet income: 1,500\nAverage total assets: 11,500\nAverage shareholders' equity: 7,500\nQ. If the dividend payout ratio is 45%, the sustainable growth rate is closest to:",
+          "answers": [
+            {
+              "prompt": "7%.",
+              "correct": false
+            },
+            {
+              "prompt": "9%.",
+              "correct": false
+            },
+            {
+              "prompt": "11%.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "Q. In an efficient market, asset prices most likely react to the release of:",
+          "answers": [
+            {
+              "prompt": "expected information only.",
+              "correct": false
+            },
+            {
+              "prompt": "unexpected information only.",
+              "correct": true
+            },
+            {
+              "prompt": "both expected information and unexpected information.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Q. The multiple of invested capital (MOIC) measure takes into account:",
+          "answers": [
+            {
+              "prompt": "the realized value of an investment only.",
+              "correct": false
+            },
+            {
+              "prompt": "the residual asset value of an investment only.",
+              "correct": false
+            },
+            {
+              "prompt": "both the realized value of an investment and the residual asset value of an investment.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "Q. Consider two 10-year bonds, one that contains no embedded options and the other that gives its owner the right to convert the bond to a fixed number of shares of the issuer's common stock. The convertibility option in the second bond cannot be exercised for five years. The bonds are otherwise identical. Compared with the yield on the convertible bond, the yield on the option-free bond is most likely:",
+          "answers": [
+            {
+              "prompt": "lower.",
+              "correct": false
+            },
+            {
+              "prompt": "the same.",
+              "correct": false
+            },
+            {
+              "prompt": "higher.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "Q. The type of index weighting system in which a stock split on one constituent security changes the weights on all the securities in the index is:",
+          "answers": [
+            {
+              "prompt": "price weighting.",
+              "correct": true
+            },
+            {
+              "prompt": "equal weighting.",
+              "correct": false
+            },
+            {
+              "prompt": "value weighting.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Q. Two assets are correctly priced according to the CAPM. If the assets have the same expected variance of returns but different expected returns, the two assets must have different levels of:",
+          "answers": [
+            {
+              "prompt": "systematic risk only.",
+              "correct": false
+            },
+            {
+              "prompt": "unsystematic risk only.",
+              "correct": false
+            },
+            {
+              "prompt": "both systematic risk and unsystematic risk.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "An analyst gathers the following information about a market for a stock:\nBest offer: $48\nMarket bid-ask spread: $2\nQ. If a new sell limit order is placed at $49, the limit order:",
+          "answers": [
+            {
+              "prompt": "takes the market.",
+              "correct": false
+            },
+            {
+              "prompt": "makes the market.",
+              "correct": false
+            },
+            {
+              "prompt": "is behind the market.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "Q. Which of the following statements regarding certificates of deposit (CDs) is most accurate?",
+          "answers": [
+            {
+              "prompt": "Small-denomination CDs are typically traded among institutional investors.",
+              "correct": false
+            },
+            {
+              "prompt": "Non-negotiable CDs can be sold in the open market prior to the maturity date.",
+              "correct": false
+            },
+            {
+              "prompt": "CDs are available in domestic bond markets as well as in the Eurobond market.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "Q. Which of the following lines is depicted on a graph using systematic risk on the horizontal axis?",
+          "answers": [
+            {
+              "prompt": "Capital market line (CML)",
+              "correct": false
+            },
+            {
+              "prompt": "Security market line (SML)",
+              "correct": true
+            },
+            {
+              "prompt": "Capital allocation line (CAL)",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Q. Which of the following investors is least likely to be concerned about liquidity risk?",
+          "answers": [
+            {
+              "prompt": "A manager of a fixed-income mutual fund",
+              "correct": false
+            },
+            {
+              "prompt": "An individual investor intending to hold a bond to maturity",
+              "correct": true
+            },
+            {
+              "prompt": "An investor using repurchase agreements to purchase bonds",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Q. Information-motivated traders are most likely to differ from pure investors in that they:",
+          "answers": [
+            {
+              "prompt": "pay lower transaction fees.",
+              "correct": false
+            },
+            {
+              "prompt": "expect to earn excess returns.",
+              "correct": true
+            },
+            {
+              "prompt": "hold well-diversified portfolios.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Q. An investor bears more risk than initially thought because of the failure to consider the interaction of credit risk and market risk. This type of risk interaction is best described as:",
+          "answers": [
+            {
+              "prompt": "solvency risk.",
+              "correct": false
+            },
+            {
+              "prompt": "wrong-way risk.",
+              "correct": true
+            },
+            {
+              "prompt": "operational risk.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Q. Which of the following industry classification schemes covers private companies, non-profits, and government entities?",
+          "answers": [
+            {
+              "prompt": "The Industry Classification Benchmark (ICB)",
+              "correct": false
+            },
+            {
+              "prompt": "The Refinitiv Business Classification (TRBC)",
+              "correct": true
+            },
+            {
+              "prompt": "The Global Industry Classification Standard (GICS)",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Q. A high-quality and a high-yield corporation are each issuing subordinated debt with similar characteristics. Compared to the high-yield issuer, the notching adjustment for the high-quality issuer will most likely be:",
+          "answers": [
+            {
+              "prompt": "smaller.",
+              "correct": true
+            },
+            {
+              "prompt": "the same.",
+              "correct": false
+            },
+            {
+              "prompt": "larger.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Q. The holders of common shares of a company are legally entitled to:",
+          "answers": [
+            {
+              "prompt": "receive regular dividends from the company.",
+              "correct": false
+            },
+            {
+              "prompt": "a repayment of the purchase price of their shares.",
+              "correct": false
+            },
+            {
+              "prompt": "a claim on the company's net assets in the event of liquidation.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "Q. Which of the following categories of private debt most likely has the highest level of risk for an investor?",
+          "answers": [
+            {
+              "prompt": "Mezzanine debt",
+              "correct": true
+            },
+            {
+              "prompt": "Senior direct debt",
+              "correct": false
+            },
+            {
+              "prompt": "Infrastructure debt",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Q. Hedge funds are least likely to have restrictions concerning:",
+          "answers": [
+            {
+              "prompt": "the use of derivatives.",
+              "correct": true
+            },
+            {
+              "prompt": "the withdrawal of invested funds.",
+              "correct": false
+            },
+            {
+              "prompt": "the number of investors in the fund.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Q. After issuance, the coupon rate of a floating-rate bond is most likely influenced by changes in:",
+          "answers": [
+            {
+              "prompt": "the reference rate only.",
+              "correct": true
+            },
+            {
+              "prompt": "the issuer's credit quality only.",
+              "correct": false
+            },
+            {
+              "prompt": "both the reference rate and the issuer's credit quality.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Q. An investor buys a stock for $108 on margin by posting 40% of the initial stock price as equity. If the maintenance margin requirement for the position is 20%, a margin call first occurs when the price falls below:",
+          "answers": [
+            {
+              "prompt": "$64.80.",
+              "correct": false
+            },
+            {
+              "prompt": "$81.00.",
+              "correct": true
+            },
+            {
+              "prompt": "$86.40.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Q. All else being equal, which of the following statements based on the binomial model is accurate? When the volatility of the underlying increases, the value of a:",
+          "answers": [
+            {
+              "prompt": "put option and the value of a call option on the underlying will increase.",
+              "correct": true
+            },
+            {
+              "prompt": "put option on the underlying will increase while the value of a call option on the underlying will decrease.",
+              "correct": false
+            },
+            {
+              "prompt": "call option on the underlying will increase while the value of a put option on the underlying will decrease.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Q. An analyst calculates the duration of a portfolio containing only fixed-rate bonds, callable bonds, and asset-backed securities. Which duration measure is the most appropriate to use?",
+          "answers": [
+            {
+              "prompt": "Macaulay duration",
+              "correct": false
+            },
+            {
+              "prompt": "Effective duration",
+              "correct": true
+            },
+            {
+              "prompt": "Modified duration",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Q. Consider a put option selling for $4 in which the exercise price is $58. What is the profit for a put buyer if the price of the underlying at expiration is $57?",
+          "answers": [
+            {
+              "prompt": "-$3",
+              "correct": true
+            },
+            {
+              "prompt": "$1",
+              "correct": false
+            },
+            {
+              "prompt": "$3",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Q. A short exposure to an underlying instrument is achieved by:",
+          "answers": [
+            {
+              "prompt": "writing a put option.",
+              "correct": false
+            },
+            {
+              "prompt": "buying a put option.",
+              "correct": true
+            },
+            {
+              "prompt": "buying a call option.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Q. All else equal, interest rate risk is lowest for which of the following non-callable bonds?",
+          "answers": [
+            {
+              "prompt": "Discount",
+              "correct": false
+            },
+            {
+              "prompt": "Premium",
+              "correct": true
+            },
+            {
+              "prompt": "Zero-coupon",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Q. Which of the following types of investors most likely has the highest risk tolerance?",
+          "answers": [
+            {
+              "prompt": "Banks",
+              "correct": false
+            },
+            {
+              "prompt": "Endowments",
+              "correct": true
+            },
+            {
+              "prompt": "Insurance companies",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Q. For an investor with a long position, the price of a futures contract will most likely be higher than the price on a forward contract on the same asset with the same expiration date if there is a:",
+          "answers": [
+            {
+              "prompt": "negative correlation between the futures price and interest rates.",
+              "correct": false
+            },
+            {
+              "prompt": "zero correlation between the futures price and interest rates.",
+              "correct": false
+            },
+            {
+              "prompt": "positive correlation between the futures price and interest rates.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "Q. Which of the following investments most likely provides an investor with indirect equity exposure to real estate?",
+          "answers": [
+            {
+              "prompt": "Real estate investment trusts",
+              "correct": true
+            },
+            {
+              "prompt": "Real estate limited partnerships",
+              "correct": false
+            },
+            {
+              "prompt": "Commercial mortgage-backed securities",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Q. Two risk managers are discussing how an organization's risk tolerance should be determined. The first manager says, \"The risk tolerance must reflect the losses or shortfalls that will cause the organization to fail to meet critical objectives.\" The second manager responds, \"The risk tolerance must reflect the external forces that bring uncertainty to the organization.\" Which of them is most likely correct?",
+          "answers": [
+            {
+              "prompt": "Both risk managers",
+              "correct": true
+            },
+            {
+              "prompt": "The first risk manager",
+              "correct": false
+            },
+            {
+              "prompt": "The second risk manager",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Q. In contrast to a contingent claim, a forward commitment creates counterparty risk for:",
+          "answers": [
+            {
+              "prompt": "the long position only.",
+              "correct": false
+            },
+            {
+              "prompt": "the short position only.",
+              "correct": false
+            },
+            {
+              "prompt": "both the long and the short positions.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "Q. Management fees for private equity funds are most likely based on:",
+          "answers": [
+            {
+              "prompt": "invested capital.",
+              "correct": false
+            },
+            {
+              "prompt": "committed capital.",
+              "correct": true
+            },
+            {
+              "prompt": "assets under management.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Q. Which of the following offers the flexibility of delaying harvests when their prices are down?",
+          "answers": [
+            {
+              "prompt": "Farmland only",
+              "correct": false
+            },
+            {
+              "prompt": "Timberland only",
+              "correct": true
+            },
+            {
+              "prompt": "Both farmland and timberland",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Q. Compared with co-investing, direct investing in alternative investments most likely offers:",
+          "answers": [
+            {
+              "prompt": "reduced control over the investment selection process.",
+              "correct": false
+            },
+            {
+              "prompt": "the same level of control over the investment selection process.",
+              "correct": false
+            },
+            {
+              "prompt": "higher control over the investment selection process.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "Q. An investor who prefers an asset with an uncertain expected payoff of $50 to a guaranteed payoff of $50 is best described as:",
+          "answers": [
+            {
+              "prompt": "risk averse.",
+              "correct": false
+            },
+            {
+              "prompt": "risk neutral.",
+              "correct": false
+            },
+            {
+              "prompt": "risk seeking.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "Q. Which of the following market anomalies describes the consistent outperformance of stocks with low P/E ratios?",
+          "answers": [
+            {
+              "prompt": "The size effect",
+              "correct": false
+            },
+            {
+              "prompt": "The value effect",
+              "correct": true
+            },
+            {
+              "prompt": "The earnings surprise anomaly",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Q. The Procedures section of an investment policy statement (IPS) most likely:",
+          "answers": [
+            {
+              "prompt": "explains the steps to keep the IPS current.",
+              "correct": true
+            },
+            {
+              "prompt": "provides information about the permissible use of leverage.",
+              "correct": false
+            },
+            {
+              "prompt": "details the investor's policy with respect to rebalancing asset class weights.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Q. In a positive interest rate environment, the modified duration of an option-free bond is most likely:",
+          "answers": [
+            {
+              "prompt": "less than the Macaulay duration.",
+              "correct": true
+            },
+            {
+              "prompt": "the same as the Macaulay duration.",
+              "correct": false
+            },
+            {
+              "prompt": "greater than the Macaulay duration.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Q. Which of the following asset-backed securities provides the highest level of protection against prepayment risk?",
+          "answers": [
+            {
+              "prompt": "A mortgage pass-through security",
+              "correct": false
+            },
+            {
+              "prompt": "A collateralized mortgage obligation",
+              "correct": false
+            },
+            {
+              "prompt": "A commercial mortgage-backed security",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "problem": "Q. Consider a $100 par value bond with a 7% coupon paid annually and five years to maturity. At a discount rate of 6.5%, the value of the bond today is $102.08. One day later, the discount rate increases to 7.5%. Assuming the discount rate remains at 7.5% over the remaining life of the bond, what is most likely to occur to the price of the bond between today and maturity? The price:",
+          "answers": [
+            {
+              "prompt": "decreases then increases.",
+              "correct": true
+            },
+            {
+              "prompt": "increases then decreases.",
+              "correct": false
+            },
+            {
+              "prompt": "decreases then remains unchanged.",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Q. Which of the following best describes an investment principle used in formulating a client's strategic asset allocation?",
+          "answers": [
+            {
+              "prompt": "Assets with greater nonsystematic risk should be given less weight in a portfolio",
+              "correct": false
+            },
+            {
+              "prompt": "Returns on asset classes are a function of systematic factors relevant to those asset classes",
+              "correct": true
+            },
+            {
+              "prompt": "The more efficient an asset class, the more skillful an asset manager has to be to add value",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Q. Which type of index does not use market capitalization as a weighting method?",
+          "answers": [
+            {
+              "prompt": "A commodity index",
+              "correct": true
+            },
+            {
+              "prompt": "A broad equity market index",
+              "correct": false
+            },
+            {
+              "prompt": "A real estate investment trust (REIT) index",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "problem": "Q. A bond has a duration of 4.50 and convexity of 39.20. If interest rates increase by 0.5%, the percentage change in the bond's price will be closest to:",
+          "answers": [
+            {
+              "prompt": "-2.30%.",
+              "correct": false
+            },
+            {
+              "prompt": "-2.25%.",
+              "correct": false
+            },
+            {
+              "prompt": "-2.20%.",
+              "correct": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Mock 2 Session 1",
+      "questions": []
+    }
+  ],
+  "mock_tests": []
+}
