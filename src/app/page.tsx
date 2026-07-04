@@ -14,8 +14,18 @@ type TestSet = {
   questions: TestQuestion[];
 };
 
+type MockSession = {
+  title: string;
+  questions: TestQuestion[];
+};
+
+type MockSet = {
+  title: string;
+  sessions: MockSession[];
+};
+
 const practiseTests = (data.practise_tests ?? []) as TestSet[];
-const mockTests = (data.mock_tests ?? []) as TestSet[];
+const mockTests = (data.mock_tests ?? []) as MockSet[];
 
 export default function Home() {
   return (
@@ -40,8 +50,8 @@ export default function Home() {
               <div>
                 <h2 className="text-xl font-semibold">Practise tests</h2>
                 <p className="mt-2 max-w-sm text-sm leading-6 text-[#666666]">
-                  Open the live practise exam and choose from the question sets
-                  in data.json.
+                  Choose a practise set, answer all questions, and review
+                  correctness with explanations after finalizing.
                 </p>
               </div>
               <span className="rounded-full bg-[#edf3ec] px-3 py-1 text-xs font-medium uppercase tracking-wider text-[#346538]">
@@ -54,7 +64,7 @@ export default function Home() {
                 href="/practise"
                 className="inline-flex items-center rounded-md bg-[#1f1f1f] px-4 py-2 text-sm font-medium text-white transition hover:bg-[#333333] active:scale-[0.98]"
               >
-                Start practise
+                Start practise mode
               </Link>
             </div>
           </section>
@@ -75,10 +85,10 @@ export default function Home() {
 
             <div className="mt-5">
               <Link
-                href="/practise"
+                href="/mock"
                 className="inline-flex items-center rounded-md border border-[#e6e2da] bg-[#fbfbfa] px-4 py-2 text-sm font-medium text-[#1f1f1f] transition hover:bg-white active:scale-[0.98]"
               >
-                Open practise mode
+                Open mock mode
               </Link>
             </div>
           </section>
