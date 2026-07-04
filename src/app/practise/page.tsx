@@ -69,7 +69,7 @@ export default function PractisePage() {
   };
 
   const chooseAnswer = (answerIndex: number) => {
-    if (!currentQuestion || isFinalized) return;
+    if (!currentQuestion || isFinalized || isCurrentRevealed) return;
 
     setSelectedAnswers((previous) => ({
       ...previous,
@@ -81,19 +81,18 @@ export default function PractisePage() {
     setIsFinalized(true);
   };
 
-  const handleNext = () => {
-    if (!hasCurrentAnswer) {
+  const revealCurrentAnswer = () => {
+    if (!hasCurrentAnswer || isCurrentRevealed) {
       return;
     }
 
-    if (!isCurrentRevealed) {
-      setRevealedByQuestion((previous) => ({
-        ...previous,
-        [questionIndex]: true,
-      }));
-      return;
-    }
+    setRevealedByQuestion((previous) => ({
+      ...previous,
+      [questionIndex]: true,
+    }));
+  };
 
+  const goToNextQuestion = () => {
     if (questionIndex < totalQuestions - 1) {
       setQuestionIndex((current) => Math.min(totalQuestions - 1, current + 1));
       return;
@@ -137,8 +136,8 @@ export default function PractisePage() {
                       type="button"
                       onClick={() => chooseSet(index)}
                       className={`w-full rounded-lg border px-4 py-3 text-left transition active:scale-[0.99] ${isSelected
-                          ? "border-[#1f1f1f] bg-[#f3f1ec]"
-                          : "border-[#e6e2da] bg-[#fbfbfa] hover:bg-white"
+                        ? "border-[#1f1f1f] bg-[#f3f1ec]"
+                        : "border-[#e6e2da] bg-[#fbfbfa] hover:bg-white"
                         }`}
                     >
                       <p className="text-sm font-medium text-[#1f1f1f]">{test.title}</p>
@@ -188,10 +187,10 @@ export default function PractisePage() {
                             type="button"
                             onClick={() => setQuestionIndex(index)}
                             className={`min-w-10 rounded-md border px-3 py-2 text-sm transition active:scale-[0.98] ${isCurrent
-                                ? "border-[#1f1f1f] bg-[#1f1f1f] text-white"
-                                : hasAnswer
-                                  ? "border-[#cfd8cf] bg-[#edf3ec] text-[#346538]"
-                                  : "border-[#e6e2da] bg-[#fbfbfa] text-[#1f1f1f] hover:bg-white"
+                              ? "border-[#1f1f1f] bg-[#1f1f1f] text-white"
+                              : hasAnswer
+                                ? "border-[#cfd8cf] bg-[#edf3ec] text-[#346538]"
+                                : "border-[#e6e2da] bg-[#fbfbfa] text-[#1f1f1f] hover:bg-white"
                               }`}
                           >
                             {index + 1}
@@ -222,17 +221,18 @@ export default function PractisePage() {
                             if (showResult) {
                               if (answer.correct) {
                                 optionClassName +=
-                                  " border-[#c9e2c3] bg-[#edf3ec] text-[#346538]";
+                                  " border-[#a9d3a3] bg-[#e3f0dd] text-[#2f6b34] ring-1 ring-[#cfe5c9]";
                               } else if (isSelected) {
                                 optionClassName +=
-                                  " border-[#f1c9c4] bg-[#fdebec] text-[#9f2f2d]";
+                                  " border-[#ea8f84] bg-[#f9d8d4] text-[#8e231f] ring-1 ring-[#f1b5ae]";
                               } else {
                                 optionClassName +=
                                   " border-[#e6e2da] bg-[#fbfbfa] text-[#6f6f6f]";
                               }
                             } else {
-                              optionClassName +=
-                                " border-[#e6e2da] bg-[#fbfbfa] hover:bg-white";
+                              optionClassName += isSelected
+                                ? " border-[#1f1f1f] bg-[#efe4cf] text-[#1f1f1f] ring-2 ring-[#1f1f1f]/15 shadow-sm"
+                                : " border-[#e6e2da] bg-[#fbfbfa] hover:bg-white";
                             }
 
                             return (
@@ -240,13 +240,14 @@ export default function PractisePage() {
                                 key={answer.prompt}
                                 type="button"
                                 onClick={() => chooseAnswer(answerIndex)}
+                                disabled={isCurrentRevealed}
                                 className={optionClassName}
                               >
                                 <div className="flex items-start gap-3">
-                                  <span className="mt-0.5 text-sm font-medium text-[#1f1f1f]">
+                                  <span className={`mt-0.5 text-sm font-medium ${showResult && isSelected ? "text-[#8e231f]" : showResult && answer.correct ? "text-[#2f6b34]" : "text-[#1f1f1f]"}`}>
                                     {String.fromCharCode(65 + answerIndex)}.
                                   </span>
-                                  <span className="flex-1 text-sm leading-6 text-[#1f1f1f]">
+                                  <span className={`flex-1 text-sm leading-6 ${showResult && isSelected ? "text-[#8e231f]" : showResult && answer.correct ? "text-[#2f6b34]" : "text-[#1f1f1f]"}`}>
                                     {answer.prompt}
                                   </span>
                                 </div>
@@ -293,9 +294,7 @@ export default function PractisePage() {
                           <div className="flex flex-wrap gap-3">
                             <button
                               type="button"
-                              onClick={() =>
-                                setQuestionIndex((current) => Math.max(0, current - 1))
-                              }
+                              onClick={() => setQuestionIndex((current) => Math.max(0, current - 1))}
                               disabled={questionIndex === 0}
                               className="rounded-md border border-[#e6e2da] bg-[#fbfbfa] px-4 py-2 text-sm font-medium text-[#1f1f1f] transition hover:bg-white disabled:cursor-not-allowed disabled:text-[#b8b2a7] active:scale-[0.98]"
                             >
@@ -303,15 +302,18 @@ export default function PractisePage() {
                             </button>
                             <button
                               type="button"
-                              onClick={handleNext}
-                              disabled={!hasCurrentAnswer}
+                              onClick={goToNextQuestion}
                               className="rounded-md border border-[#e6e2da] bg-[#fbfbfa] px-4 py-2 text-sm font-medium text-[#1f1f1f] transition hover:bg-white disabled:cursor-not-allowed disabled:text-[#b8b2a7] active:scale-[0.98]"
                             >
-                              {!isCurrentRevealed
-                                ? "Check answer"
-                                : questionIndex < totalQuestions - 1
-                                  ? "Next question"
-                                  : "Finalize test"}
+                              {questionIndex < totalQuestions - 1 ? "Next question" : "Finalize test"}
+                            </button>
+                            <button
+                              type="button"
+                              onClick={revealCurrentAnswer}
+                              disabled={!hasCurrentAnswer || isCurrentRevealed}
+                              className="rounded-md bg-[#1f1f1f] px-4 py-2 text-sm font-medium text-white transition hover:bg-[#333333] disabled:cursor-not-allowed disabled:bg-[#b8b2a7] active:scale-[0.98]"
+                            >
+                              {isCurrentRevealed ? "Answer locked" : "Check answer"}
                             </button>
                           </div>
                         </div>
@@ -356,8 +358,8 @@ export default function PractisePage() {
                               </p>
                               <span
                                 className={`rounded-full px-3 py-1 text-xs font-medium uppercase tracking-wider ${isCorrect
-                                    ? "bg-[#edf3ec] text-[#346538]"
-                                    : "bg-[#fdebec] text-[#9f2f2d]"
+                                  ? "bg-[#edf3ec] text-[#346538]"
+                                  : "bg-[#fdebec] text-[#9f2f2d]"
                                   }`}
                               >
                                 {isCorrect ? "Correct" : "Wrong"}
