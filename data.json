@@ -19334,6 +19334,2991 @@
           ]
         }
       ]
+    },
+    {
+      "title": "Derivatives and Economics",
+      "questions": [
+        {
+          "problem": "Compared to over-the-counter (OTC) derivatives that are not cleared, the credit risk of exchange-traded derivatives is most likely:\nA. lower.\nB. the same.\nC. higher.",
+          "answers": [
+            {
+              "prompt": "A. lower.",
+              "correct": true,
+              "explanation": "Correct because derivative exchanges require collateral on deposit upon inception and during the life of a trade in order to minimize counterparty credit risk. This deposit is paid by each counterparty via a financial intermediary to the exchange, which then provides a guarantee against counterparty default, whereas OTC (over-the-counter) instruments have less transparency, usually involve more counterparty risk. Therefore, compared to OTC derivatives that are not cleared, the credit risk of exchange-traded derivatives is lower."
+            },
+            {
+              "prompt": "B. the same.",
+              "correct": false,
+              "explanation": "Incorrect. Exchange-traded derivatives have lower credit risk than non-cleared OTC derivatives due to the exchange's guarantee and collateral requirements."
+            },
+            {
+              "prompt": "C. higher.",
+              "correct": false,
+              "explanation": "Incorrect. Exchange-traded derivatives have lower, not higher, credit risk than non-cleared OTC derivatives."
+            }
+          ]
+        },
+        {
+          "problem": "Which of the following statements is most accurate?\nA. Longevity is an example of an underlying of a derivative.\nB. A convertible bond is an example of a stand-alone derivative.\nC. Derivatives directly pass through the returns of the underlying.",
+          "answers": [
+            {
+              "prompt": "A. Longevity is an example of an underlying of a derivative.",
+              "correct": true,
+              "explanation": "Correct because other derivative underlyings include weather, cryptocurrencies, and longevity, all of which can influence the financial performance of various market participants. Therefore, longevity is an example of an underlying of a derivative."
+            },
+            {
+              "prompt": "B. A convertible bond is an example of a stand-alone derivative.",
+              "correct": false,
+              "explanation": "Incorrect. A convertible bond is an embedded derivative, not a stand-alone derivative."
+            },
+            {
+              "prompt": "C. Derivatives directly pass through the returns of the underlying.",
+              "correct": false,
+              "explanation": "Incorrect. Derivatives derive their performance from the underlying, but they do not directly pass through the returns."
+            }
+          ]
+        },
+        {
+          "problem": "Derivatives derive their performance from:\nA. the performance of the underlying asset.\nB. eliminating the risk of counterparty default.\nC. the straight pass-through performance of the underlying.",
+          "answers": [
+            {
+              "prompt": "A. the performance of the underlying asset.",
+              "correct": true,
+              "explanation": "Correct because the most common definition of a derivative is a financial instrument that derives its performance from the performance of the underlying asset."
+            },
+            {
+              "prompt": "B. eliminating the risk of counterparty default.",
+              "correct": false,
+              "explanation": "Incorrect. Derivatives do not eliminate counterparty default risk, especially OTC derivatives."
+            },
+            {
+              "prompt": "C. the straight pass-through performance of the underlying.",
+              "correct": false,
+              "explanation": "Incorrect. Derivatives do not provide a straight pass-through of the underlying's returns."
+            }
+          ]
+        },
+        {
+          "problem": "Compared to over-the-counter (OTC) derivative markets, exchange-traded derivative markets most likely have greater:\nA. flexibility.\nB. transparency.\nC. customization.",
+          "answers": [
+            {
+              "prompt": "A. flexibility.",
+              "correct": false,
+              "explanation": "Incorrect. OTC markets offer greater flexibility and customization."
+            },
+            {
+              "prompt": "B. transparency.",
+              "correct": true,
+              "explanation": "Correct because many transactions in OTC markets will retain a degree of privacy with lower transparency. In contrast, exchange markets are said to have transparency, which means that full information on all transactions is disclosed to exchanges and regulatory bodies. Therefore, exchange-traded derivatives markets have greater transparency than OTC derivatives markets."
+            },
+            {
+              "prompt": "C. customization.",
+              "correct": false,
+              "explanation": "Incorrect. OTC markets offer greater customization."
+            }
+          ]
+        },
+        {
+          "problem": "Which of the following derivative underlyings is an example of a soft commodity?\nA. Gold\nB. Crude oil\nC. Soybeans",
+          "answers": [
+            {
+              "prompt": "A. Gold",
+              "correct": false,
+              "explanation": "Incorrect. Gold is a hard commodity (mined)."
+            },
+            {
+              "prompt": "B. Crude oil",
+              "correct": false,
+              "explanation": "Incorrect. Crude oil is a hard commodity (extracted)."
+            },
+            {
+              "prompt": "C. Soybeans",
+              "correct": true,
+              "explanation": "Correct because soft commodities are agricultural products, such as cattle and corn, and hard commodities are natural resources, such as crude oil and metals. Also, crude oil, soybeans, copper, and gold are all commodities. Commodities are considered either 'hard' (those mined, such as copper, or extracted, such as oil) or 'soft' (those grown over a period of time, such as livestock, grains, and cash crops, such as coffee)."
+            }
+          ]
+        },
+        {
+          "problem": "An investor buys a call for $5.75 that has a strike price of $130. If the value at expiration for this call is $17.80, the price of the underlying at expiration is closest to:\nA. $112.20.\nB. $142.05.\nC. $147.80.",
+          "answers": [
+            {
+              "prompt": "A. $112.20.",
+              "correct": false,
+              "explanation": "Incorrect. The correct calculation is: Value at expiration = Max(0, ST - X), so $17.80 = ST - $130, ST = $147.80."
+            },
+            {
+              "prompt": "B. $142.05.",
+              "correct": false,
+              "explanation": "Incorrect. The correct calculation is: Value at expiration = Max(0, ST - X), so $17.80 = ST - $130, ST = $147.80."
+            },
+            {
+              "prompt": "C. $147.80.",
+              "correct": true,
+              "explanation": "Correct. Value at expiration = Max(0, ST - X). Given value = $17.80 and X = $130, then $17.80 = ST - $130, so ST = $147.80."
+            }
+          ]
+        },
+        {
+          "problem": "A call option had the following characteristics on the date it was created:\nExercise price: $20\nOption premium: $3\nIf the price of the underlying is $17 at expiration, the profit to the option holder is closest to:\nA. -$3.\nB. $0.\nC. $3.",
+          "answers": [
+            {
+              "prompt": "A. -$3.",
+              "correct": true,
+              "explanation": "Correct. At expiration, ST = $17, which is less than X = $20, so the option is out-of-the-money and expires worthless. The buyer loses the premium paid, so profit = -$3."
+            },
+            {
+              "prompt": "B. $0.",
+              "correct": false,
+              "explanation": "Incorrect. The option is out-of-the-money, so the holder loses the premium, not zero."
+            },
+            {
+              "prompt": "C. $3.",
+              "correct": false,
+              "explanation": "Incorrect. This would be the premium received by the seller, not the buyer's profit."
+            }
+          ]
+        },
+        {
+          "problem": "If ST denotes the price of the underlying at the expiration date and X is the exercise price of the option, the payoff at expiration to a call seller is best described as:\nA. -Max(0, ST - X)\nB. -Max(0, X - ST)\nC. Max(0, ST - X)",
+          "answers": [
+            {
+              "prompt": "A. -Max(0, ST - X)",
+              "correct": true,
+              "explanation": "Correct. The payoff to a call seller is the negative of the payoff to the call buyer, which is -Max(0, ST - X)."
+            },
+            {
+              "prompt": "B. -Max(0, X - ST)",
+              "correct": false,
+              "explanation": "Incorrect. This is the payoff to a put seller, not a call seller."
+            },
+            {
+              "prompt": "C. Max(0, ST - X)",
+              "correct": false,
+              "explanation": "Incorrect. This is the payoff to a call buyer, not a call seller."
+            }
+          ]
+        },
+        {
+          "problem": "A call option that is sold for $4 has an exercise price of $40. If the price of the underlying is $43 at expiration, the value of the option to the seller is closest to:\nA. -$3, and the loss to the seller is $1.\nB. -$3, and the profit to the seller is $1.\nC. $3, and the loss to the seller is $1.",
+          "answers": [
+            {
+              "prompt": "A. -$3, and the loss to the seller is $1.",
+              "correct": false,
+              "explanation": "Incorrect. The value to the seller is -$3 (payoff of -$3), but the profit is premium received minus payoff, so $4 - $3 = $1 profit."
+            },
+            {
+              "prompt": "B. -$3, and the profit to the seller is $1.",
+              "correct": true,
+              "explanation": "Correct. At expiration, ST = $43, X = $40. Payoff to seller = -(ST - X) = -$3. Profit = Premium received - Payoff = $4 - $3 = $1 profit."
+            },
+            {
+              "prompt": "C. $3, and the loss to the seller is $1.",
+              "correct": false,
+              "explanation": "Incorrect. The payoff is -$3 (a loss on the option position), not $3."
+            }
+          ]
+        },
+        {
+          "problem": "An investor pays $5 for a European put option with an exercise price of $102. At expiration, if the price of the underlying is $100, the value of the put option is:\nA. -$3.\nB. $0.\nC. $2.",
+          "answers": [
+            {
+              "prompt": "A. -$3.",
+              "correct": false,
+              "explanation": "Incorrect. The value of the put option cannot be negative; it is Max(0, X - ST)."
+            },
+            {
+              "prompt": "B. $0.",
+              "correct": false,
+              "explanation": "Incorrect. Since ST = $100 and X = $102, the option is in-the-money by $2."
+            },
+            {
+              "prompt": "C. $2.",
+              "correct": true,
+              "explanation": "Correct. Value at expiration = Max(0, X - ST) = Max(0, $102 - $100) = $2."
+            }
+          ]
+        },
+        {
+          "problem": "An American put has a strike price of ¥5,000 and expires in one year. The current price of the underlying is ¥4,200 and the risk-free rate is 2%. The maximum value of this put is:\nA. ¥800.\nB. ¥4,900.\nC. ¥5,000.",
+          "answers": [
+            {
+              "prompt": "A. ¥800.",
+              "correct": false,
+              "explanation": "Incorrect. This is the intrinsic value if exercised immediately (5,000 - 4,200), but the maximum value is the strike price."
+            },
+            {
+              "prompt": "B. ¥4,900.",
+              "correct": false,
+              "explanation": "Incorrect. This is the present value of the strike price (5,000/1.02), which is the maximum for a European put, but for an American put the maximum is the strike price."
+            },
+            {
+              "prompt": "C. ¥5,000.",
+              "correct": true,
+              "explanation": "Correct. The maximum value of an American put is the strike price (¥5,000) because the put cannot be worth more than the strike price."
+            }
+          ]
+        },
+        {
+          "problem": "The following information relates to a put option and the underlying stock:\nStock price at expiration: $85\nEuropean put strike price: $78\nThe value of the put option to the option seller at expiration is:\nA. -$7.\nB. $0.\nC. $7.",
+          "answers": [
+            {
+              "prompt": "A. -$7.",
+              "correct": false,
+              "explanation": "Incorrect. This would be the value if the option were in-the-money, but ST = $85 > X = $78, so the put expires worthless."
+            },
+            {
+              "prompt": "B. $0.",
+              "correct": true,
+              "explanation": "Correct. Since ST = $85 > X = $78, the put option is out-of-the-money and expires worthless. The seller's payoff is $0."
+            },
+            {
+              "prompt": "C. $7.",
+              "correct": false,
+              "explanation": "Incorrect. This would be the value to the put buyer if the option were in-the-money."
+            }
+          ]
+        },
+        {
+          "problem": "All else being equal, if the price of the underlying at expiration exceeds the exercise price, the option value at expiration for the seller of a put most likely is:\nA. less than the option value at expiration for the seller of a call.\nB. equal to the option value at expiration for the seller of a call.\nC. greater than the option value at expiration for the seller of a call.",
+          "answers": [
+            {
+              "prompt": "A. less than the option value at expiration for the seller of a call.",
+              "correct": false,
+              "explanation": "Incorrect. When ST > X, the put payoff is $0 and the call payoff is ST - X > 0. The put seller's value is $0, which is less than the call seller's negative value."
+            },
+            {
+              "prompt": "B. equal to the option value at expiration for the seller of a call.",
+              "correct": false,
+              "explanation": "Incorrect. When ST > X, the put seller has value $0, while the call seller has value -(ST - X) < 0."
+            },
+            {
+              "prompt": "C. greater than the option value at expiration for the seller of a call.",
+              "correct": true,
+              "explanation": "Correct. When ST > X, the put is out-of-the-money, so payoff to seller = $0. The call seller's payoff = -(ST - X) < 0. Therefore, the put seller's value ($0) is greater than the call seller's negative value."
+            }
+          ]
+        },
+        {
+          "problem": "An investor gathers the following information about a European put option and its underlying:\nExercise price: $29\nOption purchase price: $2\nSpot price at the time of the option purchase: $28\nIf the price of the underlying at expiration is $27, the profit for a buyer of the put is:\nA. -$1.\nB. $0.\nC. $2.",
+          "answers": [
+            {
+              "prompt": "A. -$1.",
+              "correct": false,
+              "explanation": "Incorrect. The profit is payoff - premium = (29 - 27) - 2 = $0."
+            },
+            {
+              "prompt": "B. $0.",
+              "correct": true,
+              "explanation": "Correct. Value at expiration = Max(0, X - ST) = Max(0, 29 - 27) = $2. Profit = Value - Premium = $2 - $2 = $0."
+            },
+            {
+              "prompt": "C. $2.",
+              "correct": false,
+              "explanation": "Incorrect. $2 is the payoff (intrinsic value) at expiration, not the profit."
+            }
+          ]
+        },
+        {
+          "problem": "A call option has the following characteristics:\nValue of underlying at expiration: $2,020\nExercise price: $2,100\nCall premium: $80\nThe profit to the call seller is closest to:\nA. -$80.\nB. $0.\nC. $80.",
+          "answers": [
+            {
+              "prompt": "A. -$80.",
+              "correct": false,
+              "explanation": "Incorrect. The option is out-of-the-money, so the seller keeps the entire premium. Profit = $80."
+            },
+            {
+              "prompt": "B. $0.",
+              "correct": false,
+              "explanation": "Incorrect. The seller keeps the premium because the option expires worthless."
+            },
+            {
+              "prompt": "C. $80.",
+              "correct": true,
+              "explanation": "Correct. ST = 2,020, X = 2,100. The call is out-of-the-money and expires worthless. The seller keeps the $80 premium. Profit = $80."
+            }
+          ]
+        },
+        {
+          "problem": "Which of the following is most likely an example of a contingent claim?\nA. swap contract\nB. option contract\nC. futures contract",
+          "answers": [
+            {
+              "prompt": "A. swap contract",
+              "correct": false,
+              "explanation": "Incorrect. Swaps are forward commitments, not contingent claims."
+            },
+            {
+              "prompt": "B. option contract",
+              "correct": true,
+              "explanation": "Correct. Options are contingent claims because the payoff depends on the occurrence of a specific event (the option being in-the-money)."
+            },
+            {
+              "prompt": "C. futures contract",
+              "correct": false,
+              "explanation": "Incorrect. Futures are forward commitments, not contingent claims."
+            }
+          ]
+        },
+        {
+          "problem": "Forward contracts have:\nA. less counter-party risk than futures.\nB. the same level of counter-party risk as futures.\nC. more counter-party risk than futures.",
+          "answers": [
+            {
+              "prompt": "A. less counter-party risk than futures.",
+              "correct": false,
+              "explanation": "Incorrect. Forwards have more counterparty risk because they are not standardized or cleared through an exchange."
+            },
+            {
+              "prompt": "B. the same level of counter-party risk as futures.",
+              "correct": false,
+              "explanation": "Incorrect. Futures have less counterparty risk due to daily settlement and clearinghouse guarantees."
+            },
+            {
+              "prompt": "C. more counter-party risk than futures.",
+              "correct": true,
+              "explanation": "Correct. Forward contracts have more counter-party risk than futures."
+            }
+          ]
+        },
+        {
+          "problem": "The payoff to the seller of a forward contract at expiration is defined as the:\nA. forward price plus the value of the underlying at expiration.\nB. forward price minus the value of the underlying at expiration.\nC. value of the underlying at expiration minus the forward price.",
+          "answers": [
+            {
+              "prompt": "A. forward price plus the value of the underlying at expiration.",
+              "correct": false,
+              "explanation": "Incorrect. The payoff to the seller is F0(T) - ST."
+            },
+            {
+              "prompt": "B. forward price minus the value of the underlying at expiration.",
+              "correct": true,
+              "explanation": "Correct. The seller's payoff at expiration is F0(T) - ST."
+            },
+            {
+              "prompt": "C. value of the underlying at expiration minus the forward price.",
+              "correct": false,
+              "explanation": "Incorrect. This is the payoff to the buyer of the forward contract."
+            }
+          ]
+        },
+        {
+          "problem": "Which of the following characteristics is most likely common to both forwards and swaps?\nA. Customization of contract terms\nB. Marked to the settlement price on a daily basis\nC. Multiple payments over the life of the contract",
+          "answers": [
+            {
+              "prompt": "A. Customization of contract terms",
+              "correct": true,
+              "explanation": "Correct. Both forwards and swaps can be customized, especially in OTC markets."
+            },
+            {
+              "prompt": "B. Marked to the settlement price on a daily basis",
+              "correct": false,
+              "explanation": "Incorrect. This is characteristic of futures, not forwards or swaps."
+            },
+            {
+              "prompt": "C. Multiple payments over the life of the contract",
+              "correct": false,
+              "explanation": "Incorrect. Forwards typically have a single payment at maturity, while swaps have multiple payments."
+            }
+          ]
+        },
+        {
+          "problem": "A forward commitment:\nA. has a linear payoff in relation to the underlying.\nB. involves an exchange of cash at contract initiation.\nC. provides one party the right to transact at a later date.",
+          "answers": [
+            {
+              "prompt": "A. has a linear payoff in relation to the underlying.",
+              "correct": true,
+              "explanation": "Correct. Forward commitments have a linear payoff in relation to the underlying."
+            },
+            {
+              "prompt": "B. involves an exchange of cash at contract initiation.",
+              "correct": false,
+              "explanation": "Incorrect. Forward commitments typically do not involve an exchange of cash at initiation."
+            },
+            {
+              "prompt": "C. provides one party the right to transact at a later date.",
+              "correct": false,
+              "explanation": "Incorrect. This describes an option (contingent claim), not a forward commitment."
+            }
+          ]
+        },
+        {
+          "problem": "Which of the following types of derivatives has a non-linear payoff?\nA. Swaps\nB. Options\nC. Forwards",
+          "answers": [
+            {
+              "prompt": "A. Swaps",
+              "correct": false,
+              "explanation": "Incorrect. Swaps have linear payoffs."
+            },
+            {
+              "prompt": "B. Options",
+              "correct": true,
+              "explanation": "Correct. Options have non-linear payoffs due to the asymmetric payoff structure."
+            },
+            {
+              "prompt": "C. Forwards",
+              "correct": false,
+              "explanation": "Incorrect. Forwards have linear payoffs."
+            }
+          ]
+        },
+        {
+          "problem": "The potential divergence between the cash flow timing of a derivative instrument versus its underlying best describes:\nA. basis risk.\nB. liquidity risk.\nC. systemic risk.",
+          "answers": [
+            {
+              "prompt": "A. basis risk.",
+              "correct": false,
+              "explanation": "Incorrect. Basis risk is the potential divergence between the expected value of a derivative and its underlying."
+            },
+            {
+              "prompt": "B. liquidity risk.",
+              "correct": true,
+              "explanation": "Correct because liquidity risk is described as potential divergence between the cash flow timing of a derivative instrument versus an underlying or hedged transaction."
+            },
+            {
+              "prompt": "C. systemic risk.",
+              "correct": false,
+              "explanation": "Incorrect. Systemic risk is the risk of collapse of the entire financial system."
+            }
+          ]
+        },
+        {
+          "problem": "The potential divergence between the expected value of a derivative instrument versus an underlying or hedged transaction best describes:\nA. basis risk.\nB. liquidity risk.\nC. systemic risk.",
+          "answers": [
+            {
+              "prompt": "A. basis risk.",
+              "correct": true,
+              "explanation": "Correct because basis risk is the potential divergence between the expected value of a derivative instrument versus an underlying or hedged transaction."
+            },
+            {
+              "prompt": "B. liquidity risk.",
+              "correct": false,
+              "explanation": "Incorrect. Liquidity risk refers to cash flow timing divergence."
+            },
+            {
+              "prompt": "C. systemic risk.",
+              "correct": false,
+              "explanation": "Incorrect. Systemic risk is the risk of collapse of the financial system."
+            }
+          ]
+        },
+        {
+          "problem": "A commodities producer selling its inventory forward in anticipation of lower prices in the future is an example of a:\nA. fair value hedge.\nB. cash flow hedge.\nC. net investment hedge.",
+          "answers": [
+            {
+              "prompt": "A. fair value hedge.",
+              "correct": true,
+              "explanation": "Correct because a fair value hedge designation applies when a derivative is deemed to offset the fluctuation in fair value of an asset or liability. A commodities producer might sell its inventory forward in anticipation of lower future prices."
+            },
+            {
+              "prompt": "B. cash flow hedge.",
+              "correct": false,
+              "explanation": "Incorrect. A cash flow hedge is used to offset exposure to variability in cash flows."
+            },
+            {
+              "prompt": "C. net investment hedge.",
+              "correct": false,
+              "explanation": "Incorrect. A net investment hedge is used to hedge foreign currency exposure of a net investment in a foreign operation."
+            }
+          ]
+        },
+        {
+          "problem": "Basis risk is best described as a(n):\nA. investor's inability to meet a margin call due to a lack of funds.\nB. potential divergence between the expected value of a derivative and its underlying.\nC. divergence in the cash flow timing of a derivative versus that of an underlying transaction.",
+          "answers": [
+            {
+              "prompt": "A. investor's inability to meet a margin call due to a lack of funds.",
+              "correct": false,
+              "explanation": "Incorrect. This describes liquidity risk, not basis risk."
+            },
+            {
+              "prompt": "B. potential divergence between the expected value of a derivative and its underlying.",
+              "correct": true,
+              "explanation": "Correct because basis risk is the potential divergence between the expected value of a derivative instrument versus an underlying or hedged transaction."
+            },
+            {
+              "prompt": "C. divergence in the cash flow timing of a derivative versus that of an underlying transaction.",
+              "correct": false,
+              "explanation": "Incorrect. This describes liquidity risk."
+            }
+          ]
+        },
+        {
+          "problem": "With respect to hedge accounting designation types, a:\nA. foreign exchange forward to hedge forecasted sales is an example of a fair value hedge.\nB. commodity futures contract used to hedge inventory is an example of a cash flow hedge.\nC. currency forward to offset the foreign exchange risk of equity of a foreign operation is an example of a net investment hedge.",
+          "answers": [
+            {
+              "prompt": "A. foreign exchange forward to hedge forecasted sales is an example of a fair value hedge.",
+              "correct": false,
+              "explanation": "Incorrect. Hedging forecasted sales is a cash flow hedge, not a fair value hedge."
+            },
+            {
+              "prompt": "B. commodity futures contract used to hedge inventory is an example of a cash flow hedge.",
+              "correct": false,
+              "explanation": "Incorrect. Hedging inventory is a fair value hedge, not a cash flow hedge."
+            },
+            {
+              "prompt": "C. currency forward to offset the foreign exchange risk of equity of a foreign operation is an example of a net investment hedge.",
+              "correct": true,
+              "explanation": "Correct because currency forward designated as offsetting the FX risk of the equity of a foreign operation is an example of a net investment hedge."
+            }
+          ]
+        },
+        {
+          "problem": "A principal argument against using derivatives is that they:\nA. destabilize the financial system.\nB. are ineffective in transferring risk between parties.\nC. prevent price discovery of underlying assets in spot markets.",
+          "answers": [
+            {
+              "prompt": "A. destabilize the financial system.",
+              "correct": true,
+              "explanation": "Correct because the two principal arguments against derivatives are that they are such speculative devices that they effectively permit legalized gambling and that they destabilize the financial system."
+            },
+            {
+              "prompt": "B. are ineffective in transferring risk between parties.",
+              "correct": false,
+              "explanation": "Incorrect. Derivatives are effective in transferring risk between parties."
+            },
+            {
+              "prompt": "C. prevent price discovery of underlying assets in spot markets.",
+              "correct": false,
+              "explanation": "Incorrect. Derivatives actually assist in price discovery."
+            }
+          ]
+        },
+        {
+          "problem": "If the net cost of carry is zero, the forward price of a commodity is most likely:\nA. less than the commodity's spot price compounded at the risk-free rate over the life of the contract.\nB. equal to the commodity's spot price compounded at the risk-free rate over the life of the contract.\nC. greater than the commodity's spot price compounded at the risk-free rate over the life of the contract.",
+          "answers": [
+            {
+              "prompt": "A. less than the commodity's spot price compounded at the risk-free rate over the life of the contract.",
+              "correct": false,
+              "explanation": "Incorrect. When net cost of carry is zero, the forward price equals the spot price compounded at the risk-free rate."
+            },
+            {
+              "prompt": "B. equal to the commodity's spot price compounded at the risk-free rate over the life of the contract.",
+              "correct": true,
+              "explanation": "Correct because the forward price of an asset with benefits and/or costs is the spot price compounded at the risk-free rate over the life of the contract minus the future value of those benefits and costs. That is, F0(T) = S0(1+r)^T - (y - θ)(1+r)^T where the net cost of carry consists of the benefits, denoted as y (dividends or interest plus convenience yield), minus the costs, denoted as θ. When net cost of carry is zero, the term (y - θ) is zero, resulting in (y - θ)(1+r)^T being zero. Then, F0(T) = S0(1+r)^T. Hence, the forward price of a commodity is equal to the commodity's spot price compounded at the risk-free rate over the life of the contract when the net cost of carry is zero."
+            },
+            {
+              "prompt": "C. greater than the commodity's spot price compounded at the risk-free rate over the life of the contract.",
+              "correct": false,
+              "explanation": "Incorrect. When net cost of carry is zero, the forward price equals, not exceeds, the spot price compounded at the risk-free rate."
+            }
+          ]
+        },
+        {
+          "problem": "A stock with a dividend yield of 3% is trading in the spot market at $50. If the annual risk-free rate is 5%, the 6-month forward price of the stock is closest to:\nA. $49.50.\nB. $50.50.\nC. $51.27.",
+          "answers": [
+            {
+              "prompt": "A. $49.50.",
+              "correct": false,
+              "explanation": "Incorrect. The correct calculation is F0(T) = S0 * e^((r-i)T)."
+            },
+            {
+              "prompt": "B. $50.50.",
+              "correct": true,
+              "explanation": "Correct because the forward price is: F0(T) = S0 * e^((r-i)T) where r is the risk-free rate, i is the dividend yield, and T is the time period. F0(T) = $50 * e^((0.05-0.03)*0.5) = $50.50251 ≈ $50.50."
+            },
+            {
+              "prompt": "C. $51.27.",
+              "correct": false,
+              "explanation": "Incorrect. This would be the forward price without dividend yield: $50 * e^(0.05*0.5) ≈ $51.27."
+            }
+          ]
+        },
+        {
+          "problem": "All else being equal, the cost of carry on a dividend-paying stock is:\nA. lower than the cost of carry on a stock with no dividends.\nB. the same as the cost of carry on a stock with no dividends.\nC. higher than the cost of carry on a stock with no dividends.",
+          "answers": [
+            {
+              "prompt": "A. lower than the cost of carry on a stock with no dividends.",
+              "correct": true,
+              "explanation": "Correct because the benefit of the dividend reduces the costs associated with carrying the stock. The cost of carry is the net of the costs and benefits related to owning an underlying asset for a specific period. The cost of carry is the opportunity cost plus other costs of ownership less benefits of ownership, and stock dividends or bond coupons are examples of cash flow benefits."
+            },
+            {
+              "prompt": "B. the same as the cost of carry on a stock with no dividends.",
+              "correct": false,
+              "explanation": "Incorrect. Dividends reduce the cost of carry."
+            },
+            {
+              "prompt": "C. higher than the cost of carry on a stock with no dividends.",
+              "correct": false,
+              "explanation": "Incorrect. Dividends reduce the cost of carry, not increase it."
+            }
+          ]
+        },
+        {
+          "problem": "Which of the following asset classes is most likely to have a convenience yield?\nA. Commodities\nB. Interest rates\nC. Foreign exchange",
+          "answers": [
+            {
+              "prompt": "A. Commodities",
+              "correct": true,
+              "explanation": "Correct because convenience yield is a non-cash benefit associated with physical assets. In contrast to securities or cash stored electronically, commodities usually involve known costs associated with the storage, insurance, transportation, and potential spoilage (in the case of soft commodities) of these physical assets. A non-cash benefit of holding a physical commodity versus a derivative is known as a convenience yield."
+            },
+            {
+              "prompt": "B. Interest rates",
+              "correct": false,
+              "explanation": "Incorrect. Interest rates do not have a convenience yield."
+            },
+            {
+              "prompt": "C. Foreign exchange",
+              "correct": false,
+              "explanation": "Incorrect. Foreign exchange does not have a convenience yield."
+            }
+          ]
+        },
+        {
+          "problem": "The risk-free rate is 3% and the risk premium for an asset is 2%. If an investor creates a perfect hedge by combining the asset with a derivative, the combined position should earn:\nA. 0%.\nB. 3%.\nC. 5%.",
+          "answers": [
+            {
+              "prompt": "A. 0%.",
+              "correct": false,
+              "explanation": "Incorrect. A perfectly hedged position should earn the risk-free rate."
+            },
+            {
+              "prompt": "B. 3%.",
+              "correct": true,
+              "explanation": "Correct. When a long position in the underlying is combined with a short position in the derivative to produce a perfect hedge, all of the risk is eliminated and the position should earn the risk-free rate (3%)."
+            },
+            {
+              "prompt": "C. 5%.",
+              "correct": false,
+              "explanation": "Incorrect. This is the risk-free rate plus the risk premium, but a perfectly hedged position eliminates risk and should earn only the risk-free rate."
+            }
+          ]
+        },
+        {
+          "problem": "The rate typically used in derivative pricing models to discount expected payoffs is the:\nA. risk-free rate.\nB. risk-free rate plus a risk premium.\nC. risk-free rate multiplied by the risk-neutral probability.",
+          "answers": [
+            {
+              "prompt": "A. risk-free rate.",
+              "correct": true,
+              "explanation": "Correct because virtually all derivative pricing models ultimately take this form: discounting the expected payoff of the derivative at the risk-free rate."
+            },
+            {
+              "prompt": "B. risk-free rate plus a risk premium.",
+              "correct": false,
+              "explanation": "Incorrect. Derivative pricing models discount at the risk-free rate, not the risk-free rate plus a risk premium."
+            },
+            {
+              "prompt": "C. risk-free rate multiplied by the risk-neutral probability.",
+              "correct": false,
+              "explanation": "Incorrect. The risk-neutral probability is used in the expected payoff calculation, not the discounting."
+            }
+          ]
+        },
+        {
+          "problem": "Two-year and three-year government benchmark zero-coupon bonds are priced at 96 and 93 (per 100 face value), respectively. The implied one-year forward rate in two years' time is closest to:\nA. 3.00%.\nB. 3.23%.\nC. 3.36%.",
+          "answers": [
+            {
+              "prompt": "A. 3.00%.",
+              "correct": false,
+              "explanation": "Incorrect. The correct calculation is: DF2 = 0.96 = 1/(1+z2)^2; z2 = 2.0621%. DF3 = 0.93 = 1/(1+z3)^3; z3 = 2.4485%. The implied forward rate is: (1.020621)^2 * (1 + IFR2,1) = (1.024485)^3 => IFR2,1 = 3.23%."
+            },
+            {
+              "prompt": "B. 3.23%.",
+              "correct": true,
+              "explanation": "Correct because a discount factor may also be interpreted as the price of a zero-coupon cash flow or bond. The price equivalent of a zero rate is the present value of a currency unit on a future date, known as a discount factor. The discount factor for period i (DFi) is: DFi = 1 / (1 + zi)^i. Accordingly, the equivalent zero rate is: DF2 = 0.96 = 1/(1+z2)^2; and z2 = 2.0621%. DF3 = 0.93 = 1/(1+z3)^3 and z3 = 2.4485%. The implied forward rate between period A and period B is denoted as IFRA,B-A. It is a forward rate on a bond that starts in period A and ends in period B. A general formula for the relationship between the two spot rates (zA, zB) and the implied forward rate (IFRA,B-A): (1+zA)^A * (1+IFRA,B-A)^(B-A) = (1+zB)^B. (1.020621)^2 * (1 + IFR2,1) = (1.024485)^3 => 1 + IFR2,1 = 1.032258 => R2,1 = 3.23%."
+            },
+            {
+              "prompt": "C. 3.36%.",
+              "correct": false,
+              "explanation": "Incorrect. The correct calculation is: DF2 = 0.96, DF3 = 0.93, z2 = 2.0621%, z3 = 2.4485%, and the implied forward rate is 3.23%."
+            }
+          ]
+        },
+        {
+          "problem": "A forward agreement has the following terms:\nSpot price at inception: $275\nForward price: $285\nNumber of shares: 2,000\nAt expiration, if the spot price is $282, the value to the seller is:\nA. -$6,000.\nB. $6,000.\nC. $14,000.",
+          "answers": [
+            {
+              "prompt": "A. -$6,000.",
+              "correct": false,
+              "explanation": "Incorrect. This would be the buyer's value: ($282 - $285) * 2,000 = -$6,000."
+            },
+            {
+              "prompt": "B. $6,000.",
+              "correct": true,
+              "explanation": "Correct because the value at expiration for the seller: = F0(T) - ST = $285 - $282 = $3. Hence the total value is $3 * 2,000 shares = $6,000."
+            },
+            {
+              "prompt": "C. $14,000.",
+              "correct": false,
+              "explanation": "Incorrect. This would be ($285 - $275) * 2,000, but this uses the spot price at inception rather than the spot price at expiration."
+            }
+          ]
+        },
+        {
+          "problem": "An investor observes that the price of an underlying asset is $20. The investor immediately enters into a forward contract to purchase the underlying asset in one year at a price of $10. At contract initiation, the value of the forward contract is closest to:\nA. $0.\nB. $10.\nC. $30.",
+          "answers": [
+            {
+              "prompt": "A. $0.",
+              "correct": true,
+              "explanation": "Correct. At contract initiation, the value of a forward contract is zero to both parties."
+            },
+            {
+              "prompt": "B. $10.",
+              "correct": false,
+              "explanation": "Incorrect. The value at initiation is zero, not $10."
+            },
+            {
+              "prompt": "C. $30.",
+              "correct": false,
+              "explanation": "Incorrect. The value at initiation is zero, not $30."
+            }
+          ]
+        },
+        {
+          "problem": "The spot price of an asset is $70.00. If the annual risk-free rate is 2.50%, the 9-month forward price is closest to:\nA. $68.72.\nB. $71.31.\nC. $71.75.",
+          "answers": [
+            {
+              "prompt": "A. $68.72.",
+              "correct": false,
+              "explanation": "Incorrect. This would be the present value, not the forward price."
+            },
+            {
+              "prompt": "B. $71.31.",
+              "correct": true,
+              "explanation": "Correct because the forward price is the spot price compounded at the risk-free rate over the life of the contract or F0(T) = S0(1+r)^T where S0 is the current spot price, r is the risk-free rate and T is time. Therefore, the 9-month forward price is equal to $70.00 * (1+0.025)^0.75 = $71.31."
+            },
+            {
+              "prompt": "C. $71.75.",
+              "correct": false,
+              "explanation": "Incorrect. This may result from using simple interest or incorrect compounding."
+            }
+          ]
+        },
+        {
+          "problem": "Which of the following derivatives realize a gain as the market reference rate rises above the initial fixed rate?\nA. Long forward rate agreements only\nB. Short interest rate futures contracts only\nC. Both long forward rate agreements and short interest rate futures contracts",
+          "answers": [
+            {
+              "prompt": "A. Long forward rate agreements only",
+              "correct": false,
+              "explanation": "Incorrect. Short interest rate futures also gain when rates rise."
+            },
+            {
+              "prompt": "B. Short interest rate futures contracts only",
+              "correct": false,
+              "explanation": "Incorrect. Long FRAs also gain when rates rise."
+            },
+            {
+              "prompt": "C. Both long forward rate agreements and short interest rate futures contracts",
+              "correct": true,
+              "explanation": "Correct because realizing a gain on the FRA contract as rates rise. Note that this would be cash equivalent to taking a short position on a CNY MRR futures contract if one were available. A long FRA (i.e., FRA floating-rate receiver (fixed-rate payer) position realizes a gain as MRR rises. A short futures contract price is based on (100 - yield), which gains as yield-to-maturity (MRR) rises."
+            }
+          ]
+        },
+        {
+          "problem": "An analyst gathers the following information:\nThe current spot price of crude oil is $120 per barrel.\nThe risk-free rate is 3% with annual compounding.\nA futures contract has 182 days until settlement.\nThe storage cost is $5 per barrel, payable at the end of the futures contract.\nBased on 365 days per year, the futures price per barrel of crude oil is closest to:\nA. $126.78.\nB. $126.86.\nC. $126.93.",
+          "answers": [
+            {
+              "prompt": "A. $126.78.",
+              "correct": true,
+              "explanation": "Correct because the futures price for a commodity with known storage cost amounts may be determined as: f0(T) = [S0 + PV0(C)] * (1+r)^T. PV0(C) = $5 * (1+3%)^(-182/365). f0(T) = [$120 + $5 * (1+3%)^(-182/365)] * (1+3%)^(182/365) = $126.78."
+            },
+            {
+              "prompt": "B. $126.86.",
+              "correct": false,
+              "explanation": "Incorrect. The correct calculation uses the present value of storage costs, not the future value."
+            },
+            {
+              "prompt": "C. $126.93.",
+              "correct": false,
+              "explanation": "Incorrect. The correct calculation is $126.78."
+            }
+          ]
+        },
+        {
+          "problem": "Which of the following interest rate derivatives most likely has the largest convexity bias?\nA. Forward rate agreement on a 1-month market reference rate\nB. Forward rate agreement on a 3-month market reference rate\nC. Interest rate futures contract on a 3-month market reference rate",
+          "answers": [
+            {
+              "prompt": "A. Forward rate agreement on a 1-month market reference rate",
+              "correct": false,
+              "explanation": "Incorrect. A 3-month MRR FRA has a longer discounting period, leading to a larger convexity bias."
+            },
+            {
+              "prompt": "B. Forward rate agreement on a 3-month market reference rate",
+              "correct": true,
+              "explanation": "Correct because the discounting feature of the FRA, which is not present in the futures contract, leads to a convexity bias that is greater for longer discounting periods. Since the length of the discounting period depends on the maturity of the underlying market reference rate, 3-month market reference rate results in a longer discounting period than the 1-month rate."
+            },
+            {
+              "prompt": "C. Interest rate futures contract on a 3-month market reference rate",
+              "correct": false,
+              "explanation": "Incorrect. Futures contracts do not have a convexity bias because they are settled daily, not discounted."
+            }
+          ]
+        },
+        {
+          "problem": "A futures contract's:\nA. mark-to-market is not settled until maturity.\nB. price remains fixed until the contract matures.\nC. variation margin reduces counterparty credit risk.",
+          "answers": [
+            {
+              "prompt": "A. mark-to-market is not settled until maturity.",
+              "correct": false,
+              "explanation": "Incorrect. Futures are marked-to-market and settled daily."
+            },
+            {
+              "prompt": "B. price remains fixed until the contract matures.",
+              "correct": false,
+              "explanation": "Incorrect. The futures price changes daily with the market."
+            },
+            {
+              "prompt": "C. variation margin reduces counterparty credit risk.",
+              "correct": true,
+              "explanation": "Correct because the daily settlement mechanism resets the futures MTM to zero, and variation margin is exchanged to settle the difference, reducing counterparty credit risk."
+            }
+          ]
+        },
+        {
+          "problem": "The differential between forward and futures prices is determined by which of the following?\nA. Interest rate volatility only\nB. The correlation between futures prices and interest rates only\nC. Both interest rate volatility and the correlation between futures prices and interest rates",
+          "answers": [
+            {
+              "prompt": "A. Interest rate volatility only",
+              "correct": false,
+              "explanation": "Incorrect. Both factors affect the differential."
+            },
+            {
+              "prompt": "B. The correlation between futures prices and interest rates only",
+              "correct": false,
+              "explanation": "Incorrect. Both factors affect the differential."
+            },
+            {
+              "prompt": "C. Both interest rate volatility and the correlation between futures prices and interest rates",
+              "correct": true,
+              "explanation": "Correct because the different patterns of cash flows for forwards and futures can lead to difference in the pricing of forwards versus futures. Forward and futures prices are identical under certain conditions, namely: if interest rates are constant, or if futures prices and interest rates are uncorrelated. On the other hand, violations of these assumptions can give rise to differences in pricing between these two contracts. For example, if futures prices are positively correlated with interest rates, long futures contracts are more attractive than long forward positions for the same underlying and maturity. The reason is because rising prices lead to futures profits that are reinvested in periods of rising interest rates, and falling prices lead to losses that occur in periods of falling interest rates. The price differential will also vary with the volatility of interest rates. Therefore, the differential between forward and futures prices is determined by both interest rate volatility and the correlation between futures prices and interest rates."
+            }
+          ]
+        },
+        {
+          "problem": "All else being equal, the price of a forward contract is most likely higher than the price of a futures contract if interest rates are:\nA. negatively correlated with futures prices.\nB. uncorrelated with futures prices.\nC. positively correlated with futures prices.",
+          "answers": [
+            {
+              "prompt": "A. negatively correlated with futures prices.",
+              "correct": true,
+              "explanation": "Correct because a negative correlation between futures prices and interest rates leads to forwards being more desirable than futures to the long position. The reason is that rising prices lead to futures profits that are reinvested in periods of falling interest rates, and falling prices lead to losses that occur in periods of rising interest rates. It is far better to receive all cash flows at expiration under such conditions than to receive them in the interim periods. This condition makes forwards more attractive than futures. The more desirable contract will tend to have the higher price. Therefore, the price of the forward contract is higher than the price of the futures contract on the same underlying when interest rates are negatively correlated with futures prices."
+            },
+            {
+              "prompt": "B. uncorrelated with futures prices.",
+              "correct": false,
+              "explanation": "Incorrect. When uncorrelated, forward and futures prices are equal."
+            },
+            {
+              "prompt": "C. positively correlated with futures prices.",
+              "correct": false,
+              "explanation": "Incorrect. When positively correlated, futures prices are higher than forward prices."
+            }
+          ]
+        },
+        {
+          "problem": "A $10 million interest rate swap with annual payments has a fixed swap rate of 1.95%. The implied forward rates are:\nYear 1: 0.50%\nYear 2: 1.15%\nYear 3: 1.35%\nThe periodic settlement value in Year 3 for the fixed-rate payer is expected to be closest to:\nA. -$95,000.\nB. -$60,000.\nC. $60,000.",
+          "answers": [
+            {
+              "prompt": "A. -$95,000.",
+              "correct": false,
+              "explanation": "Incorrect. The correct calculation is (0.0135 - 0.0195) * $10,000,000 = -$60,000."
+            },
+            {
+              "prompt": "B. -$60,000.",
+              "correct": true,
+              "explanation": "Correct because the periodic settlement value = (MRR - SN) * Notional amount * Period. The market reference rate (MRR) for Year 3 is 1.35%, thus: = (0.0135 - 0.0195) * $10,000,000 * 1 = -$60,000."
+            },
+            {
+              "prompt": "C. $60,000.",
+              "correct": false,
+              "explanation": "Incorrect. The fixed-rate payer pays the fixed rate and receives the floating rate, so when the floating rate (1.35%) is less than the fixed rate (1.95%), the payer has a loss of -$60,000."
+            }
+          ]
+        },
+        {
+          "problem": "A series of forward rate agreements and an interest rate swap contract covering the same periods and using the same market reference rate will most likely have the same:\nA. fixed rates.\nB. cash flows upfront.\nC. settlement cash flows.",
+          "answers": [
+            {
+              "prompt": "A. fixed rates.",
+              "correct": false,
+              "explanation": "Incorrect. FRAs have different fixed rates for each period, while a swap has a single fixed rate."
+            },
+            {
+              "prompt": "B. cash flows upfront.",
+              "correct": true,
+              "explanation": "Correct because similarities between interest rate forwards and swaps include the symmetric payoff profile and the fact that no cash flow is exchanged upfront."
+            },
+            {
+              "prompt": "C. settlement cash flows.",
+              "correct": false,
+              "explanation": "Incorrect. FRAs settle individually, while swaps have net settlement."
+            }
+          ]
+        },
+        {
+          "problem": "From the fixed-rate receiver's perspective, if the market reference rate increases, the value of a swap contract:\nA. decreases.\nB. stays the same.\nC. increases.",
+          "answers": [
+            {
+              "prompt": "A. decreases.",
+              "correct": true,
+              "explanation": "Correct because the fixed-rate receiver pays the market reference rate and receives the par swap rate. If the market reference rate increases, they are paying more and the value of the contract decreases to them. Another interpretation of an interest rate swap is that the fixed-rate payer (floating-rate receiver) is long a floating-rate note (FRN) priced at the MRR and short a fixed-rate bond with a coupon equal to the fixed swap rate. Similarly, the fixed-rate receiver (floating-rate payer) is long a fixed-rate bond with a coupon equal to the swap rate and short a floating-rate note priced at the MRR. A rise in the expected forward rates after inception will increase the present value of floating payments, while the fixed-swap rate will remain the same."
+            },
+            {
+              "prompt": "B. stays the same.",
+              "correct": false,
+              "explanation": "Incorrect. The value changes because the floating payments increase."
+            },
+            {
+              "prompt": "C. increases.",
+              "correct": false,
+              "explanation": "Incorrect. The value decreases because the receiver pays more floating and receives the same fixed rate."
+            }
+          ]
+        },
+        {
+          "problem": "A swap is most likely similar to a series of forward contracts when:\nA. all forward contracts are created with the combined value equal to zero.\nB. all forward contracts are entered into at the price created in the forward market.\nC. the value of the long forward contracts are matched with the value of the short forward contracts at each swap payment date.",
+          "answers": [
+            {
+              "prompt": "A. all forward contracts are created with the combined value equal to zero.",
+              "correct": true,
+              "explanation": "Correct because, in a swap, each forward contract will be created at the fixed price that corresponds to the fixed price of a swap of the same maturity with payments made at the same dates as the series of forward contracts. That means that some of the forward contracts would have positive values and some would have negative values, but their combined values would equal zero."
+            },
+            {
+              "prompt": "B. all forward contracts are entered into at the price created in the forward market.",
+              "correct": false,
+              "explanation": "Incorrect. The forward contracts in a swap are created at the swap's fixed rate, not the market forward rate."
+            },
+            {
+              "prompt": "C. the value of the long forward contracts are matched with the value of the short forward contracts at each swap payment date.",
+              "correct": false,
+              "explanation": "Incorrect. The combined value of all forward contracts is zero at inception, but individual forward contracts may have positive or negative values."
+            }
+          ]
+        },
+        {
+          "problem": "All else held equal, the value of a European call option is best characterized as having a:\nA. negative relationship with the price of the underlying.\nB. negative relationship with the volatility of the underlying.\nC. positive relationship with the time to expiration.",
+          "answers": [
+            {
+              "prompt": "A. negative relationship with the price of the underlying.",
+              "correct": false,
+              "explanation": "Incorrect. Calls have a positive relationship with the underlying price."
+            },
+            {
+              "prompt": "B. negative relationship with the volatility of the underlying.",
+              "correct": false,
+              "explanation": "Incorrect. Calls have a positive relationship with volatility."
+            },
+            {
+              "prompt": "C. positive relationship with the time to expiration.",
+              "correct": true,
+              "explanation": "Correct. The value of a European call option is directly related to the time to expiration. That is, all else held equal, the value of a European call option is higher the longer the time to expiration."
+            }
+          ]
+        },
+        {
+          "problem": "The upper bound of a call value is the:\nA. underlying's price.\nB. underlying's price plus the present value of its exercise price or zero, whichever is greater.\nC. underlying's price minus the present value of its exercise price or zero, whichever is greater.",
+          "answers": [
+            {
+              "prompt": "A. underlying's price.",
+              "correct": true,
+              "explanation": "Correct because the upper no-arbitrage bound of a call value is the underlying's spot price."
+            },
+            {
+              "prompt": "B. underlying's price plus the present value of its exercise price or zero, whichever is greater.",
+              "correct": false,
+              "explanation": "Incorrect. This is not the upper bound of a call."
+            },
+            {
+              "prompt": "C. underlying's price minus the present value of its exercise price or zero, whichever is greater.",
+              "correct": false,
+              "explanation": "Incorrect. This is the lower bound of a call, not the upper bound."
+            }
+          ]
+        },
+        {
+          "problem": "If the price of the underlying is $57, which of the following long option positions is out of the money?\nA. put with a strike price of $60\nB. put with a strike price of $50\nC. call with a strike price of $50",
+          "answers": [
+            {
+              "prompt": "A. put with a strike price of $60",
+              "correct": false,
+              "explanation": "Incorrect. This put is in-the-money because ST ($57) < X ($60)."
+            },
+            {
+              "prompt": "B. put with a strike price of $50",
+              "correct": true,
+              "explanation": "Correct because when the underlying has not reached the exercise price (currently lower for call, higher for a put), the option is said to be out-of-the-money. In this case, as the underlying price of $57 is higher than the strike price of $50, the put is out of the money."
+            },
+            {
+              "prompt": "C. call with a strike price of $50",
+              "correct": false,
+              "explanation": "Incorrect. This call is in-the-money because ST ($57) > X ($50)."
+            }
+          ]
+        },
+        {
+          "problem": "A put option with the greatest moneyness has a strike price:\nA. less than the price of the underlying.\nB. equal to the price of the underlying.\nC. greater than the price of the underlying.",
+          "answers": [
+            {
+              "prompt": "A. less than the price of the underlying.",
+              "correct": false,
+              "explanation": "Incorrect. This would be out-of-the-money for a put."
+            },
+            {
+              "prompt": "B. equal to the price of the underlying.",
+              "correct": false,
+              "explanation": "Incorrect. This is at-the-money, not the greatest moneyness."
+            },
+            {
+              "prompt": "C. greater than the price of the underlying.",
+              "correct": true,
+              "explanation": "Correct because when the underlying is beyond the exercise price in the appropriate direction (higher for a call, lower for a put), the option is said to be in-the-money. In addition, for puts to expire in-the-money, the value of the underlying must fall below the exercise price. The higher the exercise price, the better chance the underlying has of getting below it. Likewise, if the value of the underlying does fall below the exercise price, the higher the exercise price, the greater the payoff. So, if X is higher, ST will be below it more often, and if ST is less than X, the payoff of X - ST is greater, the higher is X for whatever value of ST occurs. Therefore, a put option with the greatest moneyness has a strike price greater than the price of the underlying."
+            }
+          ]
+        },
+        {
+          "problem": "Which of the following European options has the greatest value at expiration?\nA. call with an exercise price of 72 and an underlying priced at 83\nB. call with an exercise price of 83 and an underlying priced at 70\nC. put with an exercise price of 70 and an underlying priced at 83",
+          "answers": [
+            {
+              "prompt": "A. call with an exercise price of 72 and an underlying priced at 83",
+              "correct": true,
+              "explanation": "Correct because the value of the call option at expiration is the greater of either zero or the underlying price at expiration minus the exercise price, which is typically written as: cT = Max(0, ST - X), where cT = call option price at expiration and ST = underlying price at expiration. Therefore, a call option with an exercise price of 72 and an underlying priced at 83 will have a value: cT = Max(0, 83 - 72) = 11."
+            },
+            {
+              "prompt": "B. call with an exercise price of 83 and an underlying priced at 70",
+              "correct": false,
+              "explanation": "Incorrect. This call is out-of-the-money and has value 0."
+            },
+            {
+              "prompt": "C. put with an exercise price of 70 and an underlying priced at 83",
+              "correct": false,
+              "explanation": "Incorrect. This put is out-of-the-money and has value 0."
+            }
+          ]
+        },
+        {
+          "problem": "All else being equal, if the exercise values of a European call option and a European put option on the same underlying are equal, both options must be:\nA. in-the-money options.\nB. at-the-money options.\nC. out-of-the-money options.",
+          "answers": [
+            {
+              "prompt": "A. in-the-money options.",
+              "correct": false,
+              "explanation": "Incorrect. If both are in-the-money, the call's exercise value is ST - X and the put's is X - ST. They would only be equal if ST - X = X - ST, which implies ST = X (at-the-money)."
+            },
+            {
+              "prompt": "B. at-the-money options.",
+              "correct": true,
+              "explanation": "Correct because the value of a European call at expiration is the exercise value, which is the greater of zero or the value of the underlying minus the exercise price. And the value of a European put at expiration is the exercise value, which is the greater of zero or the exercise price minus the value of the underlying. This means if the call option is in-the-money (out-of-the-money), the put option of the same strike will be out-of-the-money (in-the-money). That is, if the exercise value of a call (put) option is positive, the exercise value of a put (call) option will be zero. But when the underlying is precisely at the exercise price (the option is said to be at-the-money), the exercise value of a European call and a European put will be the same, which is zero. Therefore, all else being equal, if the exercise values of a European call option and a European put option on the same underlying are the same, then the European call and the European put must be both at-the-money options."
+            },
+            {
+              "prompt": "C. out-of-the-money options.",
+              "correct": false,
+              "explanation": "Incorrect. Out-of-the-money options have exercise values of 0 for both, but this would also be true for at-the-money options. More precisely, the exercise values equal only when ST = X (at-the-money)."
+            }
+          ]
+        },
+        {
+          "problem": "The value of a long position in a European put option is directly related to the:\nA. exercise price.\nB. risk-free interest rate.\nC. value of the underlying.",
+          "answers": [
+            {
+              "prompt": "A. exercise price.",
+              "correct": true,
+              "explanation": "Correct because the value of a European put option is directly related to the exercise price."
+            },
+            {
+              "prompt": "B. risk-free interest rate.",
+              "correct": false,
+              "explanation": "Incorrect. Puts are inversely related to the risk-free rate."
+            },
+            {
+              "prompt": "C. value of the underlying.",
+              "correct": false,
+              "explanation": "Incorrect. Puts are inversely related to the value of the underlying."
+            }
+          ]
+        },
+        {
+          "problem": "The current price of the underlying is $7.40 and the annual risk-free rate is 6%. The minimum price for a 6-month call option with a strike price of $7.50 is closest to:\nA. $0.00.\nB. $0.12.\nC. $0.31.",
+          "answers": [
+            {
+              "prompt": "A. $0.00.",
+              "correct": false,
+              "explanation": "Incorrect. The lower bound is positive because S0 > PV(X)."
+            },
+            {
+              "prompt": "B. $0.12.",
+              "correct": true,
+              "explanation": "Correct because the price for a European call option is known to satisfy the formula c0 ≥ Max[0, S0 - X / (1+r)^T] where c0 is the current price of the European call option, S0 is the current stock price, X is the strike price, r is the risk-free interest rate and T is time. Therefore the minimum price is equal to Max[0, $7.40 - $7.50 / (1.06)^(6/12)] = Max[0, $7.40 - $7.28] = Max[0, $0.12] = $0.12."
+            },
+            {
+              "prompt": "C. $0.31.",
+              "correct": false,
+              "explanation": "Incorrect. The correct calculation is $7.40 - $7.50/1.03 = $0.12."
+            }
+          ]
+        },
+        {
+          "problem": "The upper bound of a put value is the:\nA. exercise price.\nB. price of the underlying.\nC. present value of the exercise price minus the spot price.",
+          "answers": [
+            {
+              "prompt": "A. exercise price.",
+              "correct": true,
+              "explanation": "Correct because the exercise price, X, therefore represents the upper bound on the put value."
+            },
+            {
+              "prompt": "B. price of the underlying.",
+              "correct": false,
+              "explanation": "Incorrect. This is the upper bound for a call, not a put."
+            },
+            {
+              "prompt": "C. present value of the exercise price minus the spot price.",
+              "correct": false,
+              "explanation": "Incorrect. This is the lower bound for a put, not the upper bound."
+            }
+          ]
+        },
+        {
+          "problem": "The value of a European call option is inversely related to the:\nA. exercise price.\nB. time to expiration.\nC. risk-free interest rate.",
+          "answers": [
+            {
+              "prompt": "A. exercise price.",
+              "correct": true,
+              "explanation": "Correct because the value of a European call option is inversely related to the exercise price."
+            },
+            {
+              "prompt": "B. time to expiration.",
+              "correct": false,
+              "explanation": "Incorrect. Calls are directly related to time to expiration."
+            },
+            {
+              "prompt": "C. risk-free interest rate.",
+              "correct": false,
+              "explanation": "Incorrect. Calls are directly related to the risk-free rate."
+            }
+          ]
+        },
+        {
+          "problem": "All else being equal, if the risk-free rate increases, the value of a European put option:\nA. decreases.\nB. remains the same.\nC. increases.",
+          "answers": [
+            {
+              "prompt": "A. decreases.",
+              "correct": true,
+              "explanation": "Correct because the value of a European put is inversely related to the risk-free interest rate. Therefore, an increase in the risk-free rate decreases the value of a European put option."
+            },
+            {
+              "prompt": "B. remains the same.",
+              "correct": false,
+              "explanation": "Incorrect. The risk-free rate affects put option values."
+            },
+            {
+              "prompt": "C. increases.",
+              "correct": false,
+              "explanation": "Incorrect. Puts decrease when the risk-free rate increases."
+            }
+          ]
+        },
+        {
+          "problem": "For a European call option with one month until expiration, if the spot price is below the exercise price, the call option most likely has:\nA. positive time value only.\nB. positive intrinsic value only.\nC. both positive time value and positive intrinsic value.",
+          "answers": [
+            {
+              "prompt": "A. positive time value only.",
+              "correct": true,
+              "explanation": "Correct because a European call option with two months until expiration will typically have positive time value, where time value reflects the value of the uncertainty that arises from the volatility in the underlying. In addition, cT = Max(0, ST - X) or intrinsic value equals the greater of zero or the value of the underlying minus exercise price. The call option is out-of-the-money and therefore, has zero intrinsic value."
+            },
+            {
+              "prompt": "B. positive intrinsic value only.",
+              "correct": false,
+              "explanation": "Incorrect. When ST < X, the call is out-of-the-money with zero intrinsic value."
+            },
+            {
+              "prompt": "C. both positive time value and positive intrinsic value.",
+              "correct": false,
+              "explanation": "Incorrect. Intrinsic value is zero when ST < X."
+            }
+          ]
+        },
+        {
+          "problem": "An analyst gathers the following information:\nCall price: $10\nStock price: $40\nExercise price: $60\nInterest rate: 3%\nTime to expiry: 1 year\nAccording to put-call parity, the price of the put is closest to:\nA. $28.25.\nB. $30.00.\nC. $108.25.",
+          "answers": [
+            {
+              "prompt": "A. $28.25.",
+              "correct": true,
+              "explanation": "Correct because S0 + p0 = c0 + X / (1+r)^T. This relationship is known as put-call parity. Here S0 is the spot price, p0 is the put premium, X is the strike price and r is the interest rate. S0 + p0 = c0 + X / (1+r)^T => 40 + p0 = 10 + 60 / 1.03 => p0 = 10 + 60 / 1.03 - 40 = 28.25."
+            },
+            {
+              "prompt": "B. $30.00.",
+              "correct": false,
+              "explanation": "Incorrect. The correct put price is $28.25."
+            },
+            {
+              "prompt": "C. $108.25.",
+              "correct": false,
+              "explanation": "Incorrect. This is much too high; the put price should be around $28.25."
+            }
+          ]
+        },
+        {
+          "problem": "All else being equal, the cost of a fiduciary call must be:\nA. less than the cost of a synthetic protective put.\nB. equal to the cost of a synthetic protective put.\nC. greater than the cost of a synthetic protective put.",
+          "answers": [
+            {
+              "prompt": "A. less than the cost of a synthetic protective put.",
+              "correct": false,
+              "explanation": "Incorrect. The costs must be equal."
+            },
+            {
+              "prompt": "B. equal to the cost of a synthetic protective put.",
+              "correct": true,
+              "explanation": "Correct because the cost of the fiduciary call must equal the cost of the synthetic protective put, giving us what is referred to as put-call-forward parity."
+            },
+            {
+              "prompt": "C. greater than the cost of a synthetic protective put.",
+              "correct": false,
+              "explanation": "Incorrect. The costs must be equal."
+            }
+          ]
+        },
+        {
+          "problem": "Based on put-call parity, the payoff on a short underlying position is equivalent to the payoff on a portfolio consisting of a:\nA. short call, a long put, and a long bond.\nB. short call, a long put, and a short bond.\nC. long call, a short put, and a short bond.",
+          "answers": [
+            {
+              "prompt": "A. short call, a long put, and a long bond.",
+              "correct": false,
+              "explanation": "Incorrect. The bond should be short, not long."
+            },
+            {
+              "prompt": "B. short call, a long put, and a short bond.",
+              "correct": true,
+              "explanation": "Correct because the put-call parity relationship implies that a long underlying can be mimicked as follows: S0 = c0 - p0 + X / (1+r)^T. This implies that a short underlying position is equivalent to: -S0 = -c0 + p0 - X / (1+r)^T that is, a short call, a long put, and a short bond."
+            },
+            {
+              "prompt": "C. long call, a short put, and a short bond.",
+              "correct": false,
+              "explanation": "Incorrect. This would represent a long underlying position, not short."
+            }
+          ]
+        },
+        {
+          "problem": "According to put-call-forward parity, a trader can create a synthetic short position in a risk-free bond by setting up a long position in a call option along with a:\nA. short position in a forward contract and a long position in a put.\nB. long position in a forward contract and a short position in a put.\nC. short position in a forward contract and a short position in a put.",
+          "answers": [
+            {
+              "prompt": "A. short position in a forward contract and a long position in a put.",
+              "correct": false,
+              "explanation": "Incorrect. To create a synthetic short bond, you need short put, not long put."
+            },
+            {
+              "prompt": "B. long position in a forward contract and a short position in a put.",
+              "correct": false,
+              "explanation": "Incorrect. The forward position should be short, not long."
+            },
+            {
+              "prompt": "C. short position in a forward contract and a short position in a put.",
+              "correct": true,
+              "explanation": "Correct because combining the synthetic asset with the put-call parity relationship---so, substituting the present value of F0(T) for S0---we have what is referred to as put-call forward parity: F0(T)(1+r)^-T + p0 = c0 + X(1+r)^-T, where F0(T)(1+r)^-T is the present value of F0(T) discounted at the risk-free rate, p0 is the price of the put option on the underlying at t=0, c0 is the price of the call option on the underlying at t=0, X(1+r)^-T is a risk free bond that pays the amount of the exercise price X at t=T. In other words, under put-call parity, at t=0 the price of the long underlying asset plus the long put must equal the price of the long call plus the risk-free asset. Rearranging the formula yields: -X(1+r)^-T = c0 - p0 - F0(T)(1+r)^-T. In other words, one can create a synthetic short position in a risk-free bond by going long a call, short a put, and short a forward contract."
+            }
+          ]
+        },
+        {
+          "problem": "According to put-call-forward parity, the payoff on a synthetic protective put is equivalent to the payoff on a portfolio consisting of:\nA. a long call and a long risk-free bond.\nB. a long call, a short forward contract and a long risk-free bond.\nC. a long put, a short forward contract and a short risk-free bond.",
+          "answers": [
+            {
+              "prompt": "A. a long call and a long risk-free bond.",
+              "correct": true,
+              "explanation": "Correct because recall our put-call parity discussion and assume that Investor A creates his protective put in a slightly different manner. Instead of buying the asset, he buys a forward contract and a risk-free bond in which the face value is the forward price. This strategy is a synthetic protective put. Because we showed that the fiduciary call is equivalent to the protective put, a fiduciary call has to be equivalent to a protective put with a forward contract. Therefore, the payoff on a synthetic protective put = the payoff on a fiduciary call x synthetic protective put = long risk-free bond + long forward contract + long put = long call + long risk-free bond."
+            },
+            {
+              "prompt": "B. a long call, a short forward contract and a long risk-free bond.",
+              "correct": false,
+              "explanation": "Incorrect. A synthetic protective put is long call + long risk-free bond."
+            },
+            {
+              "prompt": "C. a long put, a short forward contract and a short risk-free bond.",
+              "correct": false,
+              "explanation": "Incorrect. A synthetic protective put is long call + long risk-free bond."
+            }
+          ]
+        },
+        {
+          "problem": "According to put-call parity, the payoff of a long risk-free bond can be replicated synthetically by going:\nA. long an asset, long a put and long a call.\nB. long an asset, long a put and short a call.\nC. long an asset, short a put and short a call.",
+          "answers": [
+            {
+              "prompt": "A. long an asset, long a put and long a call.",
+              "correct": false,
+              "explanation": "Incorrect. This would be long asset + long put + long call, which is not a risk-free bond."
+            },
+            {
+              "prompt": "B. long an asset, long a put and short a call.",
+              "correct": true,
+              "explanation": "Correct because according to put-call parity, X / (1+r)^T = S0 + p0 - c0, long bond = long asset + long put, short call. Therefore, the payoff of a long risk-free bond can be synthetically created by going long an asset, long a put and short a call."
+            },
+            {
+              "prompt": "C. long an asset, short a put and short a call.",
+              "correct": false,
+              "explanation": "Incorrect. This would be short put, which is not a risk-free bond."
+            }
+          ]
+        },
+        {
+          "problem": "A fiduciary call is a strategy in which a trader purchases a call option:\nA. and takes a short position in the underlying asset.\nB. with funds received from selling short a zero coupon bond of the same maturity as the call option.\nC. along with a zero coupon bond of the same maturity as the call option and with a face value equal to the exercise price of the option.",
+          "answers": [
+            {
+              "prompt": "A. and takes a short position in the underlying asset.",
+              "correct": false,
+              "explanation": "Incorrect. This describes a covered call, not a fiduciary call."
+            },
+            {
+              "prompt": "B. with funds received from selling short a zero coupon bond of the same maturity as the call option.",
+              "correct": false,
+              "explanation": "Incorrect. A fiduciary call involves buying a bond, not shorting one."
+            },
+            {
+              "prompt": "C. along with a zero coupon bond of the same maturity as the call option and with a face value equal to the exercise price of the option.",
+              "correct": true,
+              "explanation": "Correct because this combination of instruments is the precise definition of a fiduciary call. At time 0, this investor buys a call option on this asset with an exercise price of X that expires at T and a risk-free zero-coupon bond with a face value of X that matures at T. This strategy is sometimes known as a fiduciary call."
+            }
+          ]
+        },
+        {
+          "problem": "Which of the following is most accurate? Put-call-forward parity:\nA. assumes that the strike of the options is equal to the forward price of the underlying.\nB. is derived by equating the price of an at the money put to the price of an at the money call.\nC. assumes that the maturity of the put option, the call option, the forward and the bond are the same.",
+          "answers": [
+            {
+              "prompt": "A. assumes that the strike of the options is equal to the forward price of the underlying.",
+              "correct": false,
+              "explanation": "Incorrect. The strike price and forward price are not necessarily equal."
+            },
+            {
+              "prompt": "B. is derived by equating the price of an at the money put to the price of an at the money call.",
+              "correct": false,
+              "explanation": "Incorrect. Put-call-forward parity relates the prices of put, call, forward, and bond."
+            },
+            {
+              "prompt": "C. assumes that the maturity of the put option, the call option, the forward and the bond are the same.",
+              "correct": true,
+              "explanation": "Correct because the put-call-forward parity equation is formed by comparing the maturity payoffs of synthetic protective put and a fiduciary call. It follows that maturity of all the components have to be the same. Because we showed that the fiduciary call is equivalent to the protective put, a fiduciary call has to be equivalent to a protective put with a forward contract. It follows that the cost of the fiduciary call must equal the cost of the synthetic protective put, giving us what is referred to as put-call-forward parity."
+            }
+          ]
+        },
+        {
+          "problem": "All else being equal, based on put-call-forward parity, the price of a put is higher than the price of a call when:\nA. the forward price of the underlying is lower than the exercise price.\nB. the forward price of the underlying is equal to the exercise price.\nC. the forward price of the underlying is higher than the exercise price.",
+          "answers": [
+            {
+              "prompt": "A. the forward price of the underlying is lower than the exercise price.",
+              "correct": true,
+              "explanation": "Correct because it follows that the cost of the fiduciary call must equal the cost of the synthetic protective put, giving us what is referred to as put-call-forward parity, F0(T)/(1+r)^T + p0 = c0 + X/(1+r)^T. Rearranging this equation results in: p0 - c0 = [X - F0(T)] / (1+r)^T. Based on this parity equation, p0 > c0 when X > F0(T)."
+            },
+            {
+              "prompt": "B. the forward price of the underlying is equal to the exercise price.",
+              "correct": false,
+              "explanation": "Incorrect. When F0(T) = X, then p0 = c0."
+            },
+            {
+              "prompt": "C. the forward price of the underlying is higher than the exercise price.",
+              "correct": false,
+              "explanation": "Incorrect. When F0(T) > X, then p0 < c0."
+            }
+          ]
+        },
+        {
+          "problem": "An analyst gathers the following information:\nPut price: $120\nForward price: $110\nExercise price: $100\nInterest rate: 2%\nTime to expiry: 1 year\nAccording to put-call-forward parity, the price of the call is closest to:\nA. $127.84.\nB. $129.80.\nC. $131.80.",
+          "answers": [
+            {
+              "prompt": "A. $127.84.",
+              "correct": false,
+              "explanation": "Incorrect. The correct calculation is: F0(T)/(1+r)^T + p0 = c0 + X/(1+r)^T => 110/1.02 + 120 = c0 + 100/1.02 => c0 = 129.80."
+            },
+            {
+              "prompt": "B. $129.80.",
+              "correct": true,
+              "explanation": "Correct because the cost of the fiduciary call must equal the cost of the synthetic protective put, giving us what is referred to as put-call-forward parity, F0(T)/(1+r)^T + p0 = c0 + X/(1+r)^T. Here F0(T) is the forward price at expiration, X is the strike price and r is the interest rate, p0 is the put premium and c0 is the call premium. F0(T)/(1+r)^T + p0 = c0 + X/(1+r)^T => 110/1.02 + 120 = c0 + 100/1.02 => c0 = 129.80."
+            },
+            {
+              "prompt": "C. $131.80.",
+              "correct": false,
+              "explanation": "Incorrect. The correct calculation is: (110/1.02 + 120) - 100/1.02 = 129.80."
+            }
+          ]
+        },
+        {
+          "problem": "According to put-call parity, a long put option is equivalent to being:\nA. long a call, short the underlying asset, and long a risk-free bond.\nB. long a call, long the underlying asset, and short a risk-free bond.\nC. short a call, long the underlying asset, and long a risk-free bond.",
+          "answers": [
+            {
+              "prompt": "A. long a call, short the underlying asset, and long a risk-free bond.",
+              "correct": true,
+              "explanation": "Correct because the formula for put-call parity is S0 + p0 = c0 + X / (1+r)^T where S0 is the stock price at time zero, p0 is the price of a put option at time zero, c0 is the price of a call option at time zero, X is the strike price, r is the risk-free rate, and T is time. By using the symbols and the signs in these versions of put-call parity, we can see several important interpretations. In the equations below, plus signs mean long and minus signs mean short: p0 = c0 - S0 + X / (1+r)^T => long put = long call, short asset, long bond."
+            },
+            {
+              "prompt": "B. long a call, long the underlying asset, and short a risk-free bond.",
+              "correct": false,
+              "explanation": "Incorrect. This would be: p0 = c0 + S0 - X/(1+r)^T, which is not correct."
+            },
+            {
+              "prompt": "C. short a call, long the underlying asset, and long a risk-free bond.",
+              "correct": false,
+              "explanation": "Incorrect. This would be: p0 = -c0 + S0 + X/(1+r)^T, which is not correct."
+            }
+          ]
+        },
+        {
+          "problem": "Which of the following factors affects the option price when using a binomial model? The:\nA. risk-free rate.\nB. level of investors' risk aversion.\nC. expected return of the underlying.",
+          "answers": [
+            {
+              "prompt": "A. risk-free rate.",
+              "correct": true,
+              "explanation": "Correct because the value of the call option today, c0, is computed as the expected value of the option at expiration, c1u and c1d, discounted at the risk-free rate, r. Also, this no-arbitrage derivative value established separately from investor views on risk is referred to as risk-neutral pricing."
+            },
+            {
+              "prompt": "B. level of investors' risk aversion.",
+              "correct": false,
+              "explanation": "Incorrect. Risk-neutral pricing does not depend on investor risk aversion."
+            },
+            {
+              "prompt": "C. expected return of the underlying.",
+              "correct": false,
+              "explanation": "Incorrect. Risk-neutral pricing does not depend on the expected return of the underlying."
+            }
+          ]
+        },
+        {
+          "problem": "An analyst gathers the following information about an underlying:\nCurrent price of underlying asset: $16.0\nEnd of period upward price: $22.0\nEnd of period downward price: $12.0\nRisk-free rate: 4.0%\nUsing a one-period binomial model, the risk-neutral probability of a price increase is closest to:\nA. 0.38.\nB. 0.46.\nC. 0.54.",
+          "answers": [
+            {
+              "prompt": "A. 0.38.",
+              "correct": false,
+              "explanation": "Incorrect. The correct calculation is π = (1 + r - Rd) / (Ru - Rd) = (1 + 0.04 - 0.75) / (1.375 - 0.75) = 0.29/0.625 = 0.464 ≈ 0.46."
+            },
+            {
+              "prompt": "B. 0.46.",
+              "correct": true,
+              "explanation": "Correct because the risk-neutral probability (π) is the computed probability used in binomial option pricing by which the discounted weighted sum of expected values of the underlying, S1u = Ru * S0 and S1d = Rd * S0, equal the current option price. Specifically, the probability is computed using the risk-free rate and assumed up gross return and down gross return of the underlying as in Equation 7: π = (1 + r - Rd) / (Ru - Rd). More specifically, π is the risk-neutral probability of an increase in the underlying price to S1u = Ru * S0, and (1 - π) is that of a decrease, S1d = Rd * S0. Thus, An increase from $16 to $22 or a decrease from $16 to $12 corresponds to: Ru = $22/$16 = 1.375 and Rd = $12/$16 = 0.75. Using the risk-neutral probability (π) of a price increase: π = (1 + r - Rd) / (Ru - Rd) = (1 + 0.04 - 0.75) / (1.375 - 0.75) = 0.29 / 0.625 = 0.464 ≈ 0.46."
+            },
+            {
+              "prompt": "C. 0.54.",
+              "correct": false,
+              "explanation": "Incorrect. The correct calculation is 0.46, not 0.54."
+            }
+          ]
+        },
+        {
+          "problem": "All else being equal, if the up gross return increases in a one-period binomial model, the risk-neutral probability of an upward price movement of the asset will:\nA. decrease.\nB. remain the same.\nC. increase.",
+          "answers": [
+            {
+              "prompt": "A. decrease.",
+              "correct": true,
+              "explanation": "Correct because the risk-neutral probability (π) is the computed probability used in binomial option pricing by which the discounted weighted sum of expected values of the underlying, S1u = Ru * S0 and S1d = Rd * S0, equal the current option price. Specifically, this probability is computed using the risk-free rate and assumed up gross return and down gross return of the underlying as in π = (1 + r - Rd) / (Ru - Rd). So, if the up gross return increases in a one-period binomial model, the denominator will increase. Therefore, the risk-neutral probability of an upward price movement of the asset, (π), decreases."
+            },
+            {
+              "prompt": "B. remain the same.",
+              "correct": false,
+              "explanation": "Incorrect. The risk-neutral probability changes when the up gross return changes."
+            },
+            {
+              "prompt": "C. increase.",
+              "correct": false,
+              "explanation": "Incorrect. The risk-neutral probability decreases when the up gross return increases."
+            }
+          ]
+        },
+        {
+          "problem": "An analyst collects the following information:\nCurrent stock price: €26\nGross return from an up move: 1.10\nGross return from a down move: 0.75\nCall and put exercise price: €22\nBased on a one-period binomial pricing model, which of the following has the largest payoff?\nA. Put option following an up move.\nB. Put option following a down move.\nC. Call option following a down move.",
+          "answers": [
+            {
+              "prompt": "A. Put option following an up move.",
+              "correct": false,
+              "explanation": "Incorrect. After an up move, S1u = €26 * 1.10 = €28.60. Put payoff = Max(0, 22 - 28.60) = 0."
+            },
+            {
+              "prompt": "B. Put option following a down move.",
+              "correct": true,
+              "explanation": "Correct because the payoff of a put option following a down move is p1d = Max(0, X - S1d) where X is the exercise price and S1d is the price after a down move. In this case, S1d = €26 * 0.75 = €19.50. So, p1d = Max(0, €22 - €19.50) = €2.50, which is greater than the payoffs of the other two responses."
+            },
+            {
+              "prompt": "C. Call option following a down move.",
+              "correct": false,
+              "explanation": "Incorrect. After a down move, S1d = €26 * 0.75 = €19.50. Call payoff = Max(0, 19.50 - 22) = 0."
+            }
+          ]
+        },
+        {
+          "problem": "Risk-neutral pricing establishes no-arbitrage option values independent of the:\nA. spot price of the underlying.\nB. investor's views on the volatility of the underlying.\nC. future price of the underlying following an up or down move.",
+          "answers": [
+            {
+              "prompt": "A. spot price of the underlying.",
+              "correct": false,
+              "explanation": "Incorrect. Option values depend on the spot price."
+            },
+            {
+              "prompt": "B. investor's views on the volatility of the underlying.",
+              "correct": true,
+              "explanation": "Correct because this no-arbitrage derivative value established separately from investor views on risk is referred to as risk-neutral pricing. Volatility generally means risk because the expected price risk of the underlying is known as implied volatility. Therefore, risk-neutral pricing establishes no-arbitrage option values independent of the investor views on the underlying's volatility."
+            },
+            {
+              "prompt": "C. future price of the underlying following an up or down move.",
+              "correct": false,
+              "explanation": "Incorrect. Option values depend on the future prices of the underlying."
+            }
+          ]
+        },
+        {
+          "problem": "Firms operating under a monopolistic competition market structure most likely:\nA. have few competitors.\nB. benefit from high barriers to entry.\nC. sell products that are close substitutes for those offered by other firms.",
+          "answers": [
+            {
+              "prompt": "A. have few competitors.",
+              "correct": false,
+              "explanation": "Incorrect. Monopolistic competition has many competitors."
+            },
+            {
+              "prompt": "B. benefit from high barriers to entry.",
+              "correct": false,
+              "explanation": "Incorrect. Barriers to entry are low in monopolistic competition."
+            },
+            {
+              "prompt": "C. sell products that are close substitutes for those offered by other firms.",
+              "correct": true,
+              "explanation": "Correct because under monopolistic competition, the products offered by each seller are close substitutes for the products offered by other firms, and each firm tries to make its product look different."
+            }
+          ]
+        },
+        {
+          "problem": "A market structure characterized by homogeneous/standardized product differentiation is best described as:\nA. monopoly.\nB. monopolistic competition.\nC. perfect competition and oligopoly.",
+          "answers": [
+            {
+              "prompt": "A. monopoly.",
+              "correct": false,
+              "explanation": "Incorrect. Monopoly has a unique product, not homogeneous."
+            },
+            {
+              "prompt": "B. monopolistic competition.",
+              "correct": false,
+              "explanation": "Incorrect. Monopolistic competition has differentiated products."
+            },
+            {
+              "prompt": "C. perfect competition and oligopoly.",
+              "correct": true,
+              "explanation": "Correct. Perfect competition and oligopoly are characterized by homogeneous/standardized product differentiation."
+            }
+          ]
+        },
+        {
+          "problem": "Which of the following statements about a downward-sloping long-run average cost (LRAC) curve is most accurate? A downward-sloping LRAC curve is representative of a firm experiencing:\nA. economies of scale.\nB. diseconomies of scale.\nC. decreasing levels of investment.",
+          "answers": [
+            {
+              "prompt": "A. economies of scale.",
+              "correct": true,
+              "explanation": "Correct. When the LRAC curve is downward sloping, it means the firm is producing units at lower average costs per unit as production levels rise. This situation represents economies of scale in production."
+            },
+            {
+              "prompt": "B. diseconomies of scale.",
+              "correct": false,
+              "explanation": "Incorrect. Diseconomies of scale are represented by an upward-sloping LRAC curve."
+            },
+            {
+              "prompt": "C. decreasing levels of investment.",
+              "correct": false,
+              "explanation": "Incorrect. The shape of the LRAC curve reflects economies or diseconomies of scale, not investment levels."
+            }
+          ]
+        },
+        {
+          "problem": "In a perfectly competitive market, a firm's breakeven point is the minimum point of the:\nA. average total cost curve.\nB. average fixed cost curve.\nC. average variable cost curve.",
+          "answers": [
+            {
+              "prompt": "A. average total cost curve.",
+              "correct": true,
+              "explanation": "Correct because economists refer to the minimum AVC point as the shutdown point and the minimum ATC point as the breakeven point."
+            },
+            {
+              "prompt": "B. average fixed cost curve.",
+              "correct": false,
+              "explanation": "Incorrect. The breakeven point is on the ATC curve, not the AFC curve."
+            },
+            {
+              "prompt": "C. average variable cost curve.",
+              "correct": false,
+              "explanation": "Incorrect. The minimum AVC point is the shutdown point, not the breakeven point."
+            }
+          ]
+        },
+        {
+          "problem": "In the long run, a monopolistically competitive firm:\nA. earns positive economic profits.\nB. faces a perfectly elastic demand curve.\nC. produces at a higher level of average cost than the minimum average cost.",
+          "answers": [
+            {
+              "prompt": "A. earns positive economic profits.",
+              "correct": false,
+              "explanation": "Incorrect. In the long run, monopolistically competitive firms earn zero economic profits."
+            },
+            {
+              "prompt": "B. faces a perfectly elastic demand curve.",
+              "correct": false,
+              "explanation": "Incorrect. The demand curve is downward sloping, not perfectly elastic."
+            },
+            {
+              "prompt": "C. produces at a higher level of average cost than the minimum average cost.",
+              "correct": true,
+              "explanation": "Correct because in the hybrid market of monopolistic competition, zero economic profit in long-run equilibrium resembles perfect competition. However, the long-run level of output, Q1, is less than Q2, which corresponds to the minimum average cost of production and would be the long-run level of output in a perfectly competitive market."
+            }
+          ]
+        },
+        {
+          "problem": "In an oligopoly market, which of the following best describes the situation when firms have no incentive to deviate from their current pricing strategy based on the anticipated choices of competitors?\nA. The Nash equilibrium\nB. The Stackelberg model\nC. Pricing interdependence",
+          "answers": [
+            {
+              "prompt": "A. The Nash equilibrium",
+              "correct": true,
+              "explanation": "Correct because the Nash equilibrium is present when two or more participants in a non-cooperative game have no incentive to deviate from their respective equilibrium strategies after they have considered and anticipated their opponent's rational choices or strategies."
+            },
+            {
+              "prompt": "B. The Stackelberg model",
+              "correct": false,
+              "explanation": "Incorrect. The Stackelberg model involves a leader-follower dynamic, not a situation where no one has incentive to deviate."
+            },
+            {
+              "prompt": "C. Pricing interdependence",
+              "correct": false,
+              "explanation": "Incorrect. Pricing interdependence is a general characteristic of oligopoly, not the specific situation where no firm has incentive to deviate."
+            }
+          ]
+        },
+        {
+          "problem": "In which of the following market structures does marginal revenue equal price?\nA. Oligopoly\nB. Monopoly\nC. Perfect competition",
+          "answers": [
+            {
+              "prompt": "A. Oligopoly",
+              "correct": false,
+              "explanation": "Incorrect. In oligopoly, marginal revenue is less than price."
+            },
+            {
+              "prompt": "B. Monopoly",
+              "correct": false,
+              "explanation": "Incorrect. In monopoly, marginal revenue is less than price."
+            },
+            {
+              "prompt": "C. Perfect competition",
+              "correct": true,
+              "explanation": "Correct because only in perfect competition does the marginal revenue equal price. In the remaining structures, price generally exceeds marginal revenue because a firm can sell more units only by reducing the per unit price."
+            }
+          ]
+        },
+        {
+          "problem": "The perfectly competitive firm's supply curve is its long-run:\nA. marginal cost schedule.\nB. average revenue schedule.\nC. average total cost schedule.",
+          "answers": [
+            {
+              "prompt": "A. marginal cost schedule.",
+              "correct": true,
+              "explanation": "Correct because the long-run marginal cost schedule is the perfectly competitive firm's supply curve."
+            },
+            {
+              "prompt": "B. average revenue schedule.",
+              "correct": false,
+              "explanation": "Incorrect. Average revenue is the demand curve, not the supply curve."
+            },
+            {
+              "prompt": "C. average total cost schedule.",
+              "correct": false,
+              "explanation": "Incorrect. The ATC curve is not the supply curve."
+            }
+          ]
+        },
+        {
+          "problem": "To calculate the Herfindahl-Hirschman index:\nA. add the market shares of the largest firms.\nB. add the market shares of the largest firms and then square the sum.\nC. square the market shares of the largest firms and then add the results.",
+          "answers": [
+            {
+              "prompt": "A. add the market shares of the largest firms.",
+              "correct": false,
+              "explanation": "Incorrect. This describes the concentration ratio, not the HHI."
+            },
+            {
+              "prompt": "B. add the market shares of the largest firms and then square the sum.",
+              "correct": false,
+              "explanation": "Incorrect. The HHI squares individual market shares and then adds them."
+            },
+            {
+              "prompt": "C. square the market shares of the largest firms and then add the results.",
+              "correct": true,
+              "explanation": "Correct because to avoid the known issues with concentration ratios, economists O.C. Herfindahl and A.O. Hirschman suggested an index where the market shares of the top N companies are first squared and then added."
+            }
+          ]
+        },
+        {
+          "problem": "An analyst gathers the following information about three markets:\nMarket 1: Many Sellers, No Non-Price Competition\nMarket 2: Few Sellers, Strong Non-Price Competition\nMarket 3: Many Sellers, Strong Non-Price Competition\nWhich market is most likely an oligopoly?\nA. Market 1\nB. Market 2\nC. Market 3",
+          "answers": [
+            {
+              "prompt": "A. Market 1",
+              "correct": false,
+              "explanation": "Incorrect. Many sellers with no non-price competition suggests perfect competition."
+            },
+            {
+              "prompt": "B. Market 2",
+              "correct": true,
+              "explanation": "Correct because in an oligopoly market there are a small number of potential sellers and products are often highly differentiated through marketing, features, and other non-price strategies."
+            },
+            {
+              "prompt": "C. Market 3",
+              "correct": false,
+              "explanation": "Incorrect. Many sellers with strong non-price competition suggests monopolistic competition."
+            }
+          ]
+        },
+        {
+          "problem": "Monopolistic competition is best characterized by:\nA. high barriers to entry and exit.\nB. a small number of buyers and sellers.\nC. product differentiation through non-price strategies.",
+          "answers": [
+            {
+              "prompt": "A. high barriers to entry and exit.",
+              "correct": false,
+              "explanation": "Incorrect. Monopolistic competition has low barriers to entry and exit."
+            },
+            {
+              "prompt": "B. a small number of buyers and sellers.",
+              "correct": false,
+              "explanation": "Incorrect. Monopolistic competition has many buyers and sellers."
+            },
+            {
+              "prompt": "C. product differentiation through non-price strategies.",
+              "correct": true,
+              "explanation": "Correct because for a monopolistically competitive firm: suppliers differentiate their products through advertising and other non-price strategies."
+            }
+          ]
+        },
+        {
+          "problem": "If a perfectly competitive industry becomes monopolistically competitive, each firm's long-run average total cost per unit sold will most likely:\nA. decrease.\nB. remain the same.\nC. increase.",
+          "answers": [
+            {
+              "prompt": "A. decrease.",
+              "correct": false,
+              "explanation": "Incorrect. Average total cost increases when moving from perfect competition to monopolistic competition."
+            },
+            {
+              "prompt": "B. remain the same.",
+              "correct": false,
+              "explanation": "Incorrect. Average total cost changes."
+            },
+            {
+              "prompt": "C. increase.",
+              "correct": true,
+              "explanation": "Correct because unlike long-run equilibrium in perfect competition, in the market of monopolistic competition, the equilibrium position is at a higher level of average cost than the level of output that minimizes average cost. Average cost does not reach its minimum until output level Q2 is achieved. Under perfect competition a product is produced at the efficient quantity (marginal revenue equals marginal cost) and average total cost is minimized. The demand faced by each firm is perfectly elastic (horizontal demand curve). However, under monopolistic competition the demand curve is downward sloping and the quantity produced (marginal revenue equals marginal cost) is not where average total cost is minimized. Thus, average total cost is lower under perfect competition."
+            }
+          ]
+        },
+        {
+          "problem": "If a monopolistically competitive industry becomes perfectly competitive, each firm's long-run average total cost per unit sold will most likely:\nA. decrease.\nB. remain the same.\nC. increase.",
+          "answers": [
+            {
+              "prompt": "A. decrease.",
+              "correct": true,
+              "explanation": "Correct because under perfect competition a product is produced at the efficient quantity (marginal revenue equals marginal cost) and the average total cost is minimized. The demand curve faced by each firm is perfectly elastic (horizontal demand curve). However, under monopolistic competition the demand curve is downward sloping and the quantity produced (marginal revenue equals marginal cost) is not where average total cost is minimized. Thus, average total cost is lower under perfect competition."
+            },
+            {
+              "prompt": "B. remain the same.",
+              "correct": false,
+              "explanation": "Incorrect. Average total cost decreases when moving to perfect competition."
+            },
+            {
+              "prompt": "C. increase.",
+              "correct": false,
+              "explanation": "Incorrect. Average total cost decreases, not increases."
+            }
+          ]
+        },
+        {
+          "problem": "In the short run, the shutdown point of a company with a total variable cost of $3 million and a total fixed cost of $5 million is when total revenue declines to:\nA. $3 million.\nB. $5 million.\nC. $8 million.",
+          "answers": [
+            {
+              "prompt": "A. $3 million.",
+              "correct": true,
+              "explanation": "Correct because as long as the firm's revenues cover at least its variable cost, the firm is better off continuing to operate. If price is greater than average variable cost (AVC), the firm is covering not only all of its variable cost but also a portion of fixed cost. Also, average revenue (AR) is revenue per unit."
+            },
+            {
+              "prompt": "B. $5 million.",
+              "correct": false,
+              "explanation": "Incorrect. The shutdown point is when revenue equals variable cost, not fixed cost."
+            },
+            {
+              "prompt": "C. $8 million.",
+              "correct": false,
+              "explanation": "Incorrect. This is total cost, not the shutdown point."
+            }
+          ]
+        },
+        {
+          "problem": "Which of the following is most likely a lagging economic indicator?\nA. Inventory-sales ratio\nB. S&P 500 Stock Index\nC. Manufacturers' new orders for consumer goods and materials",
+          "answers": [
+            {
+              "prompt": "A. Inventory-sales ratio",
+              "correct": true,
+              "explanation": "Correct because inventories accumulate as sales initially decline and then, once a business adjusts its ordering, become depleted as sales pick up, so this ratio tends to lag the cycle."
+            },
+            {
+              "prompt": "B. S&P 500 Stock Index",
+              "correct": false,
+              "explanation": "Incorrect. The S&P 500 is a leading indicator."
+            },
+            {
+              "prompt": "C. Manufacturers' new orders for consumer goods and materials",
+              "correct": false,
+              "explanation": "Incorrect. New orders are a leading indicator."
+            }
+          ]
+        },
+        {
+          "problem": "During the recovery phase of the business cycle, inflation most likely:\nA. decelerates but with a lag.\nB. remains moderate.\nC. further accelerates.",
+          "answers": [
+            {
+              "prompt": "A. decelerates but with a lag.",
+              "correct": false,
+              "explanation": "Incorrect. Inflation decelerates in the slowdown phase, not recovery."
+            },
+            {
+              "prompt": "B. remains moderate.",
+              "correct": true,
+              "explanation": "Correct because, in the \"recovery\" phase, inflation remains moderate."
+            },
+            {
+              "prompt": "C. further accelerates.",
+              "correct": false,
+              "explanation": "Incorrect. Inflation accelerates in the expansion phase, not recovery."
+            }
+          ]
+        },
+        {
+          "problem": "Which of the following indexes is most likely considered a leading economic indicator?\nA. Consumer price index\nB. Broad stock market index\nC. Industrial production index",
+          "answers": [
+            {
+              "prompt": "A. Consumer price index",
+              "correct": false,
+              "explanation": "Incorrect. The CPI is a lagging indicator."
+            },
+            {
+              "prompt": "B. Broad stock market index",
+              "correct": true,
+              "explanation": "Correct because as a leading economic indicator, a positive change in the S&P 500 Index is supposed to lead (come before) an increase in aggregate economic activity. An increase in the S&P 500 would be positive for future economic growth, all else equal. Additionally, the Euro Stoxx Equity Index is considered a leading indicator in the Eurozone."
+            },
+            {
+              "prompt": "C. Industrial production index",
+              "correct": false,
+              "explanation": "Incorrect. The industrial production index is a coincident indicator."
+            }
+          ]
+        },
+        {
+          "problem": "The interest rate spread between 10-year treasury yields and overnight borrowing rates most likely:\nA. is a lagging economic indicator.\nB. decreases when the market expects an economic downturn.\nC. increases as the market expects future short-term interest rates to decrease.",
+          "answers": [
+            {
+              "prompt": "A. is a lagging economic indicator.",
+              "correct": false,
+              "explanation": "Incorrect. The yield curve spread is a leading indicator."
+            },
+            {
+              "prompt": "B. decreases when the market expects an economic downturn.",
+              "correct": true,
+              "explanation": "Correct because long-term yields express market expectations about the direction of short-term interest rates, and rates ultimately follow the economic cycle up and down, a wider spread, by anticipating short rate increases, also anticipates an economic upswing. Conversely, a narrower spread, by anticipating short rate decreases, also anticipates an economic downturn."
+            },
+            {
+              "prompt": "C. increases as the market expects future short-term interest rates to decrease.",
+              "correct": false,
+              "explanation": "Incorrect. The spread decreases when short-term rates are expected to fall (inverted yield curve)."
+            }
+          ]
+        },
+        {
+          "problem": "Which of the following is most likely a coincident indicator of economic activity?\nA. Average duration of unemployment\nB. Average weekly hours, manufacturing\nC. Employees on non-agricultural payrolls",
+          "answers": [
+            {
+              "prompt": "A. Average duration of unemployment",
+              "correct": false,
+              "explanation": "Incorrect. This is a lagging indicator."
+            },
+            {
+              "prompt": "B. Average weekly hours, manufacturing",
+              "correct": false,
+              "explanation": "Incorrect. This is a leading indicator."
+            },
+            {
+              "prompt": "C. Employees on non-agricultural payrolls",
+              "correct": true,
+              "explanation": "Correct because once recession or recovery is clear, businesses adjust their full-time payrolls. Non-agricultural payrolls and manufacturing and trade sales are coincident indicators."
+            }
+          ]
+        },
+        {
+          "problem": "The business cycle phase that is characterized by slowing growth in economic activity is the:\nA. slowdown.\nB. expansion.\nC. contraction.",
+          "answers": [
+            {
+              "prompt": "A. slowdown.",
+              "correct": true,
+              "explanation": "Correct because in the slowdown phase, activity measures are above average but decelerating. Moving to below-average rates of growth."
+            },
+            {
+              "prompt": "B. expansion.",
+              "correct": false,
+              "explanation": "Incorrect. Expansion is characterized by accelerating growth."
+            },
+            {
+              "prompt": "C. contraction.",
+              "correct": false,
+              "explanation": "Incorrect. Contraction is characterized by declining economic activity."
+            }
+          ]
+        },
+        {
+          "problem": "Which of the following changes most likely reflects a discretionary fiscal policy action?\nA. A decrease in corporate tax revenues due to lower corporate profitability\nB. An increase in government expenditures due to new infrastructure projects\nC. An increase in payments of unemployment benefits due to increasing unemployment",
+          "answers": [
+            {
+              "prompt": "A. A decrease in corporate tax revenues due to lower corporate profitability",
+              "correct": false,
+              "explanation": "Incorrect. This is an automatic stabilizer."
+            },
+            {
+              "prompt": "B. An increase in government expenditures due to new infrastructure projects",
+              "correct": true,
+              "explanation": "Correct because in addition to these automatic adjustments, governments also use discretionary fiscal adjustments to influence aggregate demand. These will involve tax changes and/or spending cuts or increases usually with the aim of stabilizing the economy. An increase in government expenditures due to new infrastructure projects is a discretionary fiscal policy action because new public spending on social goods and infrastructure, such as hospitals and schools, boosts personal incomes with the objective of raising aggregate demand."
+            },
+            {
+              "prompt": "C. An increase in payments of unemployment benefits due to increasing unemployment",
+              "correct": false,
+              "explanation": "Incorrect. This is an automatic stabilizer."
+            }
+          ]
+        },
+        {
+          "problem": "With respect to fiscal policy, transfer payments are best described as:\nA. welfare payments.\nB. infrastructure spending.\nC. spending on recurring goods and services.",
+          "answers": [
+            {
+              "prompt": "A. welfare payments.",
+              "correct": true,
+              "explanation": "Correct because transfer payments are welfare payments made through the social security system, and, depending on the country, comprise payments for state pensions, housing benefits, tax credits and income support for poorer families, child benefits, unemployment benefits and job search allowances."
+            },
+            {
+              "prompt": "B. infrastructure spending.",
+              "correct": false,
+              "explanation": "Incorrect. Infrastructure spending is capital expenditure, not transfer payments."
+            },
+            {
+              "prompt": "C. spending on recurring goods and services.",
+              "correct": false,
+              "explanation": "Incorrect. This describes current spending, not transfer payments."
+            }
+          ]
+        },
+        {
+          "problem": "A decline in tax revenues due to a recession is best described as an example of a(n):\nA. automatic stabilizer.\nB. expansionary fiscal policy.\nC. contractionary fiscal policy.",
+          "answers": [
+            {
+              "prompt": "A. automatic stabilizer.",
+              "correct": true,
+              "explanation": "Correct because falling tax revenues due to a recession is an example of an automatic stabilizer, not a discretionary fiscal policy. Automatic stabilizers will lead to changes in the budget deficit unrelated to fiscal policy changes; a recession will cause tax revenues to fall and the budget deficit to rise."
+            },
+            {
+              "prompt": "B. expansionary fiscal policy.",
+              "correct": false,
+              "explanation": "Incorrect. This is an automatic stabilizer, not a policy action."
+            },
+            {
+              "prompt": "C. contractionary fiscal policy.",
+              "correct": false,
+              "explanation": "Incorrect. This is an automatic stabilizer, not a policy action."
+            }
+          ]
+        },
+        {
+          "problem": "Which of the following is an expansionary fiscal policy?\nA. An increase in sales taxes\nB. A decrease in interest rates\nC. An increase in public spending on infrastructure",
+          "answers": [
+            {
+              "prompt": "A. An increase in sales taxes",
+              "correct": false,
+              "explanation": "Incorrect. Increasing taxes is contractionary fiscal policy."
+            },
+            {
+              "prompt": "B. A decrease in interest rates",
+              "correct": false,
+              "explanation": "Incorrect. This is monetary policy, not fiscal policy."
+            },
+            {
+              "prompt": "C. An increase in public spending on infrastructure",
+              "correct": true,
+              "explanation": "Correct because there are a number of ways that fiscal policy can influence aggregate demand. Expansionary policy could take the form of new public spending on social goods and infrastructure."
+            }
+          ]
+        },
+        {
+          "problem": "Which of the following fiscal policy actions is most likely contractionary?\nA. Increasing taxes and decreasing spending\nB. Decreasing taxes and increasing spending\nC. Decreasing taxes and decreasing spending",
+          "answers": [
+            {
+              "prompt": "A. Increasing taxes and decreasing spending",
+              "correct": true,
+              "explanation": "Correct because increasing taxes and decreasing spending are indicative of a contractionary fiscal policy. When an economy has full employment and wages and prices are rising too fast, then government spending may be reduced and taxes raised (contractionary fiscal policy)."
+            },
+            {
+              "prompt": "B. Decreasing taxes and increasing spending",
+              "correct": false,
+              "explanation": "Incorrect. This is expansionary fiscal policy."
+            },
+            {
+              "prompt": "C. Decreasing taxes and decreasing spending",
+              "correct": false,
+              "explanation": "Incorrect. The effect is ambiguous depending on the relative sizes of the changes."
+            }
+          ]
+        },
+        {
+          "problem": "A fiscal policy tool that can immediately influence spending is most likely:\nA. Indirect taxes.\nB. exchange rate targeting.\nC. capital expenditure plans.",
+          "answers": [
+            {
+              "prompt": "A. Indirect taxes.",
+              "correct": true,
+              "explanation": "Correct because indirect taxes can be adjusted almost immediately after they are announced and can influence spending behavior instantly and generate revenue for the government at little or no cost to the government."
+            },
+            {
+              "prompt": "B. exchange rate targeting.",
+              "correct": false,
+              "explanation": "Incorrect. This is monetary policy, not fiscal policy."
+            },
+            {
+              "prompt": "C. capital expenditure plans.",
+              "correct": false,
+              "explanation": "Incorrect. Capital expenditure plans have longer implementation lags."
+            }
+          ]
+        },
+        {
+          "problem": "An objective of fiscal policy is to:\nA. maintain price stability.\nB. redistribute the wealth within an economy.\nC. influence the quantity of credit in an economy.",
+          "answers": [
+            {
+              "prompt": "A. maintain price stability.",
+              "correct": false,
+              "explanation": "Incorrect. This is typically an objective of monetary policy."
+            },
+            {
+              "prompt": "B. redistribute the wealth within an economy.",
+              "correct": true,
+              "explanation": "Correct because fiscal policy can be used to redistribute income and wealth."
+            },
+            {
+              "prompt": "C. influence the quantity of credit in an economy.",
+              "correct": false,
+              "explanation": "Incorrect. This is typically an objective of monetary policy."
+            }
+          ]
+        },
+        {
+          "problem": "Which of the following government actions is most likely an expansionary fiscal policy?\nA. Increasing sales tax rate\nB. Decreasing savings tax rate\nC. Decreasing infrastructure spending",
+          "answers": [
+            {
+              "prompt": "A. Increasing sales tax rate",
+              "correct": false,
+              "explanation": "Incorrect. Increasing taxes is contractionary."
+            },
+            {
+              "prompt": "B. Decreasing savings tax rate",
+              "correct": true,
+              "explanation": "Correct because a decrease in taxes, including tax on savings, would be expansionary fiscal policy. For example, an expansionary policy could take the form of cuts in tax rates on personal savings to raise disposable income for those with savings, with the objective of raising consumer demand."
+            },
+            {
+              "prompt": "C. Decreasing infrastructure spending",
+              "correct": false,
+              "explanation": "Incorrect. Decreasing spending is contractionary."
+            }
+          ]
+        },
+        {
+          "problem": "Monetary policy is used to:\nA. promote stable growth.\nB. redistribute income and wealth.\nC. determine taxation and spending.",
+          "answers": [
+            {
+              "prompt": "A. promote stable growth.",
+              "correct": true,
+              "explanation": "Correct because the overarching goal of both monetary and fiscal policy is normally the creation of an economic environment where growth is stable and positive and inflation is stable and low."
+            },
+            {
+              "prompt": "B. redistribute income and wealth.",
+              "correct": false,
+              "explanation": "Incorrect. This is a fiscal policy objective."
+            },
+            {
+              "prompt": "C. determine taxation and spending.",
+              "correct": false,
+              "explanation": "Incorrect. This is a fiscal policy function."
+            }
+          ]
+        },
+        {
+          "problem": "An argument against being concerned about high national debt levels is that:\nA. the debt is owed internally to fellow citizens.\nB. government borrowing leads to higher private sector investment.\nC. the central bank can print money to finance a government deficit.",
+          "answers": [
+            {
+              "prompt": "A. the debt is owed internally to fellow citizens.",
+              "correct": true,
+              "explanation": "Correct because this internally owed debt may overstate the problem. The arguments against being concerned about national debt (relative to GDP) include the following: The scale of the problem may be overstated because the debt is owed internally to fellow citizens."
+            },
+            {
+              "prompt": "B. government borrowing leads to higher private sector investment.",
+              "correct": false,
+              "explanation": "Incorrect. Government borrowing typically crowds out private investment."
+            },
+            {
+              "prompt": "C. the central bank can print money to finance a government deficit.",
+              "correct": false,
+              "explanation": "Incorrect. This would likely lead to inflation and is not a valid argument against concern about debt levels."
+            }
+          ]
+        },
+        {
+          "problem": "If an economy has a long-term growth potential of 2% per year and the central bank's inflation target is 3% per year, the neutral rate of interest is most likely:\nA. 1%.\nB. 3%.\nC. 5%.",
+          "answers": [
+            {
+              "prompt": "A. 1%.",
+              "correct": false,
+              "explanation": "Incorrect. The neutral rate = Trend growth + Inflation target = 2% + 3% = 5%."
+            },
+            {
+              "prompt": "B. 3%.",
+              "correct": false,
+              "explanation": "Incorrect. The neutral rate = Trend growth + Inflation target = 2% + 3% = 5%."
+            },
+            {
+              "prompt": "C. 5%.",
+              "correct": true,
+              "explanation": "Correct because the Neutral rate = Trend growth + Inflation target = 2% + 3% = 5%."
+            }
+          ]
+        },
+        {
+          "problem": "The inflation target of an effective central bank is most likely:\nA. equal to zero to avoid the risk of deflation.\nB. sufficiently below zero to maintain high credibility.\nC. low enough to ensure a significant degree of price stability.",
+          "answers": [
+            {
+              "prompt": "A. equal to zero to avoid the risk of deflation.",
+              "correct": false,
+              "explanation": "Incorrect. The target should be above zero to avoid deflation risk."
+            },
+            {
+              "prompt": "B. sufficiently below zero to maintain high credibility.",
+              "correct": false,
+              "explanation": "Incorrect. The target should be above zero."
+            },
+            {
+              "prompt": "C. low enough to ensure a significant degree of price stability.",
+              "correct": true,
+              "explanation": "Correct because an inflation-targeting framework normally has a clear, symmetric and forward-looking medium-term inflation target, sufficiently above 0 percent to avoid the risk of deflation but low enough to ensure a significant degree of price stability."
+            }
+          ]
+        },
+        {
+          "problem": "Which of the following is most likely to limit the effectiveness of monetary policy?\nA. A liquidity trap\nB. The crowding out effect\nC. A time lag to implement government spending",
+          "answers": [
+            {
+              "prompt": "A. A liquidity trap",
+              "correct": true,
+              "explanation": "Correct because there may be occasions where the demand for money becomes infinitely elastic so that further injections of money into the economy will not serve to further lower interest rates or affect real activity. This is known as a liquidity trap. In this extreme circumstance, monetary policy can become completely ineffective."
+            },
+            {
+              "prompt": "B. The crowding out effect",
+              "correct": false,
+              "explanation": "Incorrect. The crowding out effect is a limitation of fiscal policy, not monetary policy."
+            },
+            {
+              "prompt": "C. A time lag to implement government spending",
+              "correct": false,
+              "explanation": "Incorrect. This is a limitation of fiscal policy, not monetary policy."
+            }
+          ]
+        },
+        {
+          "problem": "When a central bank sells government bonds to commercial banks, broad money growth:\nA. decreases.\nB. remains the same.\nC. increases.",
+          "answers": [
+            {
+              "prompt": "A. decreases.",
+              "correct": true,
+              "explanation": "Correct because when a central bank sells government bonds to a commercial bank the reserves of commercial banks decline, reducing their capacity to make loans (i.e., create credit) to households and corporations and thus causing broad money growth to decline through the money multiplier mechanism."
+            },
+            {
+              "prompt": "B. remains the same.",
+              "correct": false,
+              "explanation": "Incorrect. Selling bonds reduces bank reserves and decreases money growth."
+            },
+            {
+              "prompt": "C. increases.",
+              "correct": false,
+              "explanation": "Incorrect. Selling bonds is contractionary and decreases money growth."
+            }
+          ]
+        },
+        {
+          "problem": "With respect to conventional monetary policy, combating inflation is most likely:\nA. less difficult than combating deflation.\nB. equally difficult as combating deflation.\nC. more difficult than combating deflation.",
+          "answers": [
+            {
+              "prompt": "A. less difficult than combating deflation.",
+              "correct": true,
+              "explanation": "Correct because deflation is more difficult for conventional monetary policy to deal with than inflation. This is because once the monetary authority has cut nominal interest rates to zero to stimulate the economy, it cannot cut them any further."
+            },
+            {
+              "prompt": "B. equally difficult as combating deflation.",
+              "correct": false,
+              "explanation": "Incorrect. Deflation is more difficult to combat than inflation."
+            },
+            {
+              "prompt": "C. more difficult than combating deflation.",
+              "correct": false,
+              "explanation": "Incorrect. Deflation is more difficult to combat than inflation."
+            }
+          ]
+        },
+        {
+          "problem": "Fiat money:\nA. is not currently used in any major economy.\nB. can be exchanged for a precious metal at the country's central bank.\nC. derives its value via government decree and because people accept it for payment.",
+          "answers": [
+            {
+              "prompt": "A. is not currently used in any major economy.",
+              "correct": false,
+              "explanation": "Incorrect. Fiat money is used in most major economies."
+            },
+            {
+              "prompt": "B. can be exchanged for a precious metal at the country's central bank.",
+              "correct": false,
+              "explanation": "Incorrect. This describes commodity-backed money, not fiat money."
+            },
+            {
+              "prompt": "C. derives its value via government decree and because people accept it for payment.",
+              "correct": true,
+              "explanation": "Correct because fiat money derives its value via government decree and because people accept it for payment of goods and services and for debt repayment."
+            }
+          ]
+        },
+        {
+          "problem": "Which of the following is a limitation of monetary policy?\nA. The presence of automatic stabilizers in the economy\nB. The ineffectiveness of interest rate adjustments in deflationary environments\nC. The uneven distribution of income and wealth among different segments of the population",
+          "answers": [
+            {
+              "prompt": "A. The presence of automatic stabilizers in the economy",
+              "correct": false,
+              "explanation": "Incorrect. Automatic stabilizers are a feature of fiscal policy, not a limitation of monetary policy."
+            },
+            {
+              "prompt": "B. The ineffectiveness of interest rate adjustments in deflationary environments",
+              "correct": true,
+              "explanation": "Correct because this is a limitation of monetary policy. The limitations of monetary policy include problems in the transmission mechanism and the relative ineffectiveness of interest rate adjustments as a policy tool in deflationary environments."
+            },
+            {
+              "prompt": "C. The uneven distribution of income and wealth among different segments of the population",
+              "correct": false,
+              "explanation": "Incorrect. This is not a limitation of monetary policy."
+            }
+          ]
+        },
+        {
+          "problem": "To be effective in targeting inflation a central bank is least likely to need:\nA. government oversight.\nB. transparency of decisions.\nC. credibility with market participants.",
+          "answers": [
+            {
+              "prompt": "A. government oversight.",
+              "correct": true,
+              "explanation": "Correct because an inflation-targeting framework normally has an independent and credible central bank. Such an independent central bank does not need government oversight."
+            },
+            {
+              "prompt": "B. transparency of decisions.",
+              "correct": false,
+              "explanation": "Incorrect. Transparency is important for an effective central bank."
+            },
+            {
+              "prompt": "C. credibility with market participants.",
+              "correct": false,
+              "explanation": "Incorrect. Credibility is important for an effective central bank."
+            }
+          ]
+        },
+        {
+          "problem": "An analyst gathers the following data about an economy:\nReal trend growth rate: 0.5%\nCentral bank's policy rate: 1.5%\nIf monetary policy is contractionary, the central bank's inflation target is:\nA. less than 1.0%.\nB. equal to 1.0%.\nC. greater than 1.0%.",
+          "answers": [
+            {
+              "prompt": "A. less than 1.0%.",
+              "correct": true,
+              "explanation": "Correct because when policy rates are above the neutral rate, monetary policy is contractionary; when they are below the neutral rate, monetary policy is expansionary. The calculation of the neutral rate is as follows: Neutral rate = Trend growth + Inflation target. Therefore, if monetary policy is contractionary then the policy rate (1.5%) must be greater than the neutral rate. Hence the long-term inflation rate must be less than 1.0% in order for the policy rate to be greater than the neutral rate."
+            },
+            {
+              "prompt": "B. equal to 1.0%.",
+              "correct": false,
+              "explanation": "Incorrect. If the inflation target were 1.0%, the neutral rate would be 1.5%, which would be neutral policy, not contractionary."
+            },
+            {
+              "prompt": "C. greater than 1.0%.",
+              "correct": false,
+              "explanation": "Incorrect. If the inflation target were greater than 1.0%, the neutral rate would be greater than 1.5%, making the policy rate expansionary."
+            }
+          ]
+        },
+        {
+          "problem": "To reduce inflation, a central bank most likely implements an interest rate policy that is:\nA. contractionary.\nB. neutral.\nC. expansionary.",
+          "answers": [
+            {
+              "prompt": "A. contractionary.",
+              "correct": true,
+              "explanation": "Correct because when central banks believe that economic activity is likely to lead to an increase in inflation, they might increase interest rates, thereby reducing liquidity. In these cases, market analysts describe such actions as contractionary."
+            },
+            {
+              "prompt": "B. neutral.",
+              "correct": false,
+              "explanation": "Incorrect. To reduce inflation, the central bank needs contractionary policy."
+            },
+            {
+              "prompt": "C. expansionary.",
+              "correct": false,
+              "explanation": "Incorrect. Expansionary policy would increase inflation."
+            }
+          ]
+        },
+        {
+          "problem": "Under which of the following conditions is monetary policy most effective? When the:\nA. demand for money is infinitely elastic.\nB. central bank targets an exchange rate.\nC. risk of inflation is greater than deflation.",
+          "answers": [
+            {
+              "prompt": "A. demand for money is infinitely elastic.",
+              "correct": false,
+              "explanation": "Incorrect. When demand for money is infinitely elastic, we have a liquidity trap, and monetary policy is ineffective."
+            },
+            {
+              "prompt": "B. central bank targets an exchange rate.",
+              "correct": false,
+              "explanation": "Incorrect. Targeting an exchange rate limits the effectiveness of monetary policy."
+            },
+            {
+              "prompt": "C. risk of inflation is greater than deflation.",
+              "correct": true,
+              "explanation": "Correct because deflation is more problematic for the central bank than inflation. Deflation is a pervasive and persistent fall in a general price index and is more difficult for conventional monetary policy to deal with than inflation. This is because cutting nominal interest rates much below zero to stimulate the economy is difficult. It is at this point that the economic conditions for a liquidity trap arise."
+            }
+          ]
+        },
+        {
+          "problem": "Which of the following monetary policy actions is most likely considered expansionary? The central bank:\nA. acts as the lender in a repurchase agreement.\nB. sells government bonds to commercial banks.\nC. raises reserve requirements of commercial banks.",
+          "answers": [
+            {
+              "prompt": "A. acts as the lender in a repurchase agreement.",
+              "correct": true,
+              "explanation": "Correct because if the central bank wishes to increase the supply of money, it might buy bonds (usually government bonds) from the banks, with an agreement to sell them back at some time in the future. This transaction is known as a repurchase agreement. The lender in a repurchase agreement is the party that initially buys the bonds and agrees to sell them back at a later point in time. By purchasing bonds from banks, the central bank is increasing the money supply, or increasing liquidity, which is expansionary."
+            },
+            {
+              "prompt": "B. sells government bonds to commercial banks.",
+              "correct": false,
+              "explanation": "Incorrect. Selling bonds is contractionary."
+            },
+            {
+              "prompt": "C. raises reserve requirements of commercial banks.",
+              "correct": false,
+              "explanation": "Incorrect. Raising reserve requirements is contractionary."
+            }
+          ]
+        },
+        {
+          "problem": "The overarching objective of most central banks is to maintain:\nA. price stability.\nB. full employment.\nC. the government's ability to service its debt.",
+          "answers": [
+            {
+              "prompt": "A. price stability.",
+              "correct": true,
+              "explanation": "Correct because there is one overarching objective that most central banks seem to acknowledge explicitly, and that is the objective of maintaining price stability."
+            },
+            {
+              "prompt": "B. full employment.",
+              "correct": false,
+              "explanation": "Incorrect. While some central banks have a dual mandate, the overarching objective for most is price stability."
+            },
+            {
+              "prompt": "C. the government's ability to service its debt.",
+              "correct": false,
+              "explanation": "Incorrect. This is not typically an objective of central banks."
+            }
+          ]
+        },
+        {
+          "problem": "All else being equal, and assuming that wages and prices of goods are rigid, a decrease in government spending and decreasing interest rates most likely reflect:\nA. easy fiscal policy and easy monetary policy.\nB. tight fiscal policy and easy monetary policy.\nC. easy fiscal policy and tight monetary policy.",
+          "answers": [
+            {
+              "prompt": "A. easy fiscal policy and easy monetary policy.",
+              "correct": false,
+              "explanation": "Incorrect. Decreasing government spending is tight fiscal policy."
+            },
+            {
+              "prompt": "B. tight fiscal policy and easy monetary policy.",
+              "correct": true,
+              "explanation": "Correct because it's a tight fiscal policy/easy monetary policy: if a fiscal contraction is accompanied by expansionary monetary policy and low interest rates, then the private sector will be stimulated and will rise as a share of GDP, while the public sector will shrink. Falling government spending leads to a drop in aggregate demand or contraction."
+            },
+            {
+              "prompt": "C. easy fiscal policy and tight monetary policy.",
+              "correct": false,
+              "explanation": "Incorrect. Decreasing government spending is tight fiscal policy, and decreasing interest rates is easy monetary policy."
+            }
+          ]
+        },
+        {
+          "problem": "A role of most central banks is to:\nA. set income tax rates.\nB. decide on government expenditures.\nC. regulate their country's payments system.",
+          "answers": [
+            {
+              "prompt": "A. set income tax rates.",
+              "correct": false,
+              "explanation": "Incorrect. This is a fiscal policy function."
+            },
+            {
+              "prompt": "B. decide on government expenditures.",
+              "correct": false,
+              "explanation": "Incorrect. This is a fiscal policy function."
+            },
+            {
+              "prompt": "C. regulate their country's payments system.",
+              "correct": true,
+              "explanation": "Correct because central banks play several key roles in modern economies. Generally, a central bank is the regulator and supervisor of the payments system."
+            }
+          ]
+        },
+        {
+          "problem": "If contractionary fiscal policy and expansionary monetary policy have offsetting effects on GDP, the public sector's share of GDP will most likely:\nA. decrease.\nB. remain the same.\nC. increase.",
+          "answers": [
+            {
+              "prompt": "A. decrease.",
+              "correct": true,
+              "explanation": "Correct because if a fiscal contraction is accompanied by expansionary monetary policy and low interest rates, then the private sector will be stimulated and will rise as a share of GDP, while the public sector will shrink."
+            },
+            {
+              "prompt": "B. remain the same.",
+              "correct": false,
+              "explanation": "Incorrect. The public sector share decreases."
+            },
+            {
+              "prompt": "C. increase.",
+              "correct": false,
+              "explanation": "Incorrect. The public sector share decreases, not increases."
+            }
+          ]
+        },
+        {
+          "problem": "With respect to motivations for globalization, which of the following is best characterized as an intrinsic gain?\nA. Increased supply chain efficiency\nB. Accelerated productivity from learning new methods\nC. Access to resources that are not readily available in the home country",
+          "answers": [
+            {
+              "prompt": "A. Increased supply chain efficiency",
+              "correct": false,
+              "explanation": "Incorrect. This is an economic gain, not an intrinsic gain."
+            },
+            {
+              "prompt": "B. Accelerated productivity from learning new methods",
+              "correct": true,
+              "explanation": "Correct because intrinsic gain is a side effect or consequence of an activity that generates a benefit beyond profit itself. It is difficult to measure but contributes to globalization's momentum. It can also be a stabilizing force, increasing empathy between actors and reducing the likelihood that a geopolitical threat is levied. One example of intrinsic gain is the accelerated productivity from learning new methods."
+            },
+            {
+              "prompt": "C. Access to resources that are not readily available in the home country",
+              "correct": false,
+              "explanation": "Incorrect. This is an economic gain, not an intrinsic gain."
+            }
+          ]
+        },
+        {
+          "problem": "Which of the following organizations was founded with the goal of assisting in the reconstruction of the international payment system?\nA. The World Trade Organization\nB. The International Monetary Fund\nC. The International Bank for Reconstruction and Development",
+          "answers": [
+            {
+              "prompt": "A. The World Trade Organization",
+              "correct": false,
+              "explanation": "Incorrect. The WTO focuses on trade liberalization."
+            },
+            {
+              "prompt": "B. The International Monetary Fund",
+              "correct": true,
+              "explanation": "Correct because IMF was founded with the goal to stabilize exchange rates and assist the reconstruction of the world's international payment system."
+            },
+            {
+              "prompt": "C. The International Bank for Reconstruction and Development",
+              "correct": false,
+              "explanation": "Incorrect. The IBRD focuses on development and reconstruction of economies."
+            }
+          ]
+        },
+        {
+          "problem": "Which of the following behavioral archetypes best describes a country that is high on the globalization spectrum but low on the cooperation spectrum?\nA. Autarky\nB. Hegemony\nC. Bilateralism",
+          "answers": [
+            {
+              "prompt": "A. Autarky",
+              "correct": false,
+              "explanation": "Incorrect. Autarky is low on both globalization and cooperation."
+            },
+            {
+              "prompt": "B. Hegemony",
+              "correct": true,
+              "explanation": "Correct because using the two axes we have discussed—political cooperation versus non-cooperation and globalization versus nationalism—investment analysts can assess geopolitical actors and the likelihood of threat to investment outcomes. Specifically, there are four archetypes of country behavior: autarky, hegemony, multilateralism, and bilateralism, where hegemony is situated low on the cooperation spectrum and high on the globalization spectrum. Hegemonic countries tend to be regional or even global leaders, and they use their political or economic influence on others to control resources. State-owned enterprises tend to control key export markets. Examples of hegemonic countries include the United States and Russia."
+            },
+            {
+              "prompt": "C. Bilateralism",
+              "correct": false,
+              "explanation": "Incorrect. Bilateralism is low on globalization but high on cooperation."
+            }
+          ]
+        },
+        {
+          "problem": "With respect to geopolitics, setting standards for the size and shape of containers used for shipping is most likely an example of:\nA. regulatory cooperation.\nB. process standardization.\nC. operational synchronization.",
+          "answers": [
+            {
+              "prompt": "A. regulatory cooperation.",
+              "correct": false,
+              "explanation": "Incorrect. This is about standardization, not regulatory cooperation."
+            },
+            {
+              "prompt": "B. process standardization.",
+              "correct": false,
+              "explanation": "Incorrect. Container standards are about operational synchronization, not process standardization."
+            },
+            {
+              "prompt": "C. operational synchronization.",
+              "correct": true,
+              "explanation": "Correct because an example of operational synchronization is standards set for containers of uniform size and shape using multi-modal forms of transport (land, sea, air, rail) and port cranes."
+            }
+          ]
+        },
+        {
+          "problem": "Which of the following would most likely lead to an increase in globalization? A decrease in:\nA. soft power.\nB. nationalism.\nC. standardization.",
+          "answers": [
+            {
+              "prompt": "A. soft power.",
+              "correct": false,
+              "explanation": "Incorrect. A decrease in soft power would likely decrease globalization."
+            },
+            {
+              "prompt": "B. nationalism.",
+              "correct": true,
+              "explanation": "Correct because globalization is marked by economic and financial cooperation, including the active trade of goods and services, capital flows, currency exchange, and cultural and information exchange. Actors participating in globalization are likely to reach beyond their national borders for access to new markets, talent, or learning. By contrast, anti-globalization or nationalism is the promotion of a country's own economic interests to the exclusion or detriment of the interests of other nations."
+            },
+            {
+              "prompt": "C. standardization.",
+              "correct": false,
+              "explanation": "Incorrect. A decrease in standardization would likely decrease globalization."
+            }
+          ]
+        },
+        {
+          "problem": "Which of the following changes are investors most likely to make in response to a black swan risk?\nA. Tactical\nB. Sector specific\nC. Asset allocation",
+          "answers": [
+            {
+              "prompt": "A. Tactical",
+              "correct": true,
+              "explanation": "Correct because the velocity of geopolitical risk is the pace at which it impacts an investor portfolio. For the sake of simplicity, we explore short-term or 'high velocity' impacts, medium-term, and long-term or 'low velocity' impacts. In the short term, we may see volatility in the markets affecting entire industries or even the entire market. Exogenous or 'black swan' events tend to fit into this category, causing market volatility and investor flight to quality. A black swan risk is an event that is rare and difficult to predict but has an important impact. Investors with the appropriate time horizon and risk tolerance may make tactical changes to their investment choices as a result of these events. Long-term changes are unlikely to be necessary."
+            },
+            {
+              "prompt": "B. Sector specific",
+              "correct": false,
+              "explanation": "Incorrect. Black swan events affect entire markets, not specific sectors."
+            },
+            {
+              "prompt": "C. Asset allocation",
+              "correct": false,
+              "explanation": "Incorrect. Black swan events are short-term and call for tactical changes, not long-term asset allocation changes."
+            }
+          ]
+        },
+        {
+          "problem": "Cyber threats most likely fall into the category of:\nA. event risk.\nB. thematic risk.\nC. exogenous risk.",
+          "answers": [
+            {
+              "prompt": "A. event risk.",
+              "correct": false,
+              "explanation": "Incorrect. Cyber threats are thematic risks."
+            },
+            {
+              "prompt": "B. thematic risk.",
+              "correct": true,
+              "explanation": "Correct because cyber threats are another example of thematic risk."
+            },
+            {
+              "prompt": "C. exogenous risk.",
+              "correct": false,
+              "explanation": "Incorrect. Cyber threats are thematic risks, not exogenous risks."
+            }
+          ]
+        },
+        {
+          "problem": "Natural disasters are an example of:\nA. event risk.\nB. thematic risk.\nC. exogenous risk.",
+          "answers": [
+            {
+              "prompt": "A. event risk.",
+              "correct": false,
+              "explanation": "Incorrect. Natural disasters are exogenous risks."
+            },
+            {
+              "prompt": "B. thematic risk.",
+              "correct": false,
+              "explanation": "Incorrect. Natural disasters are exogenous risks, not thematic risks."
+            },
+            {
+              "prompt": "C. exogenous risk.",
+              "correct": true,
+              "explanation": "Correct because exogenous risk is a sudden or unanticipated risk that impacts either a country's cooperative stance, the ability of non-state actors to globalize, or both. Examples include sudden uprisings, invasions, or the aftermath of natural disasters."
+            }
+          ]
+        },
+        {
+          "problem": "Which of the following is most likely a benefit of globalization?\nA. Increased profits\nB. More equal income distribution\nC. Stronger environmental, social, and governance standards",
+          "answers": [
+            {
+              "prompt": "A. Increased profits",
+              "correct": true,
+              "explanation": "Correct because the opportunity to generate higher profits may motivate companies to globalize. The first way to generate profit is to increase sales. Companies may choose to engage in globalization in order to access new customers for their goods and services. Another way to increase profits is to reduce costs. Globalization allows companies to access lower tax-operating environments, reduce labor costs, or seek other supply chain efficiency gains."
+            },
+            {
+              "prompt": "B. More equal income distribution",
+              "correct": false,
+              "explanation": "Incorrect. Globalization can lead to greater income inequality."
+            },
+            {
+              "prompt": "C. Stronger environmental, social, and governance standards",
+              "correct": false,
+              "explanation": "Incorrect. Globalization can sometimes lead to weaker standards."
+            }
+          ]
+        },
+        {
+          "problem": "The main objective of the World Bank Group is to:\nA. support exchange rate stability and an open system of international payments.\nB. provide the legal and institutional foundation of the multinational trading system.\nC. help developing countries fight poverty and enhance environmentally sound economic growth.",
+          "answers": [
+            {
+              "prompt": "A. support exchange rate stability and an open system of international payments.",
+              "correct": false,
+              "explanation": "Incorrect. This is the objective of the IMF."
+            },
+            {
+              "prompt": "B. provide the legal and institutional foundation of the multinational trading system.",
+              "correct": false,
+              "explanation": "Incorrect. This is the objective of the WTO."
+            },
+            {
+              "prompt": "C. help developing countries fight poverty and enhance environmentally sound economic growth.",
+              "correct": true,
+              "explanation": "Correct because the World Bank's main objective is to help developing countries fight poverty and enhance environmentally sound economic growth."
+            }
+          ]
+        },
+        {
+          "problem": "With respect to trading blocs, a common market most likely incorporates all aspects of a(n):\nA. customs union.\nB. monetary union.\nC. economic union.",
+          "answers": [
+            {
+              "prompt": "A. customs union.",
+              "correct": true,
+              "explanation": "Correct because the common market is the next level of economic integration that incorporates all aspects of the customs union and extends it by allowing free movement of factors of production among members."
+            },
+            {
+              "prompt": "B. monetary union.",
+              "correct": false,
+              "explanation": "Incorrect. A common market does not necessarily include a monetary union."
+            },
+            {
+              "prompt": "C. economic union.",
+              "correct": false,
+              "explanation": "Incorrect. An economic union is a higher level of integration than a common market."
+            }
+          ]
+        },
+        {
+          "problem": "The implementation of an export subsidy for a normal good produced in a small country will most likely increase the:\nA. domestic consumption of the good.\nB. price of the good in the domestic market.\nC. national welfare of the country providing the subsidy.",
+          "answers": [
+            {
+              "prompt": "A. domestic consumption of the good.",
+              "correct": false,
+              "explanation": "Incorrect. Domestic consumption decreases because the domestic price increases."
+            },
+            {
+              "prompt": "B. price of the good in the domestic market.",
+              "correct": true,
+              "explanation": "Correct because in the case of an export subsidy, the exporter has the incentive to shift sales from the domestic to the export market because it receives the international price plus the per-unit subsidy for each unit of the good exported. This scenario raises the price in the domestic market by the amount of the subsidy in the small country case (price before subsidy plus subsidy)."
+            },
+            {
+              "prompt": "C. national welfare of the country providing the subsidy.",
+              "correct": false,
+              "explanation": "Incorrect. Export subsidies typically decrease national welfare."
+            }
+          ]
+        },
+        {
+          "problem": "An argument against free trade is that:\nA. it has the potential to lead to greater income inequality.\nB. it increases average production costs in goods and services.\nC. it discourages foreign research and development in an economy.",
+          "answers": [
+            {
+              "prompt": "A. it has the potential to lead to greater income inequality.",
+              "correct": true,
+              "explanation": "Correct because opponents of free trade point to the potential for greater income inequality and the loss of jobs in developed countries as a result of import competition."
+            },
+            {
+              "prompt": "B. it increases average production costs in goods and services.",
+              "correct": false,
+              "explanation": "Incorrect. Free trade typically reduces production costs."
+            },
+            {
+              "prompt": "C. it discourages foreign research and development in an economy.",
+              "correct": false,
+              "explanation": "Incorrect. Free trade can encourage R&D through competition."
+            }
+          ]
+        },
+        {
+          "problem": "When a country that is a price taker imposes a tariff on an imported good:\nA. national welfare increases.\nB. consumers gain consumer surplus.\nC. local producers gain producer surplus.",
+          "answers": [
+            {
+              "prompt": "A. national welfare increases.",
+              "correct": false,
+              "explanation": "Incorrect. National welfare decreases (deadweight loss)."
+            },
+            {
+              "prompt": "B. consumers gain consumer surplus.",
+              "correct": false,
+              "explanation": "Incorrect. Consumers lose consumer surplus."
+            },
+            {
+              "prompt": "C. local producers gain producer surplus.",
+              "correct": true,
+              "explanation": "Correct because the economic impact of a tariff on imports in a small country is one that is a price taker in the world market for a product and cannot influence the world market price. The welfare effect can be summarized as follows: Consumers suffer a loss of consumer surplus, local producers gain producer surplus and the net welfare effect results in a deadweight loss to the country's welfare."
+            }
+          ]
+        },
+        {
+          "problem": "An analyst gathers the following information:\nForeign inflation rate: 2%\nDomestic inflation rate: 3%\nChange in nominal exchange rate: 6%\nNote: the exchange rate is expressed as the number of units of domestic currency per unit of foreign currency.\nThe change in the real exchange rate is closest to:\nA. 4%.\nB. 5%.\nC. 7%.",
+          "answers": [
+            {
+              "prompt": "A. 4%.",
+              "correct": false,
+              "explanation": "Incorrect. The correct calculation is: (1 + 6%) * (1 + 2%) / (1 + 3%) - 1 = 5%."
+            },
+            {
+              "prompt": "B. 5%.",
+              "correct": true,
+              "explanation": "Correct because the change in the real exchange rate is (1 + ΔSd/f / Sd/f) * (1 + ΔPf / Pf) / (1 + ΔPd / Pd) - 1 = (1 + 6%) * (1 + 2%) / (1 + 3%) - 1 = 1.06 * 1.02 / 1.03 - 1 = 0.0497 ≈ 0.05 = 5%, where ΔSd/f / Sd/f is the change of the nominal exchange rate, ΔPf / Pf is the foreign inflation rate, and ΔPd / Pd is the domestic inflation rate. Using the appropriate approximate formula, 6.0% + 2.0% - 3.0% = 5.0% leads to the same answer choice."
+            },
+            {
+              "prompt": "C. 7%.",
+              "correct": false,
+              "explanation": "Incorrect. The correct calculation is 5%, not 7%."
+            }
+          ]
+        },
+        {
+          "problem": "When a country has a fiscal surplus and an excess of private saving over investment, its exports are:\nA. less than its imports.\nB. equal to its imports.\nC. greater than its imports.",
+          "answers": [
+            {
+              "prompt": "A. less than its imports.",
+              "correct": false,
+              "explanation": "Incorrect. A fiscal surplus and excess saving lead to a trade surplus."
+            },
+            {
+              "prompt": "B. equal to its imports.",
+              "correct": false,
+              "explanation": "Incorrect. The trade balance would be positive."
+            },
+            {
+              "prompt": "C. greater than its imports.",
+              "correct": true,
+              "explanation": "Correct because using a fundamental identity from macroeconomics, the relationship between the trade balance and expenditure/saving decisions can be expressed as: X - M = (S - I) + (T - G) where X represents exports, M is imports, S is private savings, I is investment in plant and equipment, T is taxes net of transfers, and G is government expenditure. From this relationship, we can see that a trade surplus (X > M) must be reflected in a fiscal surplus (T > G), an excess of private saving over investment (S > I), or both. We can also see that when a country has a fiscal surplus (T > G) and an excess of private saving over investment (S > I), its exports are greater than its imports (X > M)."
+            }
+          ]
+        },
+        {
+          "problem": "The conversion of nominal exchange rates into real exchange rates requires the:\nA. GDP of both countries.\nB. price levels in both countries.\nC. interest rates in both countries.",
+          "answers": [
+            {
+              "prompt": "A. GDP of both countries.",
+              "correct": false,
+              "explanation": "Incorrect. GDP is not used in the conversion."
+            },
+            {
+              "prompt": "B. price levels in both countries.",
+              "correct": true,
+              "explanation": "Correct because real exchange rates are indexes often constructed by economists and other market analysts to assess changes in the relative purchasing power of one currency compared with another. Creating these indexes requires adjusting the nominal exchange rate by using the price levels in each country of the currency pair."
+            },
+            {
+              "prompt": "C. interest rates in both countries.",
+              "correct": false,
+              "explanation": "Incorrect. Interest rates are used for forward rates, not real exchange rates."
+            }
+          ]
+        },
+        {
+          "problem": "Price levels increase by 2% in the US and by 6% in the Eurozone. If the nominal spot exchange rate of the USD/EUR (amount of US dollars per 1 euro) decreases by 4%, the absolute change in the real exchange rate is closest to:\nA. 0%.\nB. 4%.\nC. 8%.",
+          "answers": [
+            {
+              "prompt": "A. 0%.",
+              "correct": true,
+              "explanation": "Correct because the change in the real exchange rate is approximately zero percent. The rough calculation is: -4% + 6% - 2% = 0%."
+            },
+            {
+              "prompt": "B. 4%.",
+              "correct": false,
+              "explanation": "Incorrect. The change is approximately 0%."
+            },
+            {
+              "prompt": "C. 8%.",
+              "correct": false,
+              "explanation": "Incorrect. The change is approximately 0%."
+            }
+          ]
+        },
+        {
+          "problem": "An ideal international currency regime would most likely have:\nA. currencies that are fully convertible.\nB. floating exchange rates between currencies.\nC. a common monetary policy across different countries.",
+          "answers": [
+            {
+              "prompt": "A. currencies that are fully convertible.",
+              "correct": true,
+              "explanation": "Correct because the ideal currency regime would have three properties. One of those properties is, all currencies would be fully convertible (i.e., currencies could be freely exchanged for any purpose and in any amount). This condition ensures unrestricted flow of capital."
+            },
+            {
+              "prompt": "B. floating exchange rates between currencies.",
+              "correct": false,
+              "explanation": "Incorrect. The ideal regime would have fixed exchange rates or a common currency, not floating."
+            },
+            {
+              "prompt": "C. a common monetary policy across different countries.",
+              "correct": false,
+              "explanation": "Incorrect. The ideal regime would have independent monetary policies."
+            }
+          ]
+        },
+        {
+          "problem": "In contrast to real exchange rates, nominal foreign exchange rates:\nA. tend to deviate from purchasing power parity.\nB. represent the relative price levels in the domestic and foreign countries.\nC. are indexes useful for understanding international trade and capital flows.",
+          "answers": [
+            {
+              "prompt": "A. tend to deviate from purchasing power parity.",
+              "correct": true,
+              "explanation": "Correct because nominal exchange rates exhibit persistent deviations from PPP."
+            },
+            {
+              "prompt": "B. represent the relative price levels in the domestic and foreign countries.",
+              "correct": false,
+              "explanation": "Incorrect. This describes real exchange rates."
+            },
+            {
+              "prompt": "C. are indexes useful for understanding international trade and capital flows.",
+              "correct": false,
+              "explanation": "Incorrect. This describes real exchange rates."
+            }
+          ]
+        },
+        {
+          "problem": "Which of the following economic conditions for a country best supports a well-functioning currency board exchange rate system?\nA. Flexible domestic prices and wages\nB. Rapid growth in supply of the global reserve asset\nC. Large non-traded sectors of the domestic economy",
+          "answers": [
+            {
+              "prompt": "A. Flexible domestic prices and wages",
+              "correct": true,
+              "explanation": "Correct because a currency board system works best if domestic prices and wages are very flexible."
+            },
+            {
+              "prompt": "B. Rapid growth in supply of the global reserve asset",
+              "correct": false,
+              "explanation": "Incorrect. This would undermine the currency board."
+            },
+            {
+              "prompt": "C. Large non-traded sectors of the domestic economy",
+              "correct": false,
+              "explanation": "Incorrect. Large non-traded sectors make a currency board more difficult."
+            }
+          ]
+        },
+        {
+          "problem": "Dollarization is best described as an exchange rate regime whereby a country:\nA. uses the currency of another nation as its medium of exchange.\nB. participates in a monetary union whose members share the same legal tender.\nC. makes a commitment to exchange domestic currency for a specified foreign currency at a fixed exchange rate.",
+          "answers": [
+            {
+              "prompt": "A. uses the currency of another nation as its medium of exchange.",
+              "correct": true,
+              "explanation": "Correct because in case of dollarization the country uses the currency of another nation as its medium of exchange and unit of account."
+            },
+            {
+              "prompt": "B. participates in a monetary union whose members share the same legal tender.",
+              "correct": false,
+              "explanation": "Incorrect. This describes a monetary union, not dollarization."
+            },
+            {
+              "prompt": "C. makes a commitment to exchange domestic currency for a specified foreign currency at a fixed exchange rate.",
+              "correct": false,
+              "explanation": "Incorrect. This describes a currency board, not dollarization."
+            }
+          ]
+        },
+        {
+          "problem": "All else being equal, in an efficient market a forward exchange rate will decrease as a result of an increase in the:\nA. spot exchange rate.\nB. foreign risk-free interest rate.\nC. domestic risk-free interest rate.",
+          "answers": [
+            {
+              "prompt": "A. spot exchange rate.",
+              "correct": false,
+              "explanation": "Incorrect. An increase in the spot rate would increase the forward rate."
+            },
+            {
+              "prompt": "B. foreign risk-free interest rate.",
+              "correct": false,
+              "explanation": "Incorrect. An increase in the foreign rate would increase the forward rate."
+            },
+            {
+              "prompt": "C. domestic risk-free interest rate.",
+              "correct": true,
+              "explanation": "Correct because the arbitrage equation can be re-arranged, as needs require, to get the formula for the forward rate, as follows: Ff/d = Sf/d * [(1 + if) / (1 + id)], where Ff/d is the forward exchange rate, Sf/d is the spot exchange rate, if is the foreign risk-free interest rate, and id is the domestic risk-free interest rate. Therefore, the forward exchange rate will decrease as a result of an increase in the domestic risk-free interest rate."
+            }
+          ]
+        },
+        {
+          "problem": "An analyst gathers the following information:\nUSD/AUD spot rate: 0.8027\nAUD 1-year interest rate: 3.30%\nUSD 1-year interest rate: 2.42%\nUSD/AUD is the amount of USD per 1 AUD. The USD/AUD 1-year forward rate is closest to:\nA. 0.7959.\nB. 0.8096.\nC. 0.8292.",
+          "answers": [
+            {
+              "prompt": "A. 0.7959.",
+              "correct": true,
+              "explanation": "Correct because Ff/d = Sf/d * ((1 + if) / (1 + id)). Substituting the values, Ff/d = 0.8027 * ((1 + 0.0242) / (1 + 0.033)) ≈ 0.7959."
+            },
+            {
+              "prompt": "B. 0.8096.",
+              "correct": false,
+              "explanation": "Incorrect. The correct calculation is 0.8027 * (1.0242 / 1.033) = 0.7959."
+            },
+            {
+              "prompt": "C. 0.8292.",
+              "correct": false,
+              "explanation": "Incorrect. The correct calculation is 0.7959, not 0.8292."
+            }
+          ]
+        },
+        {
+          "problem": "With respect to the foreign exchange market, an arbitrage relationship involving countries' relative interest rates serves as the basis for:\nA. real exchange rates.\nB. forward exchange rates.\nC. nominal exchange rates.",
+          "answers": [
+            {
+              "prompt": "A. real exchange rates.",
+              "correct": false,
+              "explanation": "Incorrect. Real exchange rates are based on price levels, not interest rate arbitrage."
+            },
+            {
+              "prompt": "B. forward exchange rates.",
+              "correct": true,
+              "explanation": "Correct because forward exchange rates are based on an arbitrage relationship that equates the investment return on two alternative but equivalent investments, which involves the relationship between the risk-free interest rates of the two countries concerned. The arbitrage relationship is Ff/d = Sf/d * (1 + if) / (1 + id), where Ff/d is the forward rate, Sf/d is the spot rate, and if (id) is the foreign (domestic) risk-free interest rate."
+            },
+            {
+              "prompt": "C. nominal exchange rates.",
+              "correct": false,
+              "explanation": "Incorrect. Nominal exchange rates are spot rates, not determined by interest rate arbitrage."
+            }
+          ]
+        },
+        {
+          "problem": "An analyst gathers the following foreign exchange rate information:\nCAD/USD Beginning: 1.3216, End: 1.2944\nJPY/USD Beginning: 105.42, End: 104.74\nCAD/USD is the amount of CAD per 1 USD. JPY/USD is the amount of JPY per 1 USD.\nThe percentage change in the JPY/CAD cross-rate for the period is closest to:\nA. -2.7%.\nB. 1.4%.\nC. 2.8%.",
+          "answers": [
+            {
+              "prompt": "A. -2.7%.",
+              "correct": false,
+              "explanation": "Incorrect. The correct calculation is: Beginning JPY/CAD = (1/1.3216) * 105.42 = 79.77. Ending JPY/CAD = (1/1.2944) * 104.74 = 80.92. Change = 80.92/79.77 - 1 = 1.44% ≈ 1.4%."
+            },
+            {
+              "prompt": "B. 1.4%.",
+              "correct": true,
+              "explanation": "Correct because sometimes it is necessary to invert one of the quotes in order to get the intermediary currency to cancel out in the equation to get the cross-rate. For example, to get a Canada-yen (JPY/CAD) quote, one is typically using the dollar-Canada (CAD/USD) rate and dollar-yen (JPY/USD) rate, which are the market conventions. Hence, to get a Canada-yen (JPY/CAD) quote, we must first invert the dollar-Canada (CAD/USD) quote before multiplying by the dollar-yen (JPY/USD) quote. The beginning of period JPY/CAD exchange rate is therefore = 1 / 1.3216 * 105.42 = 0.7566 * 105.42 = 79.77. The end of period JPY/CAD exchange rate is therefore = 1 / 1.2944 * 104.74 = 0.77256 * 104.74 = 80.92. The percentage change in the JPY/CAD exchange rate over the period is therefore = 80.92 / 79.77 - 1 = 1.44% ≈ 1.4%."
+            },
+            {
+              "prompt": "C. 2.8%.",
+              "correct": false,
+              "explanation": "Incorrect. The correct calculation is 1.4%, not 2.8%."
+            }
+          ]
+        },
+        {
+          "problem": "If the spot USD/EUR exchange rate (the amount of USD per 1 EUR) is 1.1605 and the 1-year forward rate is 1.17240, the forward points are:\nA. +101.5.\nB. +102.5.\nC. +119.0.",
+          "answers": [
+            {
+              "prompt": "A. +101.5.",
+              "correct": false,
+              "explanation": "Incorrect. The correct calculation is (1.17240 - 1.1605) * 10,000 = 119.0."
+            },
+            {
+              "prompt": "B. +102.5.",
+              "correct": false,
+              "explanation": "Incorrect. The correct calculation is (1.17240 - 1.1605) * 10,000 = 119.0."
+            },
+            {
+              "prompt": "C. +119.0.",
+              "correct": true,
+              "explanation": "Correct because the forward rate points are calculated as (1.17240 - 1.1605) * 10,000 = 119.0."
+            }
+          ]
+        },
+        {
+          "problem": "An analyst gathers the following information about spot rates:\nUSD/GBP: 1.2604\nUSD/EUR: 1.1786\nUSD/GBP is the amount of USD per 1 GBP. USD/EUR is the amount of USD per 1 EUR.\nThe spot EUR/GBP cross rate is closest to:\nA. 0.9351.\nB. 1.0694.\nC. 1.4855.",
+          "answers": [
+            {
+              "prompt": "A. 0.9351.",
+              "correct": false,
+              "explanation": "Incorrect. The correct calculation is USD/GBP / USD/EUR = 1.2604 / 1.1786 = 1.0694."
+            },
+            {
+              "prompt": "B. 1.0694.",
+              "correct": true,
+              "explanation": "Correct because sometimes it is necessary to invert one of the quotes in order to get the intermediary currency to cancel out in the equation to get the cross-rate. The formula for the EUR/GBP cross rate is USD/GBP * (USD/EUR)^-1 = USD/GBP * EUR/USD = 1.2604 / 1.1786 ≈ 1.0694."
+            },
+            {
+              "prompt": "C. 1.4855.",
+              "correct": false,
+              "explanation": "Incorrect. The correct calculation is 1.2604 / 1.1786 = 1.0694."
+            }
+          ]
+        }
+      ]
     }
   ],
   "mock_tests": [

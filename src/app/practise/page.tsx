@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import data from "../../../data.json";
 
 type PractiseAnswer = {
@@ -21,6 +21,7 @@ type PractiseSet = {
 };
 
 const practiseTests = (data.practise_tests ?? []) as PractiseSet[];
+const STORAGE_KEY = "shoukanjuu.practise-test-state";
 
 export default function PractisePage() {
   const [selectedSetIndex, setSelectedSetIndex] = useState<number | null>(
@@ -34,6 +35,76 @@ export default function PractisePage() {
     Record<number, boolean>
   >({});
   const [isFinalized, setIsFinalized] = useState(false);
+  const [isHydrated, setIsHydrated] = useState(false);
+
+  useEffect(() => {
+    const savedState = window.localStorage.getItem(STORAGE_KEY);
+
+    if (savedState) {
+      try {
+        const parsedState = JSON.parse(savedState) as {
+          selectedSetIndex?: number | null;
+          questionIndex?: number;
+          selectedAnswers?: Record<number, number>;
+          revealedByQuestion?: Record<number, boolean>;
+          isFinalized?: boolean;
+        };
+        const savedSetIndex = parsedState.selectedSetIndex;
+        const hasValidSetIndex =
+          typeof savedSetIndex === "number" &&
+          savedSetIndex >= 0 &&
+          savedSetIndex < practiseTests.length;
+        const restoredSetIndex = hasValidSetIndex
+          ? savedSetIndex
+          : practiseTests.length > 0
+            ? 0
+            : null;
+        const restoredSet =
+          restoredSetIndex === null ? null : practiseTests[restoredSetIndex];
+        const savedQuestionIndex = parsedState.questionIndex ?? 0;
+        const restoredQuestionIndex = restoredSet
+          ? Math.min(
+              Math.max(0, savedQuestionIndex),
+              Math.max(0, restoredSet.questions.length - 1),
+            )
+          : 0;
+
+        setSelectedSetIndex(restoredSetIndex);
+        setQuestionIndex(restoredQuestionIndex);
+        setSelectedAnswers(parsedState.selectedAnswers ?? {});
+        setRevealedByQuestion(parsedState.revealedByQuestion ?? {});
+        setIsFinalized(Boolean(parsedState.isFinalized));
+      } catch {
+        window.localStorage.removeItem(STORAGE_KEY);
+      }
+    }
+
+    setIsHydrated(true);
+  }, []);
+
+  useEffect(() => {
+    if (!isHydrated) {
+      return;
+    }
+
+    window.localStorage.setItem(
+      STORAGE_KEY,
+      JSON.stringify({
+        selectedSetIndex,
+        questionIndex,
+        selectedAnswers,
+        revealedByQuestion,
+        isFinalized,
+      }),
+    );
+  }, [
+    isFinalized,
+    isHydrated,
+    questionIndex,
+    revealedByQuestion,
+    selectedAnswers,
+    selectedSetIndex,
+  ]);
 
   const currentSet =
     selectedSetIndex === null ? null : practiseTests[selectedSetIndex];
@@ -48,6 +119,11 @@ export default function PractisePage() {
   const hasCurrentAnswer = currentSelectedAnswerIndex !== undefined;
   const totalQuestions = currentSet?.questions.length ?? 0;
   const answeredCount = Object.keys(selectedAnswers).length;
+  const hasProgress =
+    answeredCount > 0 ||
+    Object.keys(revealedByQuestion).length > 0 ||
+    isFinalized ||
+    questionIndex > 0;
 
   const score = useMemo(() => {
     if (!currentSet) return 0;
@@ -66,6 +142,23 @@ export default function PractisePage() {
     setSelectedAnswers({});
     setRevealedByQuestion({});
     setIsFinalized(false);
+  };
+
+  const clearCurrentProgress = () => {
+    setQuestionIndex(0);
+    setSelectedAnswers({});
+    setRevealedByQuestion({});
+    setIsFinalized(false);
+  };
+
+  const resetCurrentProgress = () => {
+    const shouldReset = window.confirm(
+      "Reset all progress for this practise set?",
+    );
+
+    if (shouldReset) {
+      clearCurrentProgress();
+    }
   };
 
   const chooseAnswer = (answerIndex: number) => {
@@ -168,9 +261,19 @@ export default function PractisePage() {
                     </h2>
                   </div>
 
-                  <div className="rounded-lg border border-[#e6e2da] bg-[#fbfbfa] px-4 py-3 text-right text-sm text-[#6f6f6f]">
-                    <p>{answeredCount} answered</p>
-                    <p>{totalQuestions} total</p>
+                  <div className="flex flex-wrap items-center justify-end gap-3">
+                    <div className="rounded-lg border border-[#e6e2da] bg-[#fbfbfa] px-4 py-3 text-right text-sm text-[#6f6f6f]">
+                      <p>{answeredCount} answered</p>
+                      <p>{totalQuestions} total</p>
+                    </div>
+                    <button
+                      type="button"
+                      onClick={resetCurrentProgress}
+                      disabled={!hasProgress}
+                      className="rounded-md border border-[#f1d4d5] bg-[#fdebec] px-4 py-2 text-sm font-medium text-[#9f2f2d] transition hover:bg-[#f9dfe1] disabled:cursor-not-allowed disabled:border-[#e6e2da] disabled:bg-[#fbfbfa] disabled:text-[#aaa49a] active:scale-[0.98]"
+                    >
+                      Reset progress
+                    </button>
                   </div>
                 </div>
 
@@ -404,11 +507,7 @@ export default function PractisePage() {
                     <div className="flex flex-wrap gap-3 border-t border-[#e6e2da] pt-4">
                       <button
                         type="button"
-                        onClick={() => {
-                          setQuestionIndex(0);
-                          setSelectedAnswers({});
-                          setIsFinalized(false);
-                        }}
+                        onClick={clearCurrentProgress}
                         className="rounded-md bg-[#1f1f1f] px-4 py-2 text-sm font-medium text-white transition hover:bg-[#333333] active:scale-[0.98]"
                       >
                         Retake set
